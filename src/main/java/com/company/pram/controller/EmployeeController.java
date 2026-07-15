@@ -3,6 +3,8 @@ package com.company.pram.controller;
 import com.company.pram.dto.request.EmployeeRequest;
 import com.company.pram.dto.response.EmployeeResponse;
 import com.company.pram.service.EmployeeService;
+import com.company.pram.dto.response.EmployeeWorkloadResponse;
+import com.company.pram.service.ReportService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -18,6 +20,7 @@ import org.springframework.web.bind.annotation.*;
 public class EmployeeController {
 
     private final EmployeeService employeeService;
+    private final ReportService reportService;
 
     @PostMapping
     public ResponseEntity<EmployeeResponse> createEmployee(@Valid @RequestBody EmployeeRequest request) {
@@ -37,6 +40,12 @@ public class EmployeeController {
             @RequestParam(defaultValue = "20") int size) {
         Pageable pageable = PageRequest.of(page, size);
         Page<EmployeeResponse> response = employeeService.getAllEmployees(pageable);
+        return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/{id}/workload")
+    public ResponseEntity<EmployeeWorkloadResponse> getEmployeeWorkload(@PathVariable Long id) {
+        EmployeeWorkloadResponse response = reportService.getEmployeeWorkload(id);
         return ResponseEntity.ok(response);
     }
 }

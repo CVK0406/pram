@@ -34,4 +34,10 @@ public interface AllocationRepository extends JpaRepository<Allocation, Long> {
            "AND a.startDate <= :currentDate " +
            "AND (a.endDate IS NULL OR a.endDate >= :currentDate)")
     Long countActiveAllocations(@Param("currentDate") LocalDate currentDate);
+
+    @Query("SELECT a FROM Allocation a " +
+           "WHERE a.deletedAt IS NULL " +
+           "AND a.startDate <= :currentDate " +
+           "AND (a.endDate IS NULL OR a.endDate >= :currentDate)")
+    List<Allocation> findActiveAllocations(@Param("currentDate") LocalDate currentDate);
 }
