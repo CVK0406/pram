@@ -33,8 +33,8 @@ Có project chạy được, kết nối DB thành công, chưa cần logic gì.
 
 ### Task chi tiết
 
-- [ ] Tạo project Spring Boot (Spring Initializr): Web, Spring Data JPA, PostgreSQL Driver, Validation, Lombok
-- [ ] Cấu trúc package chuẩn:
+- [x] Tạo project Spring Boot (Spring Initializr): Web, Spring Data JPA, PostgreSQL Driver, Validation, Lombok
+- [x] Cấu trúc package chuẩn:
 ```text
 com.company.pram
 ├── controller
@@ -48,9 +48,9 @@ com.company.pram
 ├── mapper
 └── config
 ```
-- [ ] Cấu hình `application.yml` (datasource, JPA, port)
-- [ ] Tạo DB PostgreSQL local (hoặc Docker container tạm), chạy thử script SQL ở SRS mục 5
-- [ ] Kiểm tra `GET /actuator/health` (nếu thêm actuator) hoặc 1 endpoint `/ping` test thủ công trả `200 OK`
+- [x] Cấu hình `application.yml` (datasource, JPA, port)
+- [x] Tạo DB PostgreSQL local (hoặc Docker container tạm), chạy thử script SQL ở SRS mục 5
+- [x] Kiểm tra `GET /actuator/health` (nếu thêm actuator) hoặc 1 endpoint `/ping` test thủ công trả `200 OK`
 
 ### Deliverable
 - Repo git khởi tạo, commit đầu tiên "chore: init project structure"
@@ -67,27 +67,27 @@ com.company.pram
 ### Task chi tiết
 
 **1.1 Entity & Repository (1-2h)**
-- [ ] Tạo `Employee` entity đúng field ở SRS mục 3.1
-- [ ] Tạo `EmployeeRepository extends JpaRepository<Employee, Long>`
-- [ ] Thêm method `existsByEmployeeCode`, `existsByEmail`
+- [x] Tạo `Employee` entity đúng field ở SRS mục 3.1
+- [x] Tạo `EmployeeRepository extends JpaRepository<Employee, Long>`
+- [x] Thêm method `existsByEmployeeCode`, `existsByEmail`
 
 **1.2 DTO (30p)**
-- [ ] `EmployeeRequest` (validation: `@NotBlank`, `@Email`)
-- [ ] `EmployeeResponse`
+- [x] `EmployeeRequest` (validation: `@NotBlank`, `@Email`)
+- [x] `EmployeeResponse`
 
 **1.3 Service (1-2h)**
-- [ ] `createEmployee()` — check trùng code/email trước khi save → ném `DuplicateResourceException` nếu trùng
-- [ ] `getEmployeeById()` — ném `EmployeeNotFoundException` nếu không có
-- [ ] `getAllEmployees()` — có phân trang (`Pageable`)
+- [x] `createEmployee()` — check trùng code/email trước khi save → ném `DuplicateResourceException` nếu trùng
+- [x] `getEmployeeById()` — ném `EmployeeNotFoundException` nếu không có
+- [x] `getAllEmployees()` — có phân trang (`Pageable`)
 
 **1.4 Controller (1h)**
-- [ ] `POST /employees`, `GET /employees`, `GET /employees/{id}`
+- [x] `POST /employees`, `GET /employees`, `GET /employees/{id}`
 
 **1.5 Test tay bằng Postman (30p)**
-- [ ] Test case: tạo thành công → 201
-- [ ] Test case: trùng employeeCode → 409
-- [ ] Test case: email sai định dạng → 400
-- [ ] Test case: GET id không tồn tại → 404
+- [x] Test case: tạo thành công → 201
+- [x] Test case: trùng employeeCode → 409
+- [x] Test case: email sai định dạng → 400
+- [x] Test case: GET id không tồn tại → 404
 
 ### Deliverable
 Employee CRUD hoạt động đầy đủ, có Postman requests lưu lại (sẽ gộp vào collection ở giai đoạn 9).
