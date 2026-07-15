@@ -86,7 +86,7 @@ docker compose up --build -d
 To inspect container health:
 ```bash
 docker compose ps
-docker logs -f prams-backend
+docker logs -f pram-backend
 ```
 
 To stop and remove all services (including DB volume to reset seed data):

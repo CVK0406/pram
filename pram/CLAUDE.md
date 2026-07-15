@@ -6,7 +6,7 @@
 # Build (skip test for speed)
 ./mvnw clean install -DskipTests
 
-# Run app (needs PostgreSQL on localhost:5432, db=prams)
+# Run app (needs PostgreSQL on localhost:5432, db=pram)
 ./mvnw spring-boot:run
 
 # Run all tests
