@@ -1,39 +1,235 @@
-// Include theming for Angular Material with `mat.theme()`.
-// This Sass mixin will define CSS variables that are used for styling Angular Material
-// components according to the Material 3 design spec.
-// Learn more about theming and how to use it for your application's
-// custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 
 html {
   height: 100%;
-  @include mat.theme(
-    (
-      color: (
-        primary: mat.$azure-palette,
-        tertiary: mat.$blue-palette,
+
+  @include mat.theme((
+    color: (
+      primary: (
+        0: #000000,
+        10: #1a1a2e,
+        20: #2e2e4a,
+        25: #3a3a56,
+        30: #464662,
+        35: #52526e,
+        40: #5e5e7a,
+        50: #777793,
+        60: #9191ae,
+        70: #ababc9,
+        80: #c7c7e5,
+        90: #e3e3f1,
+        95: #f1f1f9,
+        98: #fafafc,
+        99: #fdfdfe,
+        100: #ffffff,
       ),
-      typography: Roboto,
-      density: 0,
-    )
-  );
+      tertiary: mat.$blue-palette,
+    ),
+    typography: (
+      plain-family: 'Inter, Roboto, system-ui, sans-serif',
+      brand-family: 'Inter, Roboto, system-ui, sans-serif',
+    ),
+    density: -1,
+  ));
 }
 
 body {
-  // Default the application to a light color theme. This can be changed to
-  // `dark` to enable the dark color theme, or to `light dark` to defer to the
-  // user's system settings.
   color-scheme: light;
-
-  // Set a default background, font and text colors for the application using
-  // Angular Material's system-level CSS variables. Learn more about these
-  // variables at https://material.angular.dev/guide/system-variables
-  background-color: var(--mat-sys-surface);
-  color: var(--mat-sys-on-surface);
-  font: var(--mat-sys-body-medium);
-
-  // Reset the user agent margin.
+  background: #fafafa;
+  color: #1a1a2e;
+  font-family: 'Inter', Roboto, system-ui, sans-serif;
   margin: 0;
   height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-/* You can add global styles to this file, and also import other style files */
+
+/* --- Table overrides (all mat-table instances) --- */
+.mat-mdc-table {
+  background: transparent !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+
+  .mdc-data-table__header-row {
+    background: #f9fafb;
+    height: 48px;
+  }
+
+  .mdc-data-table__header-cell {
+    color: #6b7280;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border-bottom: none;
+    padding: 0 1rem;
+  }
+
+  .mdc-data-table__row {
+    height: 48px;
+    transition: background 0.1s ease;
+
+    &:hover {
+      background: #f9fafb;
+    }
+  }
+
+  .mdc-data-table__cell {
+    border-bottom-color: #f3f4f6;
+    padding: 0 1rem;
+    font-size: 0.875rem;
+    color: #374151;
+  }
+}
+
+.mat-mdc-paginator {
+  background: transparent !important;
+  font-size: 0.8125rem;
+}
+
+/* --- Card overrides --- */
+.mat-mdc-card, .summary-card {
+  border: 1px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+/* --- Form field overrides --- */
+.mdc-text-field--outlined {
+  --mdc-outlined-text-field-outline-width: 1px;
+  --mdc-outlined-text-field-focus-outline-width: 2px;
+
+  .mdc-notched-outline__leading,
+  .mdc-notched-outline__notch,
+  .mdc-notched-outline__trailing {
+    border-color: #e5e7eb !important;
+  }
+
+  &.mdc-text-field--focused {
+    .mdc-notched-outline__leading,
+    .mdc-notched-outline__notch,
+    .mdc-notched-outline__trailing {
+      border-color: #4f46e5 !important;
+    }
+  }
+}
+
+.mat-mdc-form-field-error {
+  font-size: 0.75rem;
+}
+
+/* --- Button overrides --- */
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-container-color: #4f46e5;
+  --mdc-protected-button-label-text-color: #ffffff;
+}
+
+.mat-mdc-stroked-button {
+  --mdc-outlined-button-outline-color: #d1d5db;
+}
+
+/* --- Status badge pattern --- */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+
+  &::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  &.planning {
+    color: #6b7280;
+    &::before { background: #9ca3af; }
+  }
+
+  &.active {
+    color: #059669;
+    &::before { background: #10b981; }
+  }
+
+  &.completed {
+    color: #2563eb;
+    &::before { background: #3b82f6; }
+  }
+}
+
+/* --- Stat card for dashboard --- */
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1a1a2e;
+  margin-bottom: 0.25rem;
+}
+
+.stat-label {
+  font-size: 0.8125rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* --- Shared state message pattern --- */
+.state-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  color: #6b7280;
+  text-align: center;
+
+  &.error {
+    color: #ef4444;
+  }
+}
+
+/* --- Back nav link --- */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  transition: color 0.1s ease;
+
+  &:hover {
+    color: #4f46e5;
+  }
+
+  .material-icons {
+    font-size: 1rem;
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+/* --- General error block --- */
+.general-error {
+  color: #ef4444;
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+}
+
+/* --- Loading pattern --- */
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 3rem 2rem;
+  color: #6b7280;
+}
