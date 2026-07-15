@@ -1,0 +1,40 @@
+# Backend
+target/
+*.class
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+pram-fe/node_modules/
+pram-fe/dist/
+pram-fe/.angular/cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings
+.factorypath
+.sts4-cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Env
+.env
+*.env.local
+
+# Coverage
+/coverage
+__screenshots__/

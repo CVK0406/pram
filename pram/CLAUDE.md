@@ -19,10 +19,10 @@
 ./mvnw test -Dtest=AllocationServiceTest#testCreateAllocation_Exceeds100Percent_ThrowsException
 
 # Full stack via Docker
-docker compose up --build
+docker compose -f ../docker-compose.yml up --build
 
 # Compose down + clean volumes
-docker compose down -v
+docker compose -f ../docker-compose.yml down -v
 ```
 
 ## Architecture

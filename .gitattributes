@@ -1,0 +1,39 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Java
+*.java text
+*.xml text
+*.properties text
+
+# Frontend
+*.ts text
+*.html text
+*.scss text
+*.css text
+*.js text
+*.json text
+
+# Shell
+*.sh text eol=lf
+
+# Docker
+Dockerfile text
+*.yml text
+*.yaml text
+
+# Batch (Windows)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Markdown
+*.md text
+
+# Git
+*.gitignore text
+*.gitattributes text
+
+# Binary
+*.jar binary
+*.png binary
+*.ico binary

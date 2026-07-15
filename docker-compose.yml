@@ -1,0 +1,48 @@
+services:
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: pram-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=pram
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./pram/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d pram"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  pram-app:
+    build: ./pram
+    container_name: pram-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_HOST=postgres-db
+      - DB_PORT=5432
+      - DB_NAME=pram
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - OPENROUTER_API_KEY=OPENROUTER_API_KEY_REMOVED
+    depends_on:
+      postgres-db:
+        condition: service_healthy
+
+  pram-frontend:
+    build:
+      context: ./pram-fe
+      dockerfile: Dockerfile
+    container_name: pram-frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - pram-app
+
+volumes:
+  postgres_data:

@@ -14,7 +14,6 @@ Monorepo cho hệ thống quản lý phân bổ nhân sự trong công ty outsou
 ### Docker Compose (recommended)
 
 ```bash
-cd pram
 docker compose up --build -d
 ```
 
@@ -70,6 +69,10 @@ ojt/
 │   ├── src/app/features/    # Employee, Project, Allocation, Reports modules
 │   └── README.md            # Chi tiết frontend
 │
+├── docker-compose.yml       # Full-stack orchestration
+├── .editorconfig            # Editor settings (2-space indent, UTF-8)
+├── .gitattributes           # Line ending normalization
+├── .gitignore               # Global ignores
 └── README.md                # File này
 ```
 
