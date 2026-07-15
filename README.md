@@ -130,6 +130,13 @@ Set the `baseUrl` variable to `http://localhost:8080`.
 | `GET` | `/reports/available` | Employees with remaining capacity (filter: `?minAvailable=`) |
 | `GET` | `/reports/overloaded` | Employees with allocation > 90% |
 
+### AI Bonus (`/ai`)
+
+| Method | Path | Description |
+|---|---|---|
+| `POST` | `/ai/recommend-resource` | Free-text resource recommendations |
+| `POST` | `/ai/risk-detection` | AI-powered risk analysis (via OpenRouter) |
+
 ---
 
 ## Business Rules

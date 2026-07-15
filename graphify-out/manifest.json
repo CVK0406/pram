@@ -95,13 +95,13 @@
     "semantic_hash": "365841efd47cfc5cb0dba72caadc0ef1"
   },
   "CLAUDE.md": {
-    "mtime": 1784102492.012952,
-    "ast_hash": "bffed7b1d73c109629808afc92ddf168",
+    "mtime": 1784103699.6661448,
+    "ast_hash": "6fabb8fd641c485f39ebeb82f6a9a0bb",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
-    "mtime": 1784102389.0414157,
-    "ast_hash": "8169d731757102e0c339fe4843e15c38",
+    "mtime": 1784102973.957041,
+    "ast_hash": "70bcabd411352ccee444536388d863fe",
     "semantic_hash": ""
   },
   "docs/Project_Resource_Allocation_Assignment.md": {
@@ -110,8 +110,8 @@
     "semantic_hash": "50e8b891c7f82837f5b6e09cb5368906"
   },
   "docs/implementation-plan-project-resource-allocation.md": {
-    "mtime": 1784102491.9869373,
-    "ast_hash": "1d556dcff1e81a2b9299340cd84dca9c",
+    "mtime": 1784103699.6119027,
+    "ast_hash": "5ceed6a41dca832debd54fd3287a2f8d",
     "semantic_hash": ""
   },
   "docs/srs-project-resource-allocation.md": {
@@ -120,9 +120,9 @@
     "semantic_hash": "d35793e6063350f5b451873c033f43b2"
   },
   "src/main/resources/application.yml": {
-    "mtime": 1784087198.8009455,
-    "ast_hash": "6fb4b0741cb5e7a2f761d40f24fa7664",
-    "semantic_hash": "6fb4b0741cb5e7a2f761d40f24fa7664"
+    "mtime": 1784103410.9626687,
+    "ast_hash": "6276a668182327dd4add0534f8940b47",
+    "semantic_hash": ""
   },
   ".claude/settings.json": {
     "mtime": 1784089132.5013154,
@@ -270,8 +270,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/dto/response/AvailableResourceResponse.java": {
-    "mtime": 1784099417.5928903,
-    "ast_hash": "e5620b37f529683d663fd6233578df2c",
+    "mtime": 1784103292.7195334,
+    "ast_hash": "199204a2f1f14d3fb5985ee10a972ced",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/dto/response/EmployeeUtilizationResponse.java": {
@@ -300,8 +300,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java": {
-    "mtime": 1784099447.7643647,
-    "ast_hash": "7cb5a5b2ac974b80494e2842bb2b8960",
+    "mtime": 1784103301.790979,
+    "ast_hash": "0ba0bec1953421f37fdc2276309390c5",
     "semantic_hash": ""
   },
   "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java": {
@@ -330,8 +330,43 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784101916.5079687,
-    "ast_hash": "435a9526b5b1629d88d946598a0df67c",
+    "mtime": 1784103466.034328,
+    "ast_hash": "f0226650dbac8bd7e7925b43f51cf68a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/config/JacksonConfig.java": {
+    "mtime": 1784103542.4516294,
+    "ast_hash": "a3a18cd725fc2220b06cffa103154f82",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/controller/AiController.java": {
+    "mtime": 1784103052.99694,
+    "ast_hash": "0825f11907ed17a121b25530a6c07285",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/request/AiRequest.java": {
+    "mtime": 1784102981.4290352,
+    "ast_hash": "a40863a69c42b034a4da9e983c179340",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/response/AiRecommendResponse.java": {
+    "mtime": 1784102988.945665,
+    "ast_hash": "6f8384b6fc8be6fe0466ce138f216b13",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/response/AiRiskResponse.java": {
+    "mtime": 1784102996.8552089,
+    "ast_hash": "3fda5d559ce9173d21b3f4e3e82b015f",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/service/AiService.java": {
+    "mtime": 1784103003.8537042,
+    "ast_hash": "13f4bad553cb5cb0c05bfc687ac4c89a",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/service/impl/AiServiceImpl.java": {
+    "mtime": 1784103546.5520399,
+    "ast_hash": "1ce9c23833c90fe6bf25989e2c64e2f4",
     "semantic_hash": ""
   }
 }

@@ -65,6 +65,7 @@ public class ReportServiceImpl implements ReportService {
                     return AvailableResourceResponse.builder()
                             .employeeId(e.getEmployeeId())
                             .fullName(e.getFullName())
+                            .role(e.getRole())
                             .available(100 - used)
                             .build();
                 })

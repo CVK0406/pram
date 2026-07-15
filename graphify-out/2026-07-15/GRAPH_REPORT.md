@@ -1,16 +1,16 @@
 # Graph Report - RA  (2026-07-15)
 
 ## Corpus Check
-- 61 files · ~14,226 words
+- 64 files · ~16,328 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 637 nodes · 865 edges · 140 communities (38 shown, 102 thin omitted)
+- 667 nodes · 923 edges · 142 communities (39 shown, 103 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 42 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `374fcba6`
+- Built from commit: `f0b30015`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -154,6 +154,8 @@
 - [[_COMMUNITY_Community 137|Community 137]]
 - [[_COMMUNITY_Community 138|Community 138]]
 - [[_COMMUNITY_Community 139|Community 139]]
+- [[_COMMUNITY_Community 140|Community 140]]
+- [[_COMMUNITY_Community 141|Community 141]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `LocalDate` - 16 edges
@@ -162,31 +164,31 @@
 4. `SRS - Project Resource Allocation Management System` - 12 edges
 5. `Test` - 11 edges
 6. `DisplayName` - 11 edges
-7. `GlobalExceptionHandler` - 9 edges
-8. `WebRequest` - 9 edges
-9. `ResponseEntity` - 9 edges
-10. `ErrorResponse` - 9 edges
+7. `Project Resource Allocation Management System (PRAMS)` - 11 edges
+8. `GlobalExceptionHandler` - 9 edges
+9. `WebRequest` - 9 edges
+10. `ResponseEntity` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `AllocationServiceImpl` --implements--> `AllocationService`  [EXTRACTED]
-  src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java → src/main/java/com/company/pram/service/AllocationService.java
-- `ProjectServiceImpl` --implements--> `ProjectService`  [EXTRACTED]
-  src/main/java/com/company/pram/service/impl/ProjectServiceImpl.java → src/main/java/com/company/pram/service/ProjectService.java
-- `DashboardServiceImpl` --implements--> `DashboardService`  [EXTRACTED]
-  src/main/java/com/company/pram/service/impl/DashboardServiceImpl.java → src/main/java/com/company/pram/service/DashboardService.java
 - `EmployeeServiceImpl` --implements--> `EmployeeService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java → src/main/java/com/company/pram/service/EmployeeService.java
+- `ProjectServiceImpl` --implements--> `ProjectService`  [EXTRACTED]
+  src/main/java/com/company/pram/service/impl/ProjectServiceImpl.java → src/main/java/com/company/pram/service/ProjectService.java
+- `AllocationServiceImpl` --implements--> `AllocationService`  [EXTRACTED]
+  src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java → src/main/java/com/company/pram/service/AllocationService.java
+- `DashboardServiceImpl` --implements--> `DashboardService`  [EXTRACTED]
+  src/main/java/com/company/pram/service/impl/DashboardServiceImpl.java → src/main/java/com/company/pram/service/DashboardService.java
 - `ReportServiceImpl` --implements--> `ReportService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/ReportServiceImpl.java → src/main/java/com/company/pram/service/ReportService.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (140 total, 102 thin omitted)
+## Communities (142 total, 103 thin omitted)
 
 ### Community 0 - "Employee Controller Layer"
-Cohesion: 0.29
-Nodes (9): EmployeeController, EmployeeRequest, EmployeeResponse, EmployeeWorkloadResponse, GetMapping, Long, Page, PostMapping (+1 more)
+Cohesion: 0.27
+Nodes (12): EmployeeController, ApiResponse, ApiResponses, EmployeeRequest, EmployeeResponse, EmployeeWorkloadResponse, GetMapping, Long (+4 more)
 
 ### Community 1 - "Exception Handling"
 Cohesion: 0.40
@@ -197,8 +199,8 @@ Cohesion: 0.22
 Nodes (5): Employee, PrePersist, PreUpdate, Object, Override
 
 ### Community 3 - "Employee Service Implementation"
-Cohesion: 0.17
-Nodes (14): EmployeeServiceImpl, EmployeeService, EmployeeRequest, EmployeeResponse, Long, Page, Pageable, EmployeeRequest (+6 more)
+Cohesion: 0.33
+Nodes (6): EmployeeService, EmployeeRequest, EmployeeResponse, Long, Page, Pageable
 
 ### Community 4 - "Maven Wrapper"
 Cohesion: 0.04
@@ -214,31 +216,31 @@ Nodes (6): PingController, Map, ErrorResponse, GetMapping, String, String
 
 ### Community 8 - "Application Entry Point"
 Cohesion: 0.11
-Nodes (21): DuplicateResourceException, ProjectServiceImpl, ProjectServiceTest, ProjectNotFoundException, ProjectRepository, Page, Pageable, Project (+13 more)
+Nodes (21): ProjectServiceImpl, ProjectServiceTest, InvalidProjectStatusException, ProjectNotFoundException, ProjectRepository, Page, Pageable, Project (+13 more)
 
 ### Community 98 - "Community 98"
 Cohesion: 0.08
 Nodes (13): AllocationExceededException, AllocationNotFoundException, DuplicateResourceException, EmployeeNotFoundException, InvalidProjectStatusException, ProjectNotFoundException, RuntimeException, String (+5 more)
 
 ### Community 99 - "Community 99"
-Cohesion: 0.24
-Nodes (11): ProjectController, ProjectStatusRequest, GetMapping, Long, Page, PostMapping, ProjectRequest, ProjectResponse (+3 more)
+Cohesion: 0.23
+Nodes (14): ProjectController, ProjectStatusRequest, ApiResponse, ApiResponses, GetMapping, Long, Operation, Page (+6 more)
 
 ### Community 100 - "Community 100"
-Cohesion: 0.30
-Nodes (6): EmployeeServiceTest, EmployeeRepository, String, BeforeEach, DisplayName, Test
+Cohesion: 0.15
+Nodes (16): DuplicateResourceException, EmployeeNotFoundException, EmployeeServiceImpl, EmployeeServiceTest, EmployeeRepository, String, EmployeeRequest, EmployeeResponse (+8 more)
 
 ### Community 102 - "Community 102"
 Cohesion: 0.17
 Nodes (11): Architecture, Build & Run, CLAUDE.md — PRAMS (Project Resource Allocation Management System), Conventions, Data flow, graphify, Key business rules (AllocationService), Naming conventions (+3 more)
 
 ### Community 103 - "Community 103"
-Cohesion: 0.09
-Nodes (28): AllocationNotFoundException, AllocationServiceImpl, AllocationServiceTest, InvalidProjectStatusException, LocalDate, Optional, AllocationRepository, AllocationResponse (+20 more)
+Cohesion: 0.12
+Nodes (19): AllocationServiceTest, LocalDate, Optional, AllocationRepository, AllocationResponse, ProjectResponse, Allocation, Integer (+11 more)
 
 ### Community 104 - "Community 104"
-Cohesion: 0.23
-Nodes (11): AllocationController, DeleteMapping, AllocationRequest, AllocationResponse, GetMapping, List, Long, PostMapping (+3 more)
+Cohesion: 0.24
+Nodes (13): AllocationController, DeleteMapping, AllocationRequest, AllocationResponse, ApiResponses, GetMapping, List, Long (+5 more)
 
 ### Community 105 - "Community 105"
 Cohesion: 0.32
@@ -309,8 +311,8 @@ Cohesion: 0.40
 Nodes (3): Project, Object, Override
 
 ### Community 129 - "Community 129"
-Cohesion: 0.17
-Nodes (10): AfterEach, AllocationExceededException, AllocationServiceConcurrencyTest, AllocationService, AllocationRequest, AllocationResponse, List, Long (+2 more)
+Cohesion: 0.12
+Nodes (18): AfterEach, AllocationExceededException, AllocationNotFoundException, AllocationServiceConcurrencyTest, AllocationServiceImpl, AllocationService, AllocationRequest, AllocationResponse (+10 more)
 
 ### Community 130 - "Community 130"
 Cohesion: 0.39
@@ -325,29 +327,33 @@ Cohesion: 0.40
 Nodes (3): Allocation, Object, Override
 
 ### Community 133 - "Community 133"
-Cohesion: 0.11
-Nodes (19): EmployeeNotFoundException, ReportServiceImpl, ReportService, AvailableResourceResponse, EmployeeUtilizationResponse, EmployeeWorkloadResponse, Integer, List (+11 more)
+Cohesion: 0.12
+Nodes (18): ReportServiceImpl, ReportService, AvailableResourceResponse, EmployeeUtilizationResponse, EmployeeWorkloadResponse, Integer, List, Long (+10 more)
 
 ### Community 134 - "Community 134"
-Cohesion: 0.35
-Nodes (8): ReportController, AvailableResourceResponse, EmployeeUtilizationResponse, GetMapping, Integer, List, OverloadedEmployeeResponse, ResponseEntity
+Cohesion: 0.34
+Nodes (10): ReportController, ApiResponse, AvailableResourceResponse, EmployeeUtilizationResponse, GetMapping, Integer, List, Operation (+2 more)
+
+### Community 140 - "Community 140"
+Cohesion: 0.11
+Nodes (17): Allocation (`/allocations`), API Documentation, API Summary, Business Rules, Employee (`/employees`), Error Response Format, Postman Collection, Prerequisites (+9 more)
 
 ## Knowledge Gaps
-- **161 isolated node(s):** `String`, `PostMapping`, `PutMapping`, `Void`, `DeleteMapping` (+156 more)
+- **176 isolated node(s):** `String`, `OpenApiConfig`, `PostMapping`, `PutMapping`, `Void` (+171 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **102 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **103 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `LocalDate` connect `Community 103` to `Community 129`, `Community 132`, `Community 133`, `Community 101`, `Application Entry Point`, `Community 110`, `Community 119`, `Community 123`?**
-  _High betweenness centrality (0.098) - this node is a cross-community bridge._
+  _High betweenness centrality (0.094) - this node is a cross-community bridge._
 - **Why does `ReportService` connect `Community 133` to `Employee Controller Layer`, `Community 134`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
+  _High betweenness centrality (0.049) - this node is a cross-community bridge._
 - **Why does `ProjectService` connect `Community 105` to `Application Entry Point`, `Community 99`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
-- **What connects `String`, `PostMapping`, `PutMapping` to the rest of the system?**
-  _161 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+- **What connects `String`, `OpenApiConfig`, `PostMapping` to the rest of the system?**
+  _176 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Maven Wrapper` be split into smaller, more focused modules?**
   _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
 - **Should `Employee DTO & Mapper` be split into smaller, more focused modules?**

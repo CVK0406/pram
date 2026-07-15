@@ -330,14 +330,14 @@ Coverage AllocationService (phần business logic) là ưu tiên số 1 vì đâ
 ### Task chi tiết
 
 **11.1 AI Resource Recommendation (1 ngày)**
-- [ ] Parse query đơn giản (regex/keyword extraction) để lấy `role` + `minAvailable`
-- [ ] Gọi lại `ReportService.getAvailableResources()` đã có sẵn từ Giai đoạn 6, filter theo role
-- [ ] `POST /ai/recommend-resource`
+- [x] Parse query đơn giản (regex/keyword extraction) để lấy `role` + `minAvailable`
+- [x] Gọi lại `ReportService.getAvailableResources()` đã có sẵn từ Giai đoạn 6, filter theo role
+- [x] `POST /ai/recommend-resource`
 
 **11.2 AI Risk Detection (1 ngày)**
-- [ ] Lấy dữ liệu utilization thực tế từ `ReportService`
-- [ ] Build prompt gửi tới Claude API kèm dữ liệu, yêu cầu trả JSON theo schema cố định (SRS mục 8.2)
-- [ ] `POST /ai/risk-detection`
+- [x] Lấy dữ liệu utilization thực tế từ `ReportService`
+- [x] Build prompt gửi tới Claude API kèm dữ liệu, yêu cầu trả JSON theo schema cố định (SRS mục 8.2)
+- [x] `POST /ai/risk-detection`
 
 ### Deliverable
 2 endpoint AI hoạt động, có ví dụ input/output khớp SRS.
