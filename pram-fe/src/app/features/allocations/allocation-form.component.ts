@@ -80,10 +80,16 @@ export class AllocationFormComponent implements OnInit {
   ngOnInit(): void {
     this.employeeService.getAll(0, 200).subscribe({
       next: (page) => (this.employees = page.content),
+      error: (err) => {
+        this.serverErrors['general'] = err.message || 'Failed to load employees';
+      },
     });
     this.projectService.getAll('', 0, 200).subscribe({
       next: (page) => {
         this.projects = page.content.filter((p) => p.status !== 'COMPLETED');
+      },
+      error: (err) => {
+        this.serverErrors['general'] = err.message || 'Failed to load projects';
       },
     });
   }

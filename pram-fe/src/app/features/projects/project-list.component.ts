@@ -65,7 +65,7 @@ export class ProjectListComponent implements OnInit {
     this.projectService.getAll(this.statusFilter, this.pageIndex, this.pageSize).subscribe({
       next: (page) => {
         this.projects = page.content;
-        this.totalElements = page.totalElements;
+        this.totalElements = page.page?.totalElements ?? page.totalElements ?? 0;
         this.loading = false;
       },
       error: (err) => {

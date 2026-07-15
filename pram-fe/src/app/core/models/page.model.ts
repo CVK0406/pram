@@ -1,9 +1,17 @@
-export interface Page<T> {
-  content: T[];
-  totalPages: number;
-  totalElements: number;
+export interface PageMetadata {
   size: number;
   number: number;
-  first: boolean;
-  last: boolean;
+  totalElements: number;
+  totalPages: number;
+}
+
+export interface Page<T> {
+  content: T[];
+  page?: PageMetadata;
+  totalPages?: number;
+  totalElements?: number;
+  size?: number;
+  number?: number;
+  first?: boolean;
+  last?: boolean;
 }

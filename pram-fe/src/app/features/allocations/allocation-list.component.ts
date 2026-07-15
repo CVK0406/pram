@@ -45,6 +45,9 @@ export class AllocationListComponent implements OnInit {
   loadEmployees(): void {
     this.employeeService.getAll(0, 200).subscribe({
       next: (page) => (this.employees = page.content),
+      error: (err) => {
+        this.error = err.message || 'Failed to load employees';
+      },
     });
   }
 

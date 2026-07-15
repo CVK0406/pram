@@ -46,6 +46,7 @@ export class ReportsDashboardComponent implements OnInit {
   private reportService = inject(ReportService);
   private dashboardService = inject(DashboardService);
   private aiService = inject(AiService);
+  private snackBar = inject(MatSnackBar);
 
   dashboard: Dashboard | null = null;
   utilization: EmployeeUtilization[] = [];
@@ -86,7 +87,10 @@ export class ReportsDashboardComponent implements OnInit {
         this.dashboard = d;
         this.loadingStats = false;
       },
-      error: () => (this.loadingStats = false),
+      error: (err) => {
+        this.snackBar.open(err.message || 'Failed to load dashboard statistics', 'Close', { duration: 5000 });
+        this.loadingStats = false;
+      },
     });
   }
 
