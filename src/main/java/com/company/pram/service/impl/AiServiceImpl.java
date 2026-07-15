@@ -8,7 +8,6 @@ import com.company.pram.service.AiService;
 import com.company.pram.service.ReportService;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -98,7 +97,7 @@ public class AiServiceImpl implements AiService {
 
         // Try to find a meaningful role phrase: e.g. "Java Developer", "Backend", "Frontend"
         Pattern rolePattern = Pattern.compile("(?i)(java|python|backend|frontend|fullstack|full.stack|qa|tester|devops|senior|junior|developer|engineer|designer|analyst)");
-        Matcher m = rolePattern.matcher(query);
+        Matcher m = rolePattern.matcher(cleaned);
         StringBuilder roleBuilder = new StringBuilder();
         while (m.find()) {
             if (!roleBuilder.isEmpty()) roleBuilder.append(" ");

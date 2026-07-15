@@ -5,7 +5,6 @@ import com.company.pram.entity.Employee;
 import com.company.pram.entity.Project;
 import com.company.pram.entity.ProjectStatus;
 import com.company.pram.exception.AllocationExceededException;
-import com.company.pram.repository.AllocationRepository;
 import com.company.pram.repository.EmployeeRepository;
 import com.company.pram.repository.ProjectRepository;
 import com.company.pram.service.AllocationService;
@@ -33,9 +32,6 @@ public class AllocationServiceConcurrencyTest {
 
     @Autowired
     private ProjectRepository projectRepository;
-
-    @Autowired
-    private AllocationRepository allocationRepository;
 
     @Autowired
     private JdbcTemplate jdbcTemplate;

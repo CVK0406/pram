@@ -34,7 +34,6 @@ class ProjectServiceTest {
     private ProjectServiceImpl projectService;
 
     private Project planningProject;
-    private Project activeProject;
     private Project completedProject;
     private ProjectRequest createRequest;
 
@@ -50,15 +49,6 @@ class ProjectServiceTest {
                 .status(ProjectStatus.PLANNING)
                 .build();
 
-        activeProject = Project.builder()
-                .projectId(2L)
-                .projectCode("GRID")
-                .projectName("Grid System")
-                .customer("Grid Corp")
-                .startDate(LocalDate.of(2026, 1, 1))
-                .endDate(LocalDate.of(2026, 12, 31))
-                .status(ProjectStatus.ACTIVE)
-                .build();
 
         completedProject = Project.builder()
                 .projectId(3L)
