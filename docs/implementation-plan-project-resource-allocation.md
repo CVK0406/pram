@@ -102,25 +102,25 @@ Tất cả 4 test case ở 1.5 đều đúng HTTP status và message.
 ### Task chi tiết
 
 **2.1 Entity & Enum (1h)**
-- [ ] `Project` entity
-- [ ] Enum `ProjectStatus { PLANNING, ACTIVE, COMPLETED }`
-- [ ] `@Check` constraint `endDate >= startDate` ở DB (đã có trong script SQL)
+- [x] `Project` entity
+- [x] Enum `ProjectStatus { PLANNING, ACTIVE, COMPLETED }`
+- [x] `@Check` constraint `endDate >= startDate` ở DB (đã có trong script SQL)
 
 **2.2 DTO + Validation (1h)**
-- [ ] `ProjectRequest`: validate `startDate`, `endDate`, custom validation `endDate >= startDate` (có thể viết `@AssertTrue` method trong DTO)
+- [x] `ProjectRequest`: validate `startDate`, `endDate`, custom validation `endDate >= startDate` (có thể viết `@AssertTrue` method trong DTO)
 
 **2.3 Service (1-2h)**
-- [ ] `createProject()`
-- [ ] `updateProjectStatus()` — áp rule chuyển trạng thái tuần tự `PLANNING → ACTIVE → COMPLETED`, không cho nhảy ngược. Ném `InvalidProjectStatusException` nếu vi phạm thứ tự.
-- [ ] `getProjects(status)` — filter optional theo status
+- [x] `createProject()`
+- [x] `updateProjectStatus()` — áp rule chuyển trạng thái tuần tự `PLANNING → ACTIVE → COMPLETED`, không cho nhảy ngược. Ném `InvalidProjectStatusException` nếu vi phạm thứ tự.
+- [x] `getProjects(status)` — filter optional theo status
 
 **2.4 Controller (1h)**
-- [ ] `POST /projects`, `GET /projects`, `GET /projects/{id}`, `PUT /projects/{id}/status`
+- [x] `POST /projects`, `GET /projects`, `GET /projects/{id}`, `PUT /projects/{id}/status`
 
 **2.5 Test tay (30p)**
-- [ ] Tạo project → 201
-- [ ] endDate < startDate → 400
-- [ ] Chuyển COMPLETED → ACTIVE → 400 (nếu bạn implement rule này)
+- [x] Tạo project → 201
+- [x] endDate < startDate → 400
+- [x] Chuyển COMPLETED → ACTIVE → 400
 
 ### Deliverable
 Project CRUD + status transition rule hoạt động.
