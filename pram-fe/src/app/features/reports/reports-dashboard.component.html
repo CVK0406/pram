@@ -186,6 +186,9 @@
         </mat-card>
       </div>
     </div>
+    <div class="ai-no-results" *ngIf="aiRecs && aiRecs.length === 0">
+      No matching resources found.
+    </div>
 
     <!-- Risk Results -->
     <div class="ai-results" *ngIf="aiRisks && aiRisks.length > 0">
@@ -196,6 +199,9 @@
           {{ risk }}
         </mat-card-content>
       </mat-card>
+    </div>
+    <div class="ai-no-results" *ngIf="aiRisks && aiRisks.length === 0">
+      No risks detected.
     </div>
   </mat-card-content>
 </mat-card>

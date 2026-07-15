@@ -99,3 +99,11 @@ table { width: 100%; }
     gap: 0.5rem;
   }
 }
+
+.ai-no-results {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--mat-sys-surface-container-high, #f0f0f0);
+  border-radius: 4px;
+  color: var(--mat-sys-on-surface-variant, #555);
+}
