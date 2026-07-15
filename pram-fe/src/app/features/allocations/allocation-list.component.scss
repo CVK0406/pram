@@ -21,4 +21,6 @@
   &.error { color: var(--mat-sys-error); p { margin-bottom: 1rem; } }
 }
 
+.table-wrapper { overflow-x: auto; }
+
 table { width: 100%; }

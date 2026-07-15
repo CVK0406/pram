@@ -49,6 +49,10 @@ mat-progress-bar {
     margin-bottom: 0.5rem;
   }
 
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
   table {
     width: 100%;
   }

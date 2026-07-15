@@ -40,6 +40,7 @@
           </div>
         </ng-container>
         <ng-template #utilData>
+          <div class="table-wrapper">
           <table mat-table [dataSource]="utilization" class="mat-elevation-z1">
             <ng-container matColumnDef="employeeCode">
               <th mat-header-cell *matHeaderCellDef>Code</th>
@@ -61,6 +62,7 @@
               <td class="mat-cell state-message" [colSpan]="utilDisplayed.length">No data</td>
             </tr>
           </table>
+          </div>
         </ng-template>
       </ng-template>
     </div>
@@ -88,6 +90,7 @@
           </div>
         </ng-container>
         <ng-template #availData>
+          <div class="table-wrapper">
           <table mat-table [dataSource]="available" class="mat-elevation-z1">
             <ng-container matColumnDef="fullName">
               <th mat-header-cell *matHeaderCellDef>Name</th>
@@ -107,6 +110,7 @@
               <td class="mat-cell state-message" [colSpan]="availDisplayed.length">No data</td>
             </tr>
           </table>
+          </div>
         </ng-template>
       </ng-template>
     </div>
@@ -126,6 +130,7 @@
           </div>
         </ng-container>
         <ng-template #overData>
+          <div class="table-wrapper">
           <table mat-table [dataSource]="overloaded" class="mat-elevation-z1">
             <ng-container matColumnDef="fullName">
               <th mat-header-cell *matHeaderCellDef>Name</th>
@@ -141,6 +146,7 @@
               <td class="mat-cell state-message" [colSpan]="overDisplayed.length">No overloaded employees</td>
             </tr>
           </table>
+          </div>
         </ng-template>
       </ng-template>
     </div>

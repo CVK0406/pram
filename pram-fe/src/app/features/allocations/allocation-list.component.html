@@ -35,6 +35,7 @@
 </ng-container>
 
 <ng-container *ngIf="selectedEmployeeId && !loading && !error">
+  <div class="table-wrapper">
   <table mat-table [dataSource]="allocations" class="mat-elevation-z1">
     <ng-container matColumnDef="projectCode">
       <th mat-header-cell *matHeaderCellDef>Project</th>
@@ -77,4 +78,5 @@
       <td class="mat-cell state-message" [colSpan]="displayedColumns.length">No allocations found</td>
     </tr>
   </table>
+  </div>
 </ng-container>

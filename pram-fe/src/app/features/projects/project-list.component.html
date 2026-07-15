@@ -28,6 +28,7 @@
   </ng-container>
 
   <ng-template #data>
+    <div class="table-wrapper">
     <table mat-table [dataSource]="projects" class="mat-elevation-z1">
       <ng-container matColumnDef="projectCode">
         <th mat-header-cell *matHeaderCellDef>Code</th>
@@ -94,5 +95,5 @@
       showFirstLastButtons
     >
     </mat-paginator>
-  </ng-template>
+    </div>
 </ng-template>

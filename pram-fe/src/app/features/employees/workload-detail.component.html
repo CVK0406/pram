@@ -40,6 +40,7 @@
 
         <div class="allocations-section" *ngIf="workload.allocations.length > 0">
           <h3>Allocations</h3>
+          <div class="table-wrapper">
           <table mat-table [dataSource]="workload.allocations" class="mat-elevation-z1">
             <ng-container matColumnDef="projectCode">
               <th mat-header-cell *matHeaderCellDef>Project</th>
@@ -60,6 +61,7 @@
             <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
           </table>
         </div>
+      </div>
 
         <div class="no-allocations" *ngIf="workload.allocations.length === 0">
           No active allocations for this employee.

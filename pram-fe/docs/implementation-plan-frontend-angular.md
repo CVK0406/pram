@@ -267,11 +267,11 @@ Tắt mạng thử (dev tools → offline) → app hiện thông báo lỗi thâ
 
 ### Checklist
 
-- [ ] Test lại toàn bộ luồng: tạo employee → tạo project → tạo allocation (đủ rule) → xem workload → xem report
-- [ ] Check responsive cơ bản (thu nhỏ trình duyệt, mat-table có scroll ngang khi màn hình nhỏ)
-- [ ] Xóa console.log thừa, dọn code
-- [ ] Build production thử: `ng build` không lỗi/warning nghiêm trọng
-- [ ] Viết mục "Frontend Setup" bổ sung vào README chung của dự án
+- [x] Test lại toàn bộ luồng: tạo employee → tạo project → tạo allocation (đủ rule) → xem workload → xem report
+- [x] Check responsive cơ bản (thu nhỏ trình duyệt, mat-table có scroll ngang khi màn hình nhỏ)
+- [x] Xóa console.log thừa, dọn code
+- [x] Build production thử: `ng build` không lỗi/warning nghiêm trọng
+- [x] Viết mục "Frontend Setup" bổ sung vào README chung của dự án
 
 ---
 

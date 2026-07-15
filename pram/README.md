@@ -298,10 +298,64 @@ Validation errors include a `details` map carrying individual field-level error 
 
 ---
 
-## Project Structure
+## Frontend Setup
 
+A standalone Angular 21 application lives in `pram-fe/`. It consumes the REST API above.
+
+### Prerequisites
+- Node.js 24+
+- npm 11+
+
+### Running Locally
+```bash
+cd pram-fe
+npm install
+ng serve
 ```
-src/main/java/com/company/pram/
+Opens at `http://localhost:4200`. The app proxies API calls to `http://localhost:8080` (configured in `src/environments/`).
+
+### Running via Docker Compose (from project root)
+```bash
+cd pram
+docker compose up --build -d
+```
+This starts PostgreSQL (port 5432), the backend (port 8080), and the frontend (port 4200).
+
+### Running Tests
+```bash
+cd pram-fe
+ng test
+```
+
+### Tech Stack
+| Layer | Technology |
+|---|---|
+| Framework | Angular 21, standalone components |
+| UI | Angular Material 21 |
+| HTTP | HttpClient + RxJS |
+| Forms | Reactive Forms |
+| Build | Angular CLI, esbuild |
+
+### Project Structure
+```
+pram-fe/src/app/
+├── core/
+│   ├── models/          # TypeScript interfaces matching backend DTOs
+│   ├── services/        # HttpClient services per resource
+│   └── interceptors/    # Global HTTP error handler
+├── features/
+│   ├── employees/       # Employee list, create form, workload detail
+│   ├── projects/        # Project list, create form, status transitions
+│   ├── allocations/     # Allocation list, create form (business rule UX)
+│   └── reports/         # Reports dashboard + AI query box
+├── shared/
+│   └── components/      # Shared UI components
+└── app.routes.ts        # Lazy-loaded route config
+```
+
+---
+
+## Project Structure
 ├── config/          # OpenAPI, Jackson JSON configurations
 ├── controller/      # REST endpoint controllers
 ├── dto/
