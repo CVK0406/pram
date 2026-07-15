@@ -66,14 +66,19 @@ export class EmployeeFormComponent {
           const msg: string = body?.message || '';
           if (msg.toLowerCase().includes('code')) {
             this.serverErrors['employeeCode'] = msg;
+            this.form.controls.employeeCode.setErrors({ duplicate: true });
           } else if (msg.toLowerCase().includes('email')) {
             this.serverErrors['email'] = msg;
+            this.form.controls.email.setErrors({ duplicate: true });
           } else {
             this.serverErrors['general'] = msg || 'Duplicate employee code or email';
           }
         } else if (err.status === 400 && body?.details) {
           Object.entries(body.details as Record<string, string>).forEach(([k, v]) => {
-            if (k in this.f) this.serverErrors[k] = v;
+            if (k in this.f) {
+              this.serverErrors[k] = v;
+              this.form.get(k)?.setErrors({ serverError: true });
+            }
           });
         } else {
           this.serverErrors['general'] = body?.message || 'Failed to create employee';

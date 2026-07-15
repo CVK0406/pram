@@ -12,13 +12,14 @@
         <mat-label>Employee Code</mat-label>
         <input matInput formControlName="employeeCode" placeholder="EMP001" maxlength="20" />
         <mat-error *ngIf="f.employeeCode.errors?.['required']">Required</mat-error>
-        <mat-error *ngIf="serverErrors['employeeCode']">{{ serverErrors['employeeCode'] }}</mat-error>
+        <mat-error *ngIf="f.employeeCode.errors?.['duplicate'] || f.employeeCode.errors?.['serverError']">{{ serverErrors['employeeCode'] }}</mat-error>
       </mat-form-field>
 
       <mat-form-field appearance="outline">
         <mat-label>Full Name</mat-label>
         <input matInput formControlName="fullName" placeholder="John Doe" maxlength="100" />
         <mat-error *ngIf="f.fullName.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="f.fullName.errors?.['serverError']">{{ serverErrors['fullName'] }}</mat-error>
       </mat-form-field>
 
       <mat-form-field appearance="outline">
@@ -26,19 +27,21 @@
         <input matInput formControlName="email" placeholder="john@company.com" type="email" maxlength="100" />
         <mat-error *ngIf="f.email.errors?.['required']">Required</mat-error>
         <mat-error *ngIf="f.email.errors?.['email']">Invalid email format</mat-error>
-        <mat-error *ngIf="serverErrors['email']">{{ serverErrors['email'] }}</mat-error>
+        <mat-error *ngIf="f.email.errors?.['duplicate'] || f.email.errors?.['serverError']">{{ serverErrors['email'] }}</mat-error>
       </mat-form-field>
 
       <mat-form-field appearance="outline">
         <mat-label>Role</mat-label>
         <input matInput formControlName="role" placeholder="Developer" maxlength="50" />
         <mat-error *ngIf="f.role.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="f.role.errors?.['serverError']">{{ serverErrors['role'] }}</mat-error>
       </mat-form-field>
 
       <mat-form-field appearance="outline">
         <mat-label>Department</mat-label>
         <input matInput formControlName="department" placeholder="Engineering" maxlength="50" />
         <mat-error *ngIf="f.department.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="f.department.errors?.['serverError']">{{ serverErrors['department'] }}</mat-error>
       </mat-form-field>
     </div>
 

@@ -78,10 +78,15 @@ export class ProjectFormComponent {
         const body = err.error;
 
         if (err.status === 409) {
-          this.serverErrors['general'] = body?.message || 'Duplicate project code';
+          const msg = body?.message || 'Duplicate project code';
+          this.serverErrors['projectCode'] = msg;
+          this.form.controls.projectCode.setErrors({ duplicate: true });
         } else if (err.status === 400 && body?.details) {
           Object.entries(body.details as Record<string, string>).forEach(([k, v]) => {
-            if (k in this.f) this.serverErrors[k] = v;
+            if (k in this.f) {
+              this.serverErrors[k] = v;
+              this.form.get(k)?.setErrors({ serverError: true });
+            }
           });
         } else {
           this.serverErrors['general'] = body?.message || 'Failed to create project';

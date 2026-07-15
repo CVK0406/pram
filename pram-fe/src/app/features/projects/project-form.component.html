@@ -12,18 +12,21 @@
         <mat-label>Project Code</mat-label>
         <input matInput formControlName="projectCode" placeholder="PRJ001" maxlength="20" />
         <mat-error *ngIf="f.projectCode.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="f.projectCode.errors?.['duplicate'] || f.projectCode.errors?.['serverError']">{{ serverErrors['projectCode'] }}</mat-error>
       </mat-form-field>
 
       <mat-form-field appearance="outline">
         <mat-label>Project Name</mat-label>
         <input matInput formControlName="projectName" placeholder="E-Commerce Platform" maxlength="200" />
         <mat-error *ngIf="f.projectName.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="f.projectName.errors?.['serverError']">{{ serverErrors['projectName'] }}</mat-error>
       </mat-form-field>
 
       <mat-form-field appearance="outline">
         <mat-label>Customer</mat-label>
         <input matInput formControlName="customer" placeholder="Acme Corp" maxlength="100" />
         <mat-error *ngIf="f.customer.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="f.customer.errors?.['serverError']">{{ serverErrors['customer'] }}</mat-error>
       </mat-form-field>
 
       <mat-form-field appearance="outline">

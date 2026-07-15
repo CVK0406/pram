@@ -150,6 +150,7 @@ export class AllocationFormComponent implements OnInit {
     const employee = this.getSelectedEmployee();
     if (!employee) {
       this.serverErrors['employee'] = 'Please select a valid employee from the list';
+      this.employeeCtrl.setErrors({ invalidEmployee: true });
       return;
     }
 
@@ -178,11 +179,16 @@ export class AllocationFormComponent implements OnInit {
           const msg: string = body?.message || '';
           if (msg.includes('100%') || msg.includes('exceed')) {
             this.serverErrors['allocationPercent'] = msg;
+            this.form.controls.allocationPercent.setErrors({ serverError: true });
           } else if (msg.includes('COMPLETED')) {
             this.serverErrors['projectId'] = 'Cannot allocate to a COMPLETED project';
+            this.form.controls.projectId.setErrors({ serverError: true });
           } else if (body?.details) {
             Object.entries(body.details as Record<string, string>).forEach(([k, v]) => {
-              if (k in this.f) this.serverErrors[k] = v;
+              if (k in this.f) {
+                this.serverErrors[k] = v;
+                this.form.get(k)?.setErrors({ serverError: true });
+              }
             });
           } else {
             this.serverErrors['general'] = msg;

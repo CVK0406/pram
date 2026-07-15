@@ -22,7 +22,7 @@
             {{ e.employeeCode }} — {{ e.fullName }}
           </mat-option>
         </mat-autocomplete>
-        <mat-error *ngIf="serverErrors['employee']">{{ serverErrors['employee'] }}</mat-error>
+        <mat-error *ngIf="employeeCtrl.errors?.['invalidEmployee']">{{ serverErrors['employee'] }}</mat-error>
       </mat-form-field>
 
       <!-- Workload info -->
@@ -37,7 +37,7 @@
           </mat-option>
         </mat-select>
         <mat-error *ngIf="f.projectId.errors?.['required']">Required</mat-error>
-        <mat-error *ngIf="serverErrors['projectId']">{{ serverErrors['projectId'] }}</mat-error>
+        <mat-error *ngIf="f.projectId.errors?.['serverError']">{{ serverErrors['projectId'] }}</mat-error>
       </mat-form-field>
 
       <!-- Allocation percent -->
@@ -48,7 +48,7 @@
         <mat-error *ngIf="f.allocationPercent.errors?.['required']">Required</mat-error>
         <mat-error *ngIf="f.allocationPercent.errors?.['min']">Min 1%</mat-error>
         <mat-error *ngIf="f.allocationPercent.errors?.['max']">Max 100%</mat-error>
-        <mat-error *ngIf="serverErrors['allocationPercent']">{{ serverErrors['allocationPercent'] }}</mat-error>
+        <mat-error *ngIf="f.allocationPercent.errors?.['serverError']">{{ serverErrors['allocationPercent'] }}</mat-error>
       </mat-form-field>
 
       <!-- Role -->
