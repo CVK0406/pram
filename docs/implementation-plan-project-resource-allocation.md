@@ -182,8 +182,8 @@ WHERE a.employee_id = :employeeId
   AND (a.end_date IS NULL OR a.end_date >= :startDate)
   AND a.start_date <= COALESCE(:endDate, a.start_date + INTERVAL '100 years')
 ```
-- [ ] Trong `createAllocation()`: gọi query trên → cộng với `allocationPercent` mới → nếu > 100 → ném `AllocationExceededException`
-- [ ] Trong `updateAllocation()`: **loại trừ chính bản ghi đang sửa** ra khỏi tổng trước khi so sánh (lỗi thường gặp: quên loại trừ, dẫn tới không bao giờ update được)
+- [x] Trong `createAllocation()`: gọi query trên → cộng với `allocationPercent` mới → nếu > 100 → ném `AllocationExceededException`
+- [x] Trong `updateAllocation()`: **loại trừ chính bản ghi đang sửa** ra khỏi tổng trước khi so sánh (lỗi thường gặp: quên loại trừ, dẫn tới không bao giờ update được)
 
 **4.3 Test tay đầy đủ theo bảng ví dụ trong SRS (1h)**
 - [x] 60% + 40% = 100% → thành công
@@ -204,21 +204,21 @@ Toàn bộ test case ở 4.3 đúng kết quả mong đợi — đây là phần
 ### Task chi tiết
 
 **5.1 Chọn giải pháp (đã khuyến nghị Option A - Pessimistic Lock trong SRS mục 7.1)**
-- [ ] Thêm method repository dùng lock:
+- [x] Thêm method repository dùng lock:
 ```java
 @Lock(LockModeType.PESSIMISTIC_WRITE)
 @Query("SELECT a FROM Allocation a WHERE a.employee.id = :employeeId AND a.deletedAt IS NULL")
 List<Allocation> findByEmployeeForUpdate(@Param("employeeId") Long employeeId);
 ```
-- [ ] Gọi method này ở đầu `createAllocation()` trước khi tính tổng, để lock các row liên quan cho tới khi transaction commit
-- [ ] Đảm bảo `createAllocation()` có `@Transactional`
+- [x] Gọi method này ở đầu `createAllocation()` trước khi tính tổng, để lock các row liên quan cho tới khi transaction commit
+- [x] Đảm bảo `createAllocation()` có `@Transactional`
 
 **5.2 Viết test giả lập concurrency (1-2h)**
-- [ ] Viết integration test dùng 2 thread (hoặc `CompletableFuture`) cùng gọi `createAllocation()` cho cùng 1 employee với tổng > 100% nếu cả 2 pass
-- [ ] Assert: chỉ 1 trong 2 request thành công, request còn lại nhận `AllocationExceededException`
+- [x] Viết integration test dùng 2 thread (hoặc `CompletableFuture`) cùng gọi `createAllocation()` cho cùng 1 employee với tổng > 100% nếu cả 2 pass
+- [x] Assert: chỉ 1 trong 2 request thành công, request còn lại nhận `AllocationExceededException`
 
 **5.3 Đo thời gian phản hồi khi có lock (30p)**
-- [ ] Kiểm tra request thứ 2 không bị treo quá lâu (timeout hợp lý, ví dụ set `@Transactional(timeout = 5)`)
+- [x] Kiểm tra request thứ 2 không bị treo quá lâu (timeout hợp lý, ví dụ set `@Transactional(timeout = 5)`)
 
 ### Deliverable
 Test concurrency pass, chứng minh hệ thống không bị race condition.
@@ -233,17 +233,17 @@ Chạy lại test 5.2 nhiều lần (ít nhất 5 lần) đều cho kết quả 
 ### Task chi tiết
 
 **6.1 Utilization Report (2-3h)**
-- [ ] Viết native query hoặc JPQL group by employee (theo SRS mục 4.1)
-- [ ] `GET /reports/utilization`
+- [x] Viết native query hoặc JPQL group by employee (theo SRS mục 4.1)
+- [x] `GET /reports/utilization`
 
 **6.2 Available Resource Report (1-2h)**
-- [ ] `GET /reports/available?minAvailable=` (param optional)
+- [x] `GET /reports/available?minAvailable=` (param optional)
 
 **6.3 Overloaded Employee Report (1h)**
-- [ ] `GET /reports/overloaded`
+- [x] `GET /reports/overloaded`
 
 **6.4 Employee Workload Detail (1-2h)**
-- [ ] `GET /employees/{id}/workload` — trả kèm danh sách allocation chi tiết (SRS mục 4.4)
+- [x] `GET /employees/{id}/workload` — trả kèm danh sách allocation chi tiết (SRS mục 4.4)
 
 **6.5 Test tay với dữ liệu mẫu (1h)**
 - [ ] Seed dữ liệu mẫu (script SQL hoặc `data.sql`) khớp với ví dụ trong SRS (Tuan 95%, Nam 100%...)

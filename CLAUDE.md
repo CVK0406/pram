@@ -96,7 +96,7 @@ com.company.pram
 - [x] Phase 3 — Allocation happy path
 - [x] Phase 4 — Allocation business rules (2/3)
 - [x] Phase 5 — Concurrency handling (pessimistic lock)
-- [ ] Phase 6 — Reporting APIs
+- [x] Phase 6 — Reporting APIs
 - [ ] Phase 7 — Exception & validation polish
 - [ ] Phase 8 — Unit tests
 - [ ] Phase 9 — Swagger, Postman, README
