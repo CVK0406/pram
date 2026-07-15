@@ -348,15 +348,15 @@ Coverage AllocationService (phần business logic) là ưu tiên số 1 vì đâ
 
 ### Checklist rà soát cuối (đối chiếu SRS mục 9 — Definition of Done)
 
-- [ ] Toàn bộ API mục 3, 4 hoạt động đúng, đúng HTTP status
-- [ ] Business Rule 1/2/3 có unit test cả 2 chiều (pass/fail)
-- [ ] Concurrency test pass ổn định
-- [ ] GlobalExceptionHandler bắt đủ exception, message đúng format
-- [ ] SQL report đúng kết quả với dữ liệu mẫu
-- [ ] README + Postman collection đầy đủ
-- [ ] Swagger UI + Docker Compose chạy được (bonus)
-- [ ] AI endpoint đúng schema (nếu làm bonus)
-- [ ] Dọn code: xóa TODO, xóa log debug thừa, review lại tên biến/method
+- [x] Toàn bộ API mục 3, 4 hoạt động đúng, đúng HTTP status
+- [x] Business Rule 1/2/3 có unit test cả 2 chiều (pass/fail)
+- [x] Concurrency test pass ổn định
+- [x] GlobalExceptionHandler bắt đủ exception, message đúng format
+- [x] SQL report đúng kết quả với dữ liệu mẫu
+- [x] README + Postman collection đầy đủ
+- [x] Swagger UI + Docker Compose chạy được (bonus)
+- [x] AI endpoint đúng schema (nếu làm bonus)
+- [x] Dọn code: xóa TODO, xóa log debug thừa, review lại tên biến/method
 
 ---
 

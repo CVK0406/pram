@@ -1,7 +1,7 @@
 {
   ".claude/settings.local.json": {
-    "mtime": 1784089179.0411088,
-    "ast_hash": "8d2738e0b0fdbdd195e985043edbc507",
+    "mtime": 1784104273.9926567,
+    "ast_hash": "a3689d68d68b61ff6f673f6f6d8a4063",
     "semantic_hash": ""
   },
   "db/schema.sql": {
@@ -95,8 +95,8 @@
     "semantic_hash": "365841efd47cfc5cb0dba72caadc0ef1"
   },
   "CLAUDE.md": {
-    "mtime": 1784103699.6661448,
-    "ast_hash": "6fabb8fd641c485f39ebeb82f6a9a0bb",
+    "mtime": 1784104264.4106512,
+    "ast_hash": "0961b9d4c6e19c497986d45f3de45386",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
@@ -110,8 +110,8 @@
     "semantic_hash": "50e8b891c7f82837f5b6e09cb5368906"
   },
   "docs/implementation-plan-project-resource-allocation.md": {
-    "mtime": 1784103699.6119027,
-    "ast_hash": "5ceed6a41dca832debd54fd3287a2f8d",
+    "mtime": 1784104264.3521476,
+    "ast_hash": "3b9769ec0f74059fd79174b19726e9e5",
     "semantic_hash": ""
   },
   "docs/srs-project-resource-allocation.md": {
