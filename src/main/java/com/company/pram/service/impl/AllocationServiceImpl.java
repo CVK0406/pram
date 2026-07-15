@@ -36,8 +36,12 @@ public class AllocationServiceImpl implements AllocationService {
     @Override
     @Transactional
     public AllocationResponse createAllocation(AllocationRequest request) {
-        Employee employee = employeeRepository.findById(request.getEmployeeId())
+        // Lock the employee first to serialize transactions for this employee
+        Employee employee = employeeRepository.findByIdForUpdate(request.getEmployeeId())
                 .orElseThrow(() -> new EmployeeNotFoundException(request.getEmployeeId()));
+
+        // Also lock existing allocations of this employee
+        allocationRepository.findByEmployeeForUpdate(request.getEmployeeId());
 
         Project project = projectRepository.findById(request.getProjectId())
                 .orElseThrow(() -> new ProjectNotFoundException(request.getProjectId()));
@@ -71,8 +75,12 @@ public class AllocationServiceImpl implements AllocationService {
         Allocation allocation = allocationRepository.findById(id)
                 .orElseThrow(() -> new AllocationNotFoundException(id));
 
-        Employee employee = employeeRepository.findById(request.getEmployeeId())
+        // Lock the employee first to serialize transactions for this employee
+        Employee employee = employeeRepository.findByIdForUpdate(request.getEmployeeId())
                 .orElseThrow(() -> new EmployeeNotFoundException(request.getEmployeeId()));
+
+        // Also lock existing allocations of this employee
+        allocationRepository.findByEmployeeForUpdate(request.getEmployeeId());
 
         Project project = projectRepository.findById(request.getProjectId())
                 .orElseThrow(() -> new ProjectNotFoundException(request.getProjectId()));

@@ -1,16 +1,16 @@
 # Graph Report - RA  (2026-07-15)
 
 ## Corpus Check
-- 45 files · ~11,911 words
+- 50 files · ~12,518 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 512 nodes · 586 edges · 131 communities (36 shown, 95 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.8)
+- 548 nodes · 652 edges · 135 communities (38 shown, 97 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `800e8d60`
+- Built from commit: `84a26527`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -125,6 +125,7 @@
 - [[_COMMUNITY_Community 107|Community 107]]
 - [[_COMMUNITY_Community 108|Community 108]]
 - [[_COMMUNITY_Community 109|Community 109]]
+- [[_COMMUNITY_Community 110|Community 110]]
 - [[_COMMUNITY_Community 111|Community 111]]
 - [[_COMMUNITY_Community 112|Community 112]]
 - [[_COMMUNITY_Community 113|Community 113]]
@@ -141,21 +142,24 @@
 - [[_COMMUNITY_Community 124|Community 124]]
 - [[_COMMUNITY_Community 125|Community 125]]
 - [[_COMMUNITY_Community 126|Community 126]]
+- [[_COMMUNITY_Community 127|Community 127]]
 - [[_COMMUNITY_Community 129|Community 129]]
 - [[_COMMUNITY_Community 130|Community 130]]
 - [[_COMMUNITY_Community 131|Community 131]]
 - [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
+- [[_COMMUNITY_Community 134|Community 134]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Implementation Plan — Project Resource Allocation Management System` - 16 edges
-2. `SRS - Project Resource Allocation Management System` - 12 edges
-3. `GlobalExceptionHandler` - 9 edges
-4. `ResponseEntity` - 9 edges
-5. `ExceptionHandler` - 9 edges
-6. `LocalDate` - 9 edges
-7. `WebRequest` - 8 edges
-8. `ErrorResponse` - 8 edges
-9. `AllocationService` - 8 edges
+2. `LocalDate` - 12 edges
+3. `SRS - Project Resource Allocation Management System` - 12 edges
+4. `GlobalExceptionHandler` - 9 edges
+5. `ResponseEntity` - 9 edges
+6. `ExceptionHandler` - 9 edges
+7. `AllocationService` - 9 edges
+8. `WebRequest` - 8 edges
+9. `ErrorResponse` - 8 edges
 10. `ProjectService` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -163,13 +167,15 @@
   src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java → src/main/java/com/company/pram/service/AllocationService.java
 - `ProjectServiceImpl` --implements--> `ProjectService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/ProjectServiceImpl.java → src/main/java/com/company/pram/service/ProjectService.java
+- `DashboardServiceImpl` --implements--> `DashboardService`  [EXTRACTED]
+  src/main/java/com/company/pram/service/impl/DashboardServiceImpl.java → src/main/java/com/company/pram/service/DashboardService.java
 - `EmployeeServiceImpl` --implements--> `EmployeeService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java → src/main/java/com/company/pram/service/EmployeeService.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (131 total, 95 thin omitted)
+## Communities (135 total, 97 thin omitted)
 
 ### Community 0 - "Employee Controller Layer"
 Cohesion: 0.30
@@ -177,15 +183,15 @@ Nodes (8): EmployeeController, EmployeeRequest, EmployeeResponse, GetMapping, Lo
 
 ### Community 1 - "Exception Handling"
 Cohesion: 0.21
-Nodes (14): AllocationExceededException, AllocationNotFoundException, EmployeeNotFoundException, ErrorResponse, Exception, GlobalExceptionHandler, ExceptionHandler, InvalidProjectStatusException (+6 more)
+Nodes (14): AllocationNotFoundException, DuplicateResourceException, EmployeeNotFoundException, ErrorResponse, Exception, GlobalExceptionHandler, ExceptionHandler, InvalidProjectStatusException (+6 more)
 
 ### Community 2 - "Employee Entity & Repository"
 Cohesion: 0.22
 Nodes (5): Employee, PrePersist, PreUpdate, Object, Override
 
 ### Community 3 - "Employee Service Implementation"
-Cohesion: 0.12
-Nodes (17): DuplicateResourceException, EmployeeServiceImpl, EmployeeRepository, EmployeeService, String, EmployeeRequest, EmployeeResponse, Long (+9 more)
+Cohesion: 0.17
+Nodes (14): EmployeeServiceImpl, EmployeeService, EmployeeRequest, EmployeeResponse, Long, Page, Pageable, EmployeeRequest (+6 more)
 
 ### Community 4 - "Maven Wrapper"
 Cohesion: 0.06
@@ -224,8 +230,8 @@ Cohesion: 0.17
 Nodes (11): Architecture, Build & Run, CLAUDE.md — PRAMS (Project Resource Allocation Management System), Conventions, Data flow, graphify, Key business rules (AllocationService), Naming conventions (+3 more)
 
 ### Community 103 - "Community 103"
-Cohesion: 0.10
-Nodes (20): AllocationServiceImpl, Integer, LocalDate, Query, AllocationRepository, AllocationRequest, ProjectRequest, AllocationResponse (+12 more)
+Cohesion: 0.12
+Nodes (19): AllocationServiceImpl, Integer, LocalDate, AllocationRepository, AllocationRequest, AllocationResponse, ProjectResponse, AssertTrue (+11 more)
 
 ### Community 104 - "Community 104"
 Cohesion: 0.23
@@ -250,6 +256,10 @@ Nodes (5): Acceptance criteria, Deliverable, Giai đoạn 0 — Setup Project & 
 ### Community 109 - "Community 109"
 Cohesion: 0.40
 Nodes (5): Acceptance criteria, Deliverable, Giai đoạn 8 — Unit Test (1.5 ngày), Task chi tiết, Ưu tiên test theo độ rủi ro (không cần cover 100%, tập trung chỗ quan trọng)
+
+### Community 110 - "Community 110"
+Cohesion: 0.18
+Nodes (10): DashboardController, DashboardServiceImpl, DashboardService, DashboardResponse, GetMapping, ResponseEntity, DashboardResponse, DashboardResponse (+2 more)
 
 ### Community 111 - "Community 111"
 Cohesion: 0.50
@@ -296,8 +306,8 @@ Cohesion: 0.40
 Nodes (3): Project, Object, Override
 
 ### Community 129 - "Community 129"
-Cohesion: 0.38
-Nodes (5): AllocationService, AllocationRequest, AllocationResponse, List, Long
+Cohesion: 0.17
+Nodes (10): AfterEach, AllocationExceededException, BeforeEach, AllocationServiceConcurrencyTest, AllocationService, AllocationRequest, AllocationResponse, List (+2 more)
 
 ### Community 130 - "Community 130"
 Cohesion: 0.39
@@ -311,25 +321,29 @@ Nodes (4): EmployeeMapper, Employee, EmployeeRequest, EmployeeResponse
 Cohesion: 0.40
 Nodes (3): Allocation, Object, Override
 
+### Community 133 - "Community 133"
+Cohesion: 0.27
+Nodes (7): Optional, EmployeeRepository, Employee, Lock, Long, Query, String
+
 ## Knowledge Gaps
-- **146 isolated node(s):** `String`, `PostMapping`, `PutMapping`, `Void`, `DeleteMapping` (+141 more)
+- **149 isolated node(s):** `String`, `PostMapping`, `PutMapping`, `Void`, `DeleteMapping` (+144 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **95 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **97 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `LocalDate` connect `Community 103` to `Community 123`, `Community 132`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
-- **Why does `ProjectService` connect `Community 105` to `Application Entry Point`, `Community 99`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **Why does `LocalDate` connect `Community 103` to `Community 129`, `Community 132`, `Community 134`, `Community 110`, `Community 123`?**
+  _High betweenness centrality (0.063) - this node is a cross-community bridge._
 - **Why does `AllocationService` connect `Community 129` to `Community 104`, `Community 103`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+- **Why does `ProjectService` connect `Community 105` to `Application Entry Point`, `Community 99`?**
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
 - **What connects `String`, `PostMapping`, `PutMapping` to the rest of the system?**
-  _146 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Employee Service Implementation` be split into smaller, more focused modules?**
-  _Cohesion score 0.12433862433862433 - nodes in this community are weakly interconnected._
+  _149 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Maven Wrapper` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `Employee DTO & Mapper` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
+- **Should `Community 98` be split into smaller, more focused modules?**
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._

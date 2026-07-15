@@ -95,7 +95,7 @@ com.company.pram
 - [x] Phase 2 — Project module (CRUD, status transitions)
 - [x] Phase 3 — Allocation happy path
 - [x] Phase 4 — Allocation business rules (2/3)
-- [ ] Phase 5 — Concurrency handling (pessimistic lock)
+- [x] Phase 5 — Concurrency handling (pessimistic lock)
 - [ ] Phase 6 — Reporting APIs
 - [ ] Phase 7 — Exception & validation polish
 - [ ] Phase 8 — Unit tests
