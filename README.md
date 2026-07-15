@@ -6,6 +6,20 @@ Monorepo cho hệ thống quản lý phân bổ nhân sự trong công ty outsou
 |---|---|---|---|
 | **Backend API** | [`pram/`](pram/) | Java 25, Spring Boot 4.1, PostgreSQL 15 | `:8080` |
 | **Frontend SPA** | [`pram-fe/`](pram-fe/) | Angular 21, Angular Material 21 | `:4200` |
+---
+
+## Danh sách sản phẩm bàn giao (Deliverables)
+
+Dưới đây là vị trí chính xác của 6 sản phẩm bàn giao theo yêu cầu của đề bài trong Git Repository này:
+
+1. **Source Code Git Repository**: Thư mục gốc hiện tại (bao gồm lịch sử Git commits).
+   - Mã nguồn Backend: [`pram/`](pram/)
+   - Mã nguồn Frontend: [`pram-fe/`](pram-fe/)
+2. **SQL Script Create Table**: [`pram/db/schema.sql`](pram/db/schema.sql) (Chứa schema định nghĩa bảng, ràng buộc khoá chính/ngoại, CHECK constraints và dữ liệu mẫu seed data).
+3. **README.md**: Tập tin [`README.md`](README.md) hiện tại ở thư mục gốc.
+4. **Postman Collection**: [`pram/docs/postman_collection.json`](pram/docs/postman_collection.json) (Chứa đầy đủ các API request mẫu cho các tính năng hệ thống).
+5. **API Screenshot**: [`api_screenshots.docx`](api_screenshots.docx) ở thư mục gốc (Tài liệu Word chứa toàn bộ ảnh chụp màn hình kết quả chạy thực tế của các API).
+6. **AI Review Report**: [`pram/docs/AI_Review_Report.md`](pram/docs/AI_Review_Report.md) (Báo cáo đánh giá chi tiết kiến trúc hệ thống, chất lượng mã nguồn, concurrency, tối ưu database và tích hợp AI).
 
 ---
 
