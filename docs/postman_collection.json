@@ -203,6 +203,35 @@
           }
         }
       ]
+    },
+    {
+      "name": "AI",
+      "item": [
+        {
+          "name": "AI Resource Recommendation",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/ai/recommend-resource", "host": ["{{baseUrl}}"], "path": ["ai", "recommend-resource"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"Find Java Developer with at least 10% available\"\n}"
+            }
+          }
+        },
+        {
+          "name": "AI Risk Detection",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/ai/risk-detection", "host": ["{{baseUrl}}"], "path": ["ai", "risk-detection"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"I need 2 more Java Developers for the next sprint\"\n}"
+            }
+          }
+        }
+      ]
     }
   ]
 }
