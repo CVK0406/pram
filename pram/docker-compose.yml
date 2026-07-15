@@ -36,5 +36,15 @@ services:
       postgres-db:
         condition: service_healthy
 
+  prams-frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    container_name: prams-frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - prams-app
+
 volumes:
   postgres_data:
