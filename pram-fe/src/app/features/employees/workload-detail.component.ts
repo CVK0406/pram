@@ -6,6 +6,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { EmployeeService } from '../../core/services/employee.service';
 import { EmployeeWorkload, WorkloadAllocation } from '../../core/models/workload.model';
 
@@ -20,6 +21,7 @@ import { EmployeeWorkload, WorkloadAllocation } from '../../core/models/workload
     MatTableModule,
     MatButtonModule,
     MatIconModule,
+    MatProgressSpinnerModule,
   ],
   templateUrl: './workload-detail.component.html',
   styleUrl: './workload-detail.component.scss',

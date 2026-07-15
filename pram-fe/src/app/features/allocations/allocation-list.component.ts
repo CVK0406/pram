@@ -6,6 +6,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AllocationService } from '../../core/services/allocation.service';
 import { EmployeeService } from '../../core/services/employee.service';
 import { Allocation } from '../../core/models/allocation.model';
@@ -23,6 +25,7 @@ import { Employee } from '../../core/models/employee.model';
     MatSelectModule,
     MatSnackBarModule,
     MatTooltipModule,
+    MatProgressSpinnerModule,
   ],
   templateUrl: './allocation-list.component.html',
   styleUrl: './allocation-list.component.scss',

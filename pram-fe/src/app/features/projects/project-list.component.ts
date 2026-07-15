@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProjectService } from '../../core/services/project.service';
 import { Project, ProjectStatus } from '../../core/models/project.model';
 
@@ -22,6 +23,7 @@ import { Project, ProjectStatus } from '../../core/models/project.model';
     MatIconModule,
     MatSelectModule,
     MatSnackBarModule,
+    MatProgressSpinnerModule,
   ],
   templateUrl: './project-list.component.html',
   styleUrl: './project-list.component.scss',
