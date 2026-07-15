@@ -95,14 +95,14 @@
     "semantic_hash": "365841efd47cfc5cb0dba72caadc0ef1"
   },
   "CLAUDE.md": {
-    "mtime": 1784102191.6842616,
-    "ast_hash": "8cdbfce5b7eb6a7cea02dc9f287cd419",
+    "mtime": 1784102492.012952,
+    "ast_hash": "bffed7b1d73c109629808afc92ddf168",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
-    "mtime": 1784087214.8767226,
-    "ast_hash": "3e84408c732604d0dc1f31bf5a05f80e",
-    "semantic_hash": "3e84408c732604d0dc1f31bf5a05f80e"
+    "mtime": 1784102389.0414157,
+    "ast_hash": "8169d731757102e0c339fe4843e15c38",
+    "semantic_hash": ""
   },
   "docs/Project_Resource_Allocation_Assignment.md": {
     "mtime": 1784084879.071488,
@@ -110,8 +110,8 @@
     "semantic_hash": "50e8b891c7f82837f5b6e09cb5368906"
   },
   "docs/implementation-plan-project-resource-allocation.md": {
-    "mtime": 1784102191.624794,
-    "ast_hash": "e1bd1453e1603a9fa8c168e6926396b0",
+    "mtime": 1784102491.9869373,
+    "ast_hash": "1d556dcff1e81a2b9299340cd84dca9c",
     "semantic_hash": ""
   },
   "docs/srs-project-resource-allocation.md": {

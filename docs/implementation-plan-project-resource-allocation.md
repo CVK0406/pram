@@ -316,9 +316,9 @@ Coverage AllocationService (phần business logic) là ưu tiên số 1 vì đâ
 ## Giai đoạn 10 — Docker Compose (0.5 ngày)
 
 ### Task chi tiết
-- [ ] Viết `Dockerfile` cho app (multi-stage build: Maven build → JRE runtime)
-- [ ] Viết `docker-compose.yml`: service `app` + service `postgres`
-- [ ] Test `docker compose up` từ máy sạch (chưa có DB local) — app phải tự kết nối được vào Postgres container
+- [x] Viết `Dockerfile` cho app (multi-stage build: Maven build → JRE runtime)
+- [x] Viết `docker-compose.yml`: service `app` + service `postgres`
+- [x] Test `docker compose up` từ máy sạch (chưa có DB local) — app phải tự kết nối được vào Postgres container
 
 ### Deliverable
 `docker compose up` chạy full stack thành công.

@@ -100,7 +100,7 @@ com.company.pram
 - [x] Phase 7 — Exception & validation polish
 - [x] Phase 8 — Unit tests
 - [x] Phase 9 — Swagger, Postman, README
-- [ ] Phase 10 — Docker Compose
+- [x] Phase 10 — Docker Compose
 - [ ] Phase 11 — AI Bonus
 - [ ] Phase 12 — Final review
 
