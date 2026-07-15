@@ -213,16 +213,16 @@ Số liệu khớp với dữ liệu allocation thực tế đã tạo ở giai 
 ### Task chi tiết
 
 **6.1 Layout dashboard (1h)**
-- [ ] `ReportsDashboardComponent` với 3 tab hoặc 3 card: Utilization / Available / Overloaded
+- [x] `ReportsDashboardComponent` với 3 tab hoặc 3 card: Utilization / Available / Overloaded
 
 **6.2 Utilization Report (1-2h)**
-- [ ] Bảng đơn giản: employee, totalAllocation. Có thể thêm màu cảnh báo nếu > 90% (đỏ), 70-90% (vàng), còn lại xanh
+- [x] Bảng đơn giản: employee, totalAllocation. Có thể thêm màu cảnh báo nếu > 90% (đỏ), 70-90% (vàng), còn lại xanh
 
 **6.3 Available Resource Report (1h)**
-- [ ] Bảng: employee, available %. Có ô input `minAvailable` filter (bind với query param backend)
+- [x] Bảng: employee, available %. Có ô input `minAvailable` filter (bind với query param backend)
 
 **6.4 Overloaded Employee Report (1h)**
-- [ ] Bảng: employee, totalAllocation — highlight đỏ toàn dòng
+- [x] Bảng: employee, totalAllocation — highlight đỏ toàn dòng
 
 ### Deliverable
 Dashboard 3 báo cáo hiển thị đúng dữ liệu.
