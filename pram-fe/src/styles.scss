@@ -165,37 +165,12 @@ body {
 }
 
 /* --- Form field overrides --- */
-.mdc-text-field--outlined {
-  background-color: rgba(255, 255, 255, 0.02) !important;
-  
-  .mdc-notched-outline__leading,
-  .mdc-notched-outline__notch,
-  .mdc-notched-outline__trailing {
-    border-color: var(--border-color) !important;
-    border-width: 1px !important;
-    transition: border-color 0.2s ease;
-  }
-
-  &:hover:not(.mdc-text-field--disabled) {
-    .mdc-notched-outline__leading,
-    .mdc-notched-outline__notch,
-    .mdc-notched-outline__trailing {
-      border-color: var(--border-color-focus) !important;
-    }
-  }
-
-  &.mdc-text-field--focused {
-    .mdc-notched-outline__leading,
-    .mdc-notched-outline__notch,
-    .mdc-notched-outline__trailing {
-      border-color: var(--primary-color) !important;
-      border-width: 2px !important;
-      box-shadow: 0 0 10px rgba(99, 102, 241, 0.15) !important;
-    }
-  }
-}
-
 .mat-mdc-form-field {
+  --mdc-outlined-text-field-outline-color: var(--border-color);
+  --mdc-outlined-text-field-focus-outline-color: var(--primary-color);
+  --mdc-outlined-text-field-hover-outline-color: var(--border-color-focus);
+  --mdc-outlined-text-field-container-color: rgba(255, 255, 255, 0.02);
+
   .mat-mdc-floating-label, .mat-mdc-select-value-text, input {
     color: var(--text-secondary) !important;
   }
