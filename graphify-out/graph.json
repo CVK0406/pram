@@ -1,0 +1,4942 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "mvnw",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "mvnw",
+      "community": 4,
+      "norm_label": "mvnw"
+    },
+    {
+      "label": "mvnw script",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "mvnw__entry",
+      "community": 4,
+      "norm_label": "mvnw script"
+    },
+    {
+      "label": "native_path()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L36",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_native_path",
+      "community": 4,
+      "norm_label": "native_path()"
+    },
+    {
+      "label": "set_java_home()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L45",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_set_java_home",
+      "community": 4,
+      "norm_label": "set_java_home()"
+    },
+    {
+      "label": "hash_string()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L82",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_hash_string",
+      "community": 4,
+      "norm_label": "hash_string()"
+    },
+    {
+      "label": "verbose()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L92",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_verbose",
+      "community": 4,
+      "norm_label": "verbose()"
+    },
+    {
+      "label": "die()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L95",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_die",
+      "community": 4,
+      "norm_label": "die()"
+    },
+    {
+      "label": "trim()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L100",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_trim",
+      "community": 4,
+      "norm_label": "trim()"
+    },
+    {
+      "label": "exec_maven()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L148",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_exec_maven",
+      "community": 4,
+      "norm_label": "exec_maven()"
+    },
+    {
+      "label": "clean()",
+      "file_type": "code",
+      "source_file": "mvnw",
+      "source_location": "L165",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mvnw_clean",
+      "community": 4,
+      "norm_label": "clean()"
+    },
+    {
+      "label": "com.company:pram",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "maven",
+      "source_file": "pom.xml",
+      "source_location": "L1",
+      "version": "0.0.1-SNAPSHOT",
+      "_origin": "ast",
+      "id": "pkg_com_company_pram",
+      "community": 98,
+      "norm_label": "com.company:pram"
+    },
+    {
+      "label": "PramApplication.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/PramApplication.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_pramapplication",
+      "community": 8,
+      "norm_label": "pramapplication.java"
+    },
+    {
+      "label": "PramApplication",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/PramApplication.java",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_pramapplication_pramapplication",
+      "community": 8,
+      "norm_label": "pramapplication"
+    },
+    {
+      "label": "SpringBootApplication",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "springbootapplication",
+      "community": 8,
+      "norm_label": "springbootapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/PramApplication.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_pramapplication_pramapplication_main",
+      "community": 8,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "EmployeeController.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller",
+      "community": 0,
+      "norm_label": "employeecontroller.java"
+    },
+    {
+      "label": "EmployeeController",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "community": 0,
+      "norm_label": "employeecontroller"
+    },
+    {
+      "label": "RestController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_restcontroller",
+      "community": 0,
+      "norm_label": "restcontroller"
+    },
+    {
+      "label": "RequestMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "requestmapping",
+      "community": 0,
+      "norm_label": "requestmapping"
+    },
+    {
+      "label": "RequiredArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_requiredargsconstructor",
+      "community": 0,
+      "norm_label": "requiredargsconstructor"
+    },
+    {
+      "label": ".createEmployee()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_createemployee",
+      "community": 0,
+      "norm_label": ".createemployee()"
+    },
+    {
+      "label": "ResponseEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
+      "community": 0,
+      "norm_label": "responseentity"
+    },
+    {
+      "label": "PostMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "postmapping",
+      "community": 0,
+      "norm_label": "postmapping"
+    },
+    {
+      "label": ".getEmployeeById()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getemployeebyid",
+      "community": 0,
+      "norm_label": ".getemployeebyid()"
+    },
+    {
+      "label": "GetMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_getmapping",
+      "community": 0,
+      "norm_label": "getmapping"
+    },
+    {
+      "label": ".getAllEmployees()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getallemployees",
+      "community": 0,
+      "norm_label": ".getallemployees()"
+    },
+    {
+      "label": "Page",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_page",
+      "community": 0,
+      "norm_label": "page"
+    },
+    {
+      "label": "PingController.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_pingcontroller",
+      "community": 7,
+      "norm_label": "pingcontroller.java"
+    },
+    {
+      "label": "PingController",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_pingcontroller_pingcontroller",
+      "community": 7,
+      "norm_label": "pingcontroller"
+    },
+    {
+      "label": "RestController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_pingcontroller_java_restcontroller",
+      "community": 7,
+      "norm_label": "restcontroller"
+    },
+    {
+      "label": ".ping()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_pingcontroller_pingcontroller_ping",
+      "community": 7,
+      "norm_label": ".ping()"
+    },
+    {
+      "label": "GetMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_pingcontroller_java_getmapping",
+      "community": 7,
+      "norm_label": "getmapping"
+    },
+    {
+      "label": "EmployeeRequest.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_request_employeerequest",
+      "community": 5,
+      "norm_label": "employeerequest.java"
+    },
+    {
+      "label": "EmployeeRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "community": 5,
+      "norm_label": "employeerequest"
+    },
+    {
+      "label": "Data",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_request_employeerequest_java_data",
+      "community": 5,
+      "norm_label": "data"
+    },
+    {
+      "label": "Builder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_request_employeerequest_java_builder",
+      "community": 5,
+      "norm_label": "builder"
+    },
+    {
+      "label": "NoArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_request_employeerequest_java_noargsconstructor",
+      "community": 5,
+      "norm_label": "noargsconstructor"
+    },
+    {
+      "label": "AllArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_request_employeerequest_java_allargsconstructor",
+      "community": 5,
+      "norm_label": "allargsconstructor"
+    },
+    {
+      "label": "EmployeeResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_employeeresponse",
+      "community": 0,
+      "norm_label": "employeeresponse.java"
+    },
+    {
+      "label": "EmployeeResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "community": 0,
+      "norm_label": "employeeresponse"
+    },
+    {
+      "label": "Data",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_employeeresponse_java_data",
+      "community": 0,
+      "norm_label": "data"
+    },
+    {
+      "label": "Builder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_employeeresponse_java_builder",
+      "community": 0,
+      "norm_label": "builder"
+    },
+    {
+      "label": "NoArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_employeeresponse_java_noargsconstructor",
+      "community": 0,
+      "norm_label": "noargsconstructor"
+    },
+    {
+      "label": "AllArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_employeeresponse_java_allargsconstructor",
+      "community": 0,
+      "norm_label": "allargsconstructor"
+    },
+    {
+      "label": "ErrorResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_errorresponse",
+      "community": 1,
+      "norm_label": "errorresponse.java"
+    },
+    {
+      "label": "ErrorResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "community": 1,
+      "norm_label": "errorresponse"
+    },
+    {
+      "label": "Data",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_errorresponse_java_data",
+      "community": 1,
+      "norm_label": "data"
+    },
+    {
+      "label": "Builder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_errorresponse_java_builder",
+      "community": 1,
+      "norm_label": "builder"
+    },
+    {
+      "label": "NoArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_errorresponse_java_noargsconstructor",
+      "community": 1,
+      "norm_label": "noargsconstructor"
+    },
+    {
+      "label": "AllArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_errorresponse_java_allargsconstructor",
+      "community": 1,
+      "norm_label": "allargsconstructor"
+    },
+    {
+      "label": ".ErrorResponse()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse_errorresponse",
+      "community": 1,
+      "norm_label": ".errorresponse()"
+    },
+    {
+      "label": "Employee.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee",
+      "community": 2,
+      "norm_label": "employee.java"
+    },
+    {
+      "label": "Employee",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee_employee",
+      "community": 2,
+      "norm_label": "employee"
+    },
+    {
+      "label": "Entity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "entity",
+      "community": 2,
+      "norm_label": "entity"
+    },
+    {
+      "label": "Table",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "table",
+      "community": 2,
+      "norm_label": "table"
+    },
+    {
+      "label": "Data",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee_java_data",
+      "community": 2,
+      "norm_label": "data"
+    },
+    {
+      "label": "Builder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee_java_builder",
+      "community": 2,
+      "norm_label": "builder"
+    },
+    {
+      "label": "NoArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee_java_noargsconstructor",
+      "community": 2,
+      "norm_label": "noargsconstructor"
+    },
+    {
+      "label": "AllArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee_java_allargsconstructor",
+      "community": 2,
+      "norm_label": "allargsconstructor"
+    },
+    {
+      "label": ".onCreate()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee_employee_oncreate",
+      "community": 2,
+      "norm_label": ".oncreate()"
+    },
+    {
+      "label": "PrePersist",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "prepersist",
+      "community": 2,
+      "norm_label": "prepersist"
+    },
+    {
+      "label": ".onUpdate()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_entity_employee_employee_onupdate",
+      "community": 2,
+      "norm_label": ".onupdate()"
+    },
+    {
+      "label": "PreUpdate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "preupdate",
+      "community": 2,
+      "norm_label": "preupdate"
+    },
+    {
+      "label": "DuplicateResourceException.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/DuplicateResourceException.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_duplicateresourceexception",
+      "community": 3,
+      "norm_label": "duplicateresourceexception.java"
+    },
+    {
+      "label": "DuplicateResourceException",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/DuplicateResourceException.java",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception",
+      "community": 3,
+      "norm_label": "duplicateresourceexception"
+    },
+    {
+      "label": ".DuplicateResourceException()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/DuplicateResourceException.java",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception_duplicateresourceexception",
+      "community": 3,
+      "norm_label": ".duplicateresourceexception()"
+    },
+    {
+      "label": "EmployeeNotFoundException.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/EmployeeNotFoundException.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_employeenotfoundexception",
+      "community": 1,
+      "norm_label": "employeenotfoundexception.java"
+    },
+    {
+      "label": "EmployeeNotFoundException",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/EmployeeNotFoundException.java",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception",
+      "community": 1,
+      "norm_label": "employeenotfoundexception"
+    },
+    {
+      "label": ".EmployeeNotFoundException()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/EmployeeNotFoundException.java",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception_employeenotfoundexception",
+      "community": 1,
+      "norm_label": ".employeenotfoundexception()"
+    },
+    {
+      "label": "GlobalExceptionHandler.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "community": 1,
+      "norm_label": "globalexceptionhandler.java"
+    },
+    {
+      "label": "GlobalExceptionHandler",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler",
+      "community": 1,
+      "norm_label": "globalexceptionhandler"
+    },
+    {
+      "label": "RestControllerAdvice",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "restcontrolleradvice",
+      "community": 1,
+      "norm_label": "restcontrolleradvice"
+    },
+    {
+      "label": ".handleEmployeeNotFoundException()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
+      "community": 1,
+      "norm_label": ".handleemployeenotfoundexception()"
+    },
+    {
+      "label": "WebRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "webrequest",
+      "community": 1,
+      "norm_label": "webrequest"
+    },
+    {
+      "label": "ResponseEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
+      "community": 1,
+      "norm_label": "responseentity"
+    },
+    {
+      "label": "ExceptionHandler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "exceptionhandler",
+      "community": 1,
+      "norm_label": "exceptionhandler"
+    },
+    {
+      "label": ".handleDuplicateResourceException()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
+      "community": 1,
+      "norm_label": ".handleduplicateresourceexception()"
+    },
+    {
+      "label": ".handleValidationExceptions()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handlevalidationexceptions",
+      "community": 1,
+      "norm_label": ".handlevalidationexceptions()"
+    },
+    {
+      "label": "MethodArgumentNotValidException",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "methodargumentnotvalidexception",
+      "community": 1,
+      "norm_label": "methodargumentnotvalidexception"
+    },
+    {
+      "label": ".handleGlobalException()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
+      "community": 1,
+      "norm_label": ".handleglobalexception()"
+    },
+    {
+      "label": "EmployeeMapper.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_mapper_employeemapper",
+      "community": 5,
+      "norm_label": "employeemapper.java"
+    },
+    {
+      "label": "EmployeeMapper",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper",
+      "community": 5,
+      "norm_label": "employeemapper"
+    },
+    {
+      "label": ".toEntity()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toentity",
+      "community": 5,
+      "norm_label": ".toentity()"
+    },
+    {
+      "label": ".toResponse()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toresponse",
+      "community": 3,
+      "norm_label": ".toresponse()"
+    },
+    {
+      "label": "EmployeeRepository.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_repository_employeerepository",
+      "community": 2,
+      "norm_label": "employeerepository.java"
+    },
+    {
+      "label": "EmployeeRepository",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "community": 2,
+      "norm_label": "employeerepository"
+    },
+    {
+      "label": "JpaRepository",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "jparepository",
+      "community": 2,
+      "norm_label": "jparepository"
+    },
+    {
+      "label": "Repository",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "repository",
+      "community": 2,
+      "norm_label": "repository"
+    },
+    {
+      "label": ".existsByEmployeeCode()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_repository_employeerepository_employeerepository_existsbyemployeecode",
+      "community": 2,
+      "norm_label": ".existsbyemployeecode()"
+    },
+    {
+      "label": ".existsByEmail()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_repository_employeerepository_employeerepository_existsbyemail",
+      "community": 2,
+      "norm_label": ".existsbyemail()"
+    },
+    {
+      "label": "EmployeeService.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_employeeservice",
+      "community": 0,
+      "norm_label": "employeeservice.java"
+    },
+    {
+      "label": "EmployeeService",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "community": 3,
+      "norm_label": "employeeservice"
+    },
+    {
+      "label": ".createEmployee()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_employeeservice_employeeservice_createemployee",
+      "community": 0,
+      "norm_label": ".createemployee()"
+    },
+    {
+      "label": ".getEmployeeById()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getemployeebyid",
+      "community": 0,
+      "norm_label": ".getemployeebyid()"
+    },
+    {
+      "label": ".getAllEmployees()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getallemployees",
+      "community": 0,
+      "norm_label": ".getallemployees()"
+    },
+    {
+      "label": "Pageable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_employeeservice_java_pageable",
+      "community": 0,
+      "norm_label": "pageable"
+    },
+    {
+      "label": "Page",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_employeeservice_java_page",
+      "community": 0,
+      "norm_label": "page"
+    },
+    {
+      "label": "EmployeeServiceImpl.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "community": 3,
+      "norm_label": "employeeserviceimpl.java"
+    },
+    {
+      "label": "EmployeeServiceImpl",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "community": 3,
+      "norm_label": "employeeserviceimpl"
+    },
+    {
+      "label": "Service",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "service",
+      "community": 3,
+      "norm_label": "service"
+    },
+    {
+      "label": "RequiredArgsConstructor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_requiredargsconstructor",
+      "community": 3,
+      "norm_label": "requiredargsconstructor"
+    },
+    {
+      "label": ".createEmployee()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "community": 3,
+      "norm_label": ".createemployee()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "override",
+      "community": 3,
+      "norm_label": "override"
+    },
+    {
+      "label": "Transactional",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "transactional",
+      "community": 3,
+      "norm_label": "transactional"
+    },
+    {
+      "label": ".getEmployeeById()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
+      "community": 3,
+      "norm_label": ".getemployeebyid()"
+    },
+    {
+      "label": ".getAllEmployees()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
+      "community": 3,
+      "norm_label": ".getallemployees()"
+    },
+    {
+      "label": "Pageable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_pageable",
+      "community": 3,
+      "norm_label": "pageable"
+    },
+    {
+      "label": "Page",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_page",
+      "community": 3,
+      "norm_label": "page"
+    },
+    {
+      "label": "PramApplicationTests.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_test_java_com_company_pram_pramapplicationtests",
+      "community": 6,
+      "norm_label": "pramapplicationtests.java"
+    },
+    {
+      "label": "PramApplicationTests",
+      "file_type": "code",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_test_java_com_company_pram_pramapplicationtests_pramapplicationtests",
+      "community": 6,
+      "norm_label": "pramapplicationtests"
+    },
+    {
+      "label": "SpringBootTest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "springboottest",
+      "community": 6,
+      "norm_label": "springboottest"
+    },
+    {
+      "label": ".contextLoads()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_test_java_com_company_pram_pramapplicationtests_pramapplicationtests_contextloads",
+      "community": 6,
+      "norm_label": ".contextloads()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "test",
+      "community": 6,
+      "norm_label": "test"
+    },
+    {
+      "type": "entity",
+      "label": "Employee",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\db\\schema.sql",
+      "properties": {
+        "table": "employee",
+        "columns": "employee_id, employee_code, full_name, email, role, department, created_at, updated_at",
+        "primary_key": "employee_id",
+        "unique_constraints": "employee_code, email"
+      },
+      "file_type": "concept",
+      "id": "entity:Employee",
+      "community": 90,
+      "norm_label": "employee"
+    },
+    {
+      "type": "entity",
+      "label": "Project",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\db\\schema.sql",
+      "properties": {
+        "table": "project",
+        "columns": "project_id, project_code, project_name, customer, start_date, end_date, status",
+        "primary_key": "project_id",
+        "unique_constraints": "project_code",
+        "check_constraints": "end_date >= start_date, status IN ('PLANNING','ACTIVE','COMPLETED')"
+      },
+      "file_type": "concept",
+      "id": "entity:Project",
+      "community": 94,
+      "norm_label": "project"
+    },
+    {
+      "type": "entity",
+      "label": "Allocation",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\db\\schema.sql",
+      "properties": {
+        "table": "allocation",
+        "columns": "allocation_id, employee_id, project_id, allocation_percent, role_in_project, start_date, end_date, deleted_at",
+        "primary_key": "allocation_id",
+        "foreign_keys": "employee_id -> employee, project_id -> project",
+        "check_constraints": "allocation_percent > 0 AND allocation_percent <= 100, end_date IS NULL OR end_date >= start_date"
+      },
+      "file_type": "concept",
+      "id": "entity:Allocation",
+      "community": 89,
+      "norm_label": "allocation"
+    },
+    {
+      "type": "config",
+      "label": "Project Resource Allocation Management System",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "artifact_id": "pram",
+        "group_id": "com.company",
+        "spring_boot_version": "4.1.0",
+        "java_version": "25",
+        "description": "REST API backend for managing employee-project resource allocation"
+      },
+      "file_type": "concept",
+      "id": "config:PRAMS",
+      "community": 70,
+      "norm_label": "project resource allocation management system"
+    },
+    {
+      "type": "config",
+      "label": "Spring Boot Application",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\pom.xml",
+      "properties": {
+        "parent": "spring-boot-starter-parent:4.1.0",
+        "java_version": "25",
+        "packaging": "jar"
+      },
+      "file_type": "concept",
+      "id": "config:SpringBootApp",
+      "community": 74,
+      "norm_label": "spring boot application"
+    },
+    {
+      "type": "database",
+      "label": "PostgreSQL Database",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docker-compose.yml",
+      "properties": {
+        "image": "postgres:15-alpine",
+        "db_name": "prams",
+        "port": "5432",
+        "init_script": "./db/schema.sql"
+      },
+      "file_type": "concept",
+      "id": "database:PostgreSQL",
+      "community": 75,
+      "norm_label": "postgresql database"
+    },
+    {
+      "type": "class",
+      "label": "EmployeeController",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Controller",
+        "endpoints": "POST /employees, GET /employees, GET /employees/{id}"
+      },
+      "file_type": "concept",
+      "id": "class:EmployeeController",
+      "community": 21,
+      "norm_label": "employeecontroller"
+    },
+    {
+      "type": "class",
+      "label": "EmployeeService",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Service",
+        "operations": "createEmployee, getEmployeeById, getAllEmployees"
+      },
+      "file_type": "concept",
+      "id": "class:EmployeeService",
+      "community": 24,
+      "norm_label": "employeeservice"
+    },
+    {
+      "type": "class",
+      "label": "EmployeeRepository",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Repository",
+        "extends": "JpaRepository<Employee, Long>",
+        "methods": "existsByEmployeeCode, existsByEmail"
+      },
+      "file_type": "concept",
+      "id": "class:EmployeeRepository",
+      "community": 23,
+      "norm_label": "employeerepository"
+    },
+    {
+      "type": "class",
+      "label": "ProjectController",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Controller",
+        "endpoints": "POST /projects, GET /projects, GET /projects/{id}, PUT /projects/{id}/status"
+      },
+      "file_type": "concept",
+      "id": "class:ProjectController",
+      "community": 28,
+      "norm_label": "projectcontroller"
+    },
+    {
+      "type": "class",
+      "label": "ProjectService",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Service",
+        "operations": "createProject, updateProjectStatus, getProjects"
+      },
+      "file_type": "concept",
+      "id": "class:ProjectService",
+      "community": 31,
+      "norm_label": "projectservice"
+    },
+    {
+      "type": "class",
+      "label": "ProjectRepository",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Repository",
+        "extends": "JpaRepository<Project, Long>"
+      },
+      "file_type": "concept",
+      "id": "class:ProjectRepository",
+      "community": 30,
+      "norm_label": "projectrepository"
+    },
+    {
+      "type": "class",
+      "label": "AllocationController",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Controller",
+        "endpoints": "POST /allocations, PUT /allocations/{id}, DELETE /allocations/{id}, GET /allocations"
+      },
+      "file_type": "concept",
+      "id": "class:AllocationController",
+      "community": 16,
+      "norm_label": "allocationcontroller"
+    },
+    {
+      "type": "class",
+      "label": "AllocationService",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Service",
+        "operations": "createAllocation, updateAllocation, deleteAllocation, getAllocationsByEmployee",
+        "key_business_rules": "Rule1 (1-100%), Rule2 (sum <= 100%), Rule3 (no COMPLETED project)"
+      },
+      "file_type": "concept",
+      "id": "class:AllocationService",
+      "community": 19,
+      "norm_label": "allocationservice"
+    },
+    {
+      "type": "class",
+      "label": "AllocationRepository",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\implementation-plan-project-resource-allocation.md",
+      "properties": {
+        "layer": "Repository",
+        "extends": "JpaRepository<Allocation, Long>",
+        "methods": "findByEmployeeIdAndDeletedAtIsNull, sumOverlappingAllocation"
+      },
+      "file_type": "concept",
+      "id": "class:AllocationRepository",
+      "community": 18,
+      "norm_label": "allocationrepository"
+    },
+    {
+      "type": "class",
+      "label": "ReportController",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "Controller",
+        "endpoints": "GET /reports/utilization, GET /reports/available, GET /reports/overloaded, GET /employees/{id}/workload"
+      },
+      "file_type": "concept",
+      "id": "class:ReportController",
+      "community": 32,
+      "norm_label": "reportcontroller"
+    },
+    {
+      "type": "class",
+      "label": "ReportService",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "layer": "Service"
+      },
+      "file_type": "concept",
+      "id": "class:ReportService",
+      "community": 33,
+      "norm_label": "reportservice"
+    },
+    {
+      "type": "class",
+      "label": "AIRecommendationService",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "layer": "Service",
+        "endpoints": "POST /ai/recommend-resource, POST /ai/risk-detection"
+      },
+      "file_type": "concept",
+      "id": "class:AIRecommendationService",
+      "community": 15,
+      "norm_label": "airecommendationservice"
+    },
+    {
+      "type": "class",
+      "label": "GlobalExceptionHandler",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "annotation": "@RestControllerAdvice",
+        "handles": "AllocationExceededException, EmployeeNotFoundException, ProjectNotFoundException, InvalidProjectStatusException, DuplicateResourceException, MethodArgumentNotValidException"
+      },
+      "file_type": "concept",
+      "id": "class:GlobalExceptionHandler",
+      "community": 26,
+      "norm_label": "globalexceptionhandler"
+    },
+    {
+      "type": "class",
+      "label": "EmployeeNotFoundException",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "http_status": "404",
+        "trigger": "employeeId not found"
+      },
+      "file_type": "concept",
+      "id": "class:EmployeeNotFoundException",
+      "community": 22,
+      "norm_label": "employeenotfoundexception"
+    },
+    {
+      "type": "class",
+      "label": "ProjectNotFoundException",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "http_status": "404",
+        "trigger": "projectId not found"
+      },
+      "file_type": "concept",
+      "id": "class:ProjectNotFoundException",
+      "community": 29,
+      "norm_label": "projectnotfoundexception"
+    },
+    {
+      "type": "class",
+      "label": "AllocationExceededException",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "http_status": "400",
+        "trigger": "total allocation > 100%"
+      },
+      "file_type": "concept",
+      "id": "class:AllocationExceededException",
+      "community": 17,
+      "norm_label": "allocationexceededexception"
+    },
+    {
+      "type": "class",
+      "label": "InvalidProjectStatusException",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "http_status": "400",
+        "trigger": "allocate into COMPLETED project or invalid status transition"
+      },
+      "file_type": "concept",
+      "id": "class:InvalidProjectStatusException",
+      "community": 27,
+      "norm_label": "invalidprojectstatusexception"
+    },
+    {
+      "type": "class",
+      "label": "DuplicateResourceException",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "http_status": "409",
+        "trigger": "duplicate employeeCode/email/projectCode"
+      },
+      "file_type": "concept",
+      "id": "class:DuplicateResourceException",
+      "community": 20,
+      "norm_label": "duplicateresourceexception"
+    },
+    {
+      "type": "class",
+      "label": "ErrorResponse",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "DTO",
+        "fields": "timestamp, status, error, message, path"
+      },
+      "file_type": "concept",
+      "id": "class:ErrorResponse",
+      "community": 25,
+      "norm_label": "errorresponse"
+    },
+    {
+      "type": "class",
+      "label": "EmployeeRequest",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "DTO",
+        "validation": "@NotBlank on code/name/email/role/department, @Email"
+      },
+      "file_type": "concept",
+      "id": "dto:EmployeeRequest",
+      "community": 85,
+      "norm_label": "employeerequest"
+    },
+    {
+      "type": "class",
+      "label": "EmployeeResponse",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "layer": "DTO"
+      },
+      "file_type": "concept",
+      "id": "dto:EmployeeResponse",
+      "community": 86,
+      "norm_label": "employeeresponse"
+    },
+    {
+      "type": "class",
+      "label": "ProjectRequest",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "layer": "DTO",
+        "validation": "@NotBlank, @AssertTrue for endDate >= startDate"
+      },
+      "file_type": "concept",
+      "id": "dto:ProjectRequest",
+      "community": 87,
+      "norm_label": "projectrequest"
+    },
+    {
+      "type": "class",
+      "label": "ProjectResponse",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "layer": "DTO"
+      },
+      "file_type": "concept",
+      "id": "dto:ProjectResponse",
+      "community": 88,
+      "norm_label": "projectresponse"
+    },
+    {
+      "type": "class",
+      "label": "AllocationRequest",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "layer": "DTO",
+        "validation": "@Min(1) @Max(100) on allocationPercent"
+      },
+      "file_type": "concept",
+      "id": "dto:AllocationRequest",
+      "community": 83,
+      "norm_label": "allocationrequest"
+    },
+    {
+      "type": "class",
+      "label": "AllocationResponse",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "layer": "DTO",
+        "includes": "employeeName, projectCode from linked entities"
+      },
+      "file_type": "concept",
+      "id": "dto:AllocationResponse",
+      "community": 84,
+      "norm_label": "allocationresponse"
+    },
+    {
+      "type": "concept",
+      "label": "Allocation Rule 1: Percent Range",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "rule": "0 < allocationPercent <= 100",
+        "enforcement": "Bean Validation @Min(1) @Max(100)",
+        "error": "400 Bad Request"
+      },
+      "file_type": "concept",
+      "id": "concept:AllocationRule1",
+      "community": 36,
+      "norm_label": "allocation rule 1: percent range"
+    },
+    {
+      "type": "concept",
+      "label": "Allocation Rule 2: Total Cap",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "rule": "Sum of overlapping allocations per employee <= 100%",
+        "enforcement": "JPQL overlap query in AllocationService",
+        "error": "400 Bad Request - AllocationExceededException",
+        "priority": "most important rule"
+      },
+      "file_type": "concept",
+      "id": "concept:AllocationRule2",
+      "community": 37,
+      "norm_label": "allocation rule 2: total cap"
+    },
+    {
+      "type": "concept",
+      "label": "Allocation Rule 3: No COMPLETED Projects",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "rule": "Cannot allocate to project with status COMPLETED",
+        "enforcement": "Service layer check",
+        "error": "400 Bad Request - InvalidProjectStatusException"
+      },
+      "file_type": "concept",
+      "id": "concept:AllocationRule3",
+      "community": 38,
+      "norm_label": "allocation rule 3: no completed projects"
+    },
+    {
+      "type": "concept",
+      "label": "Allocation Rule 4: Period Within Project",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "rule": "Allocation period must be within project duration",
+        "enforcement": "Recommended, not required",
+        "error": "400 Bad Request"
+      },
+      "file_type": "concept",
+      "id": "concept:AllocationRule4",
+      "community": 39,
+      "norm_label": "allocation rule 4: period within project"
+    },
+    {
+      "type": "concept",
+      "label": "Soft Delete Pattern",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\db\\schema.sql",
+      "properties": {
+        "column": "deleted_at TIMESTAMP NULL",
+        "applies_to": "allocation table",
+        "query_filter": "WHERE deleted_at IS NULL"
+      },
+      "file_type": "concept",
+      "id": "concept:SoftDelete",
+      "community": 65,
+      "norm_label": "soft delete pattern"
+    },
+    {
+      "type": "concept",
+      "label": "Pessimistic Lock for Concurrency",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "mechanism": "PESSIMISTIC_WRITE",
+        "scope": "SELECT ... FOR UPDATE on allocation rows per employee",
+        "purpose": "Prevent race condition on total allocation > 100%",
+        "transactional": "@Transactional required"
+      },
+      "file_type": "concept",
+      "id": "concept:PessimisticLock",
+      "community": 51,
+      "norm_label": "pessimistic lock for concurrency"
+    },
+    {
+      "type": "concept",
+      "label": "Utilization Report",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "endpoint": "GET /reports/utilization",
+        "description": "GROUP BY employee, COALESCE SUM",
+        "sql": "SELECT e.employee_id, e.full_name, COALESCE(SUM(a.allocation_percent), 0) AS total_allocation FROM employee e LEFT JOIN allocation a ... GROUP BY ..."
+      },
+      "file_type": "concept",
+      "id": "concept:UtilizationReport",
+      "community": 67,
+      "norm_label": "utilization report"
+    },
+    {
+      "type": "concept",
+      "label": "Available Resource Report",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "endpoint": "GET /reports/available?minAvailable=",
+        "description": "HAVING 100 - SUM > minAvailable"
+      },
+      "file_type": "concept",
+      "id": "concept:AvailableResourceReport",
+      "community": 40,
+      "norm_label": "available resource report"
+    },
+    {
+      "type": "concept",
+      "label": "Overloaded Employee Report",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "endpoint": "GET /reports/overloaded",
+        "description": "HAVING SUM > 90"
+      },
+      "file_type": "concept",
+      "id": "concept:OverloadedEmployeeReport",
+      "community": 50,
+      "norm_label": "overloaded employee report"
+    },
+    {
+      "type": "concept",
+      "label": "Employee Workload Detail",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "endpoint": "GET /employees/{id}/workload",
+        "description": "Detail with allocation list"
+      },
+      "file_type": "concept",
+      "id": "concept:EmployeeWorkloadDetail",
+      "community": 48,
+      "norm_label": "employee workload detail"
+    },
+    {
+      "type": "concept",
+      "label": "Project Status Transition Rule",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "flow": "PLANNING -> ACTIVE -> COMPLETED",
+        "constraint": "No backward transitions allowed"
+      },
+      "file_type": "concept",
+      "id": "concept:StatusTransition",
+      "community": 66,
+      "norm_label": "project status transition rule"
+    },
+    {
+      "type": "concept",
+      "label": "AI Resource Recommendation",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "endpoint": "POST /ai/recommend-resource"
+      },
+      "file_type": "concept",
+      "id": "concept:AIResourceRecommendation",
+      "community": 34,
+      "norm_label": "ai resource recommendation"
+    },
+    {
+      "type": "concept",
+      "label": "AI Risk Detection",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docs\\srs-project-resource-allocation.md",
+      "properties": {
+        "endpoint": "POST /ai/risk-detection",
+        "integration": "Anthropic Claude API"
+      },
+      "file_type": "concept",
+      "id": "concept:AIRiskDetection",
+      "community": 35,
+      "norm_label": "ai risk detection"
+    },
+    {
+      "type": "concept",
+      "label": "Conventional Commits",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "types": "feat:, fix:, chore:, refactor:, test:"
+      },
+      "file_type": "concept",
+      "id": "concept:ConventionalCommits",
+      "community": 41,
+      "norm_label": "conventional commits"
+    },
+    {
+      "type": "config",
+      "label": "Spring Boot Actuator",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\pom.xml",
+      "properties": {
+        "scope": "compile (main), test (actuator-test)"
+      },
+      "file_type": "concept",
+      "id": "dependency:spring-boot-starter-actuator",
+      "community": 79,
+      "norm_label": "spring boot actuator"
+    },
+    {
+      "type": "config",
+      "label": "Spring Data JPA",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\pom.xml",
+      "properties": {},
+      "file_type": "concept",
+      "id": "dependency:spring-boot-starter-data-jpa",
+      "community": 80,
+      "norm_label": "spring data jpa"
+    },
+    {
+      "type": "config",
+      "label": "Spring Boot Validation",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\pom.xml",
+      "properties": {},
+      "file_type": "concept",
+      "id": "dependency:spring-boot-starter-validation",
+      "community": 81,
+      "norm_label": "spring boot validation"
+    },
+    {
+      "type": "config",
+      "label": "Spring Web MVC",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\pom.xml",
+      "properties": {},
+      "file_type": "concept",
+      "id": "dependency:spring-boot-starter-webmvc",
+      "community": 82,
+      "norm_label": "spring web mvc"
+    },
+    {
+      "type": "config",
+      "label": "PostgreSQL JDBC Driver",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\pom.xml",
+      "properties": {
+        "scope": "runtime"
+      },
+      "file_type": "concept",
+      "id": "dependency:postgresql",
+      "community": 78,
+      "norm_label": "postgresql jdbc driver"
+    },
+    {
+      "type": "config",
+      "label": "Lombok",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\pom.xml",
+      "properties": {
+        "scope": "optional",
+        "annotation_processor": true
+      },
+      "file_type": "concept",
+      "id": "dependency:lombok",
+      "community": 77,
+      "norm_label": "lombok"
+    },
+    {
+      "type": "config",
+      "label": "Spring Boot Application Config",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\resources\\application.yml",
+      "properties": {
+        "server_port": "8080",
+        "datasource_url": "jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:prams}",
+        "jpa_ddl_auto": "update",
+        "jpa_show_sql": "true",
+        "jpa_dialect": "org.hibernate.dialect.PostgreSQLDialect"
+      },
+      "file_type": "concept",
+      "id": "config:ApplicationYml",
+      "community": 68,
+      "norm_label": "spring boot application config"
+    },
+    {
+      "type": "config",
+      "label": "Docker Compose Setup",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docker-compose.yml",
+      "properties": {
+        "version": "3.8",
+        "services": "postgres-db, prams-app"
+      },
+      "file_type": "concept",
+      "id": "config:DockerCompose",
+      "community": 69,
+      "norm_label": "docker compose setup"
+    },
+    {
+      "type": "config",
+      "label": "PostgreSQL Docker Service",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docker-compose.yml",
+      "properties": {
+        "image": "postgres:15-alpine",
+        "container_name": "prams-postgres",
+        "port": "5432",
+        "db": "prams",
+        "healthcheck": "pg_isready"
+      },
+      "file_type": "concept",
+      "id": "config:PostgresDBService",
+      "community": 72,
+      "norm_label": "postgresql docker service"
+    },
+    {
+      "type": "config",
+      "label": "PRAMS Application Docker Service",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\docker-compose.yml",
+      "properties": {
+        "container_name": "prams-backend",
+        "port": "8080",
+        "build": ".",
+        "depends_on": "postgres-db (healthy)"
+      },
+      "file_type": "concept",
+      "id": "config:PRAMSAppService",
+      "community": 71,
+      "norm_label": "prams application docker service"
+    },
+    {
+      "type": "file",
+      "label": "Maven Wrapper Script",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\mvnw",
+      "properties": {
+        "type": "shell script",
+        "purpose": "download and run Maven without local install",
+        "version": "3.3.4"
+      },
+      "file_type": "concept",
+      "id": "file:mvnw",
+      "community": 96,
+      "norm_label": "maven wrapper script"
+    },
+    {
+      "type": "config",
+      "label": "Claude Code Local Settings",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\.claude\\settings.local.json",
+      "properties": {
+        "permissions": "Bash commands for mvnw, curl, git, python, mkdir, realpath, pwd"
+      },
+      "file_type": "concept",
+      "id": "config:SettingsLocal",
+      "community": 73,
+      "norm_label": "claude code local settings"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 0 - Setup",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "completed",
+        "description": "Project init, DB, Docker, ping endpoint"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase0",
+      "community": 52,
+      "norm_label": "phase 0 - setup"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 1 - Employee Module",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "completed",
+        "description": "CRUD, duplicate validation, pagination"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase1",
+      "community": 53,
+      "norm_label": "phase 1 - employee module"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 2 - Project Module",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "CRUD, status transitions"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase2",
+      "community": 57,
+      "norm_label": "phase 2 - project module"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 3 - Allocation Happy Path",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "Basic allocation CRUD without business rules"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase3",
+      "community": 58,
+      "norm_label": "phase 3 - allocation happy path"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 4 - Allocation Business Rules",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "Business Rules 1/2/3"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase4",
+      "community": 59,
+      "norm_label": "phase 4 - allocation business rules"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 5 - Concurrency",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "Pessimistic lock handling"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase5",
+      "community": 60,
+      "norm_label": "phase 5 - concurrency"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 6 - Reporting APIs",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "4 report endpoints"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase6",
+      "community": 61,
+      "norm_label": "phase 6 - reporting apis"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 7 - Exception & Validation Polish",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "Consistent error response format"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase7",
+      "community": 62,
+      "norm_label": "phase 7 - exception & validation polish"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 8 - Unit Tests",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "Service layer coverage, especially AllocationService"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase8",
+      "community": 63,
+      "norm_label": "phase 8 - unit tests"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 9 - Swagger/Postman/README",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "API documentation"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase9",
+      "community": 64,
+      "norm_label": "phase 9 - swagger/postman/readme"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 10 - Docker Compose",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "Full stack containerization"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase10",
+      "community": 54,
+      "norm_label": "phase 10 - docker compose"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 11 - AI Bonus",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "AI resource recommendation and risk detection"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase11",
+      "community": 55,
+      "norm_label": "phase 11 - ai bonus"
+    },
+    {
+      "type": "concept",
+      "label": "Phase 12 - Final Review",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\CLAUDE.md",
+      "properties": {
+        "status": "not started",
+        "description": "Buffer and final review"
+      },
+      "file_type": "concept",
+      "id": "concept:Phase12",
+      "community": 56,
+      "norm_label": "phase 12 - final review"
+    },
+    {
+      "type": "module",
+      "label": "Pram Application",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\PramApplication.java",
+      "properties": {
+        "package": "com.company.pram",
+        "framework": "Spring Boot"
+      },
+      "file_type": "concept",
+      "id": "module:pram",
+      "community": 97,
+      "norm_label": "pram application"
+    },
+    {
+      "type": "api",
+      "label": "PingController",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\controller\\PingController.java",
+      "properties": {
+        "endpoints": [
+          "GET /ping"
+        ]
+      },
+      "file_type": "concept",
+      "id": "api:PingController",
+      "community": 10,
+      "norm_label": "pingcontroller"
+    },
+    {
+      "type": "api",
+      "label": "EmployeeController",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\controller\\EmployeeController.java",
+      "properties": {
+        "base_path": "/employees",
+        "endpoints": [
+          "POST /employees",
+          "GET /employees/{id}",
+          "GET /employees?page=&size="
+        ]
+      },
+      "file_type": "concept",
+      "id": "api:EmployeeController",
+      "community": 9,
+      "norm_label": "employeecontroller"
+    },
+    {
+      "type": "entity",
+      "label": "EmployeeRequest DTO",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\dto\\request\\EmployeeRequest.java",
+      "properties": {
+        "fields": [
+          "employeeCode",
+          "fullName",
+          "email",
+          "role",
+          "department"
+        ]
+      },
+      "file_type": "concept",
+      "id": "entity:EmployeeRequest",
+      "community": 91,
+      "norm_label": "employeerequest dto"
+    },
+    {
+      "type": "entity",
+      "label": "EmployeeResponse DTO",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\dto\\response\\EmployeeResponse.java",
+      "properties": {
+        "fields": [
+          "employeeId",
+          "employeeCode",
+          "fullName",
+          "email",
+          "role",
+          "department",
+          "createdAt",
+          "updatedAt"
+        ]
+      },
+      "file_type": "concept",
+      "id": "entity:EmployeeResponse",
+      "community": 92,
+      "norm_label": "employeeresponse dto"
+    },
+    {
+      "type": "entity",
+      "label": "ErrorResponse DTO",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\dto\\response\\ErrorResponse.java",
+      "properties": {
+        "fields": [
+          "timestamp",
+          "status",
+          "error",
+          "message",
+          "path"
+        ]
+      },
+      "file_type": "concept",
+      "id": "entity:ErrorResponse",
+      "community": 93,
+      "norm_label": "errorresponse dto"
+    },
+    {
+      "type": "concept",
+      "label": "EmployeeService Interface",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\service\\EmployeeService.java",
+      "properties": {
+        "methods": [
+          "createEmployee",
+          "getEmployeeById",
+          "getAllEmployees"
+        ]
+      },
+      "file_type": "concept",
+      "id": "concept:EmployeeService",
+      "community": 46,
+      "norm_label": "employeeservice interface"
+    },
+    {
+      "type": "concept",
+      "label": "EmployeeServiceImpl",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\service\\impl\\EmployeeServiceImpl.java",
+      "properties": {
+        "annotations": [
+          "@Service",
+          "@Transactional"
+        ]
+      },
+      "file_type": "concept",
+      "id": "concept:EmployeeServiceImpl",
+      "community": 47,
+      "norm_label": "employeeserviceimpl"
+    },
+    {
+      "type": "concept",
+      "label": "EmployeeRepository",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\repository\\EmployeeRepository.java",
+      "properties": {
+        "extends": "JpaRepository<Employee, Long>",
+        "methods": [
+          "existsByEmployeeCode",
+          "existsByEmail"
+        ]
+      },
+      "file_type": "concept",
+      "id": "concept:EmployeeRepository",
+      "community": 45,
+      "norm_label": "employeerepository"
+    },
+    {
+      "type": "concept",
+      "label": "EmployeeMapper",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\mapper\\EmployeeMapper.java",
+      "properties": {
+        "methods": [
+          "toEntity(EmployeeRequest)",
+          "toResponse(Employee)"
+        ]
+      },
+      "file_type": "concept",
+      "id": "concept:EmployeeMapper",
+      "community": 43,
+      "norm_label": "employeemapper"
+    },
+    {
+      "type": "concept",
+      "label": "GlobalExceptionHandler",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\exception\\GlobalExceptionHandler.java",
+      "properties": {
+        "handledExceptions": [
+          "EmployeeNotFoundException",
+          "DuplicateResourceException",
+          "MethodArgumentNotValidException",
+          "Exception"
+        ]
+      },
+      "file_type": "concept",
+      "id": "concept:GlobalExceptionHandler",
+      "community": 49,
+      "norm_label": "globalexceptionhandler"
+    },
+    {
+      "type": "concept",
+      "label": "DuplicateResourceException",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\exception\\DuplicateResourceException.java",
+      "properties": {
+        "extends": "RuntimeException"
+      },
+      "file_type": "concept",
+      "id": "concept:DuplicateResourceException",
+      "community": 42,
+      "norm_label": "duplicateresourceexception"
+    },
+    {
+      "type": "concept",
+      "label": "EmployeeNotFoundException",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\exception\\EmployeeNotFoundException.java",
+      "properties": {
+        "extends": "RuntimeException"
+      },
+      "file_type": "concept",
+      "id": "concept:EmployeeNotFoundException",
+      "community": 44,
+      "norm_label": "employeenotfoundexception"
+    },
+    {
+      "type": "file",
+      "label": "PramApplicationTests",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\test\\java\\com\\company\\pram\\PramApplicationTests.java",
+      "properties": {
+        "type": "test"
+      },
+      "file_type": "concept",
+      "id": "file:PramApplicationTests",
+      "community": 95,
+      "norm_label": "pramapplicationtests"
+    },
+    {
+      "type": "database",
+      "label": "employee table",
+      "confidence": "INFERRED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\entity\\Employee.java",
+      "properties": {
+        "columns": [
+          "employee_id",
+          "employee_code",
+          "full_name",
+          "email",
+          "role",
+          "department",
+          "created_at",
+          "updated_at"
+        ]
+      },
+      "file_type": "concept",
+      "id": "database:employee_table",
+      "community": 76,
+      "norm_label": "employee table"
+    },
+    {
+      "type": "api",
+      "label": "GET /ping",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\controller\\PingController.java",
+      "properties": {
+        "method": "GET",
+        "path": "/ping",
+        "response": "Map<String, String> {status: UP, message: pong}"
+      },
+      "file_type": "concept",
+      "id": "api:ping_endpoint",
+      "community": 14,
+      "norm_label": "get /ping"
+    },
+    {
+      "type": "api",
+      "label": "POST /employees",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\controller\\EmployeeController.java",
+      "properties": {
+        "method": "POST",
+        "path": "/employees",
+        "requestBody": "EmployeeRequest",
+        "response": "EmployeeResponse (201 CREATED)"
+      },
+      "file_type": "concept",
+      "id": "api:create_employee_endpoint",
+      "community": 11,
+      "norm_label": "post /employees"
+    },
+    {
+      "type": "api",
+      "label": "GET /employees/{id}",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\controller\\EmployeeController.java",
+      "properties": {
+        "method": "GET",
+        "path": "/employees/{id}",
+        "pathVariable": "Long id",
+        "response": "EmployeeResponse"
+      },
+      "file_type": "concept",
+      "id": "api:get_employee_by_id_endpoint",
+      "community": 13,
+      "norm_label": "get /employees/{id}"
+    },
+    {
+      "type": "api",
+      "label": "GET /employees",
+      "confidence": "EXTRACTED",
+      "source_location": "E:\\Fresher\\ojt\\RA\\src\\main\\java\\com\\company\\pram\\controller\\EmployeeController.java",
+      "properties": {
+        "method": "GET",
+        "path": "/employees",
+        "params": "page (default=0), size (default=20)",
+        "response": "Page<EmployeeResponse>"
+      },
+      "file_type": "concept",
+      "id": "api:get_all_employees_endpoint",
+      "community": 12,
+      "norm_label": "get /employees"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_clean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L148",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_exec_maven",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_hash_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_native_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_set_java_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_trim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "mvnw",
+      "target": "mvnw_verbose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L294",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "mvnw__entry",
+      "target": "mvnw_clean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "mvnw__entry",
+      "target": "mvnw_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L155",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "mvnw__entry",
+      "target": "mvnw_exec_maven",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L200",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "mvnw__entry",
+      "target": "mvnw_set_java_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L154",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "mvnw__entry",
+      "target": "mvnw_verbose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mvnw",
+      "source_location": "L150",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "mvnw_exec_maven",
+      "target": "mvnw_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/PramApplication.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_pramapplication",
+      "target": "springbootapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/PramApplication.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_pramapplication",
+      "target": "src_main_java_com_company_pram_pramapplication_pramapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/PramApplication.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_pramapplication_pramapplication",
+      "target": "springbootapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/PramApplication.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_pramapplication_pramapplication",
+      "target": "src_main_java_com_company_pram_pramapplication_pramapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_requiredargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "target": "requestmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_createemployee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getallemployees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getemployeebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_requiredargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_restcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_createemployee",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_createemployee",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_createemployee",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_createemployee",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_createemployee",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice_createemployee"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getallemployees",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getemployeebyid",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getemployeebyid",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getemployeebyid",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getemployeebyid",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getemployeebyid"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getallemployees",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getallemployees",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getallemployees",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_employeecontroller_employeecontroller_getallemployees",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getallemployees"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_pingcontroller",
+      "target": "src_main_java_com_company_pram_controller_pingcontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_pingcontroller",
+      "target": "src_main_java_com_company_pram_controller_pingcontroller_java_restcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_pingcontroller",
+      "target": "src_main_java_com_company_pram_controller_pingcontroller_pingcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_pingcontroller_pingcontroller",
+      "target": "src_main_java_com_company_pram_controller_pingcontroller_java_restcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_pingcontroller_pingcontroller",
+      "target": "src_main_java_com_company_pram_controller_pingcontroller_pingcontroller_ping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/PingController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_controller_pingcontroller_pingcontroller_ping",
+      "target": "src_main_java_com_company_pram_controller_pingcontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/EmployeeRequest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toentity",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice_createemployee",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "src_main_java_com_company_pram_dto_request_employeerequest_employeerequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toresponse",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice_createemployee",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getallemployees",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getemployeebyid",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
+      "target": "src_main_java_com_company_pram_dto_response_employeeresponse_employeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ErrorResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
+      "target": "src_main_java_com_company_pram_dto_response_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_entity_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "entity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_employee_oncreate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_employee_onupdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_allargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_builder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "src_main_java_com_company_pram_entity_employee_java_noargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee",
+      "target": "table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper",
+      "target": "src_main_java_com_company_pram_entity_employee_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toentity",
+      "target": "src_main_java_com_company_pram_entity_employee_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toresponse",
+      "target": "src_main_java_com_company_pram_entity_employee_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository",
+      "target": "src_main_java_com_company_pram_entity_employee_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "target": "src_main_java_com_company_pram_entity_employee_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee_oncreate",
+      "target": "prepersist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Employee.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_entity_employee_employee_onupdate",
+      "target": "preupdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/DuplicateResourceException.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_duplicateresourceexception",
+      "target": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/DuplicateResourceException.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception",
+      "target": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception_duplicateresourceexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
+      "target": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "src_main_java_com_company_pram_exception_duplicateresourceexception_duplicateresourceexception"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/EmployeeNotFoundException.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_employeenotfoundexception",
+      "target": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/EmployeeNotFoundException.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception",
+      "target": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception_employeenotfoundexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
+      "target": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
+      "target": "src_main_java_com_company_pram_exception_employeenotfoundexception_employeenotfoundexception"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "target": "exceptionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "target": "methodargumentnotvalidexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "target": "restcontrolleradvice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler",
+      "target": "webrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler",
+      "target": "restcontrolleradvice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handlevalidationexceptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
+      "target": "exceptionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
+      "target": "webrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
+      "target": "webrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
+      "target": "webrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handlevalidationexceptions",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
+      "target": "exceptionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
+      "target": "exceptionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handlevalidationexceptions",
+      "target": "exceptionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_exception_globalexceptionhandler_globalexceptionhandler_handlevalidationexceptions",
+      "target": "methodargumentnotvalidexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper",
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_mapper_employeemapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper",
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper",
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toentity"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_employeemapper_toresponse"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository",
+      "target": "jparepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository",
+      "target": "repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository",
+      "target": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "target": "jparepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "target": "repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "target": "src_main_java_com_company_pram_repository_employeerepository_employeerepository_existsbyemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "target": "src_main_java_com_company_pram_repository_employeerepository_employeerepository_existsbyemployeecode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_repository_employeerepository_employeerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "src_main_java_com_company_pram_repository_employeerepository_employeerepository_existsbyemployeecode"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "src_main_java_com_company_pram_repository_employeerepository_employeerepository_existsbyemail"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice",
+      "target": "src_main_java_com_company_pram_service_employeeservice_java_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice",
+      "target": "src_main_java_com_company_pram_service_employeeservice_java_pageable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice_createemployee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getallemployees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getemployeebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_employeeservice_employeeservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getallemployees",
+      "target": "src_main_java_com_company_pram_service_employeeservice_java_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/EmployeeService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_employeeservice_employeeservice_getallemployees",
+      "target": "src_main_java_com_company_pram_service_employeeservice_java_pageable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_pageable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_requiredargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl",
+      "target": "transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "target": "service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_requiredargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_createemployee",
+      "target": "transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
+      "target": "override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
+      "target": "override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
+      "target": "transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
+      "target": "transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
+      "target": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_pageable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_java_com_company_pram_pramapplicationtests",
+      "target": "springboottest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_java_com_company_pram_pramapplicationtests",
+      "target": "src_test_java_com_company_pram_pramapplicationtests_pramapplicationtests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_java_com_company_pram_pramapplicationtests",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_test_java_com_company_pram_pramapplicationtests_pramapplicationtests",
+      "target": "springboottest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_test_java_com_company_pram_pramapplicationtests_pramapplicationtests",
+      "target": "src_test_java_com_company_pram_pramapplicationtests_pramapplicationtests_contextloads",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "source": "src_test_java_com_company_pram_pramapplicationtests_pramapplicationtests_contextloads",
+      "target": "test",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "2dc2ebb3b833caa52c58a5d8872f5d3cb6f776a6"
+}
