@@ -38,7 +38,7 @@ services:
 
   prams-frontend:
     build:
-      context: ../frontend
+      context: ../pram-fe
       dockerfile: Dockerfile
     container_name: prams-frontend
     ports:

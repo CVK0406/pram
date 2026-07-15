@@ -72,7 +72,7 @@ erDiagram
 ```bash
 # Clone the repository
 git clone <repo-url>
-cd prams
+cd pram
 
 # Build image and start all services (app + PostgreSQL)
 # Pass your OpenRouter API Key for the AI risk detection features

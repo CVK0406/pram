@@ -1,13 +1,13 @@
 {
   ".claude/settings.local.json": {
-    "mtime": 1784104273.9926567,
-    "ast_hash": "a3689d68d68b61ff6f673f6f6d8a4063",
+    "mtime": 1784104559.4986122,
+    "ast_hash": "440a685adb084d71bf763b103d6b8b01",
     "semantic_hash": ""
   },
   "db/schema.sql": {
-    "mtime": 1784087192.8021064,
-    "ast_hash": "f2f8d8d6bfeb5d9c3db707dd4ba3664c",
-    "semantic_hash": "f2f8d8d6bfeb5d9c3db707dd4ba3664c"
+    "mtime": 1784105270.3311872,
+    "ast_hash": "359024ac4f2cec425607d89f6bdff460",
+    "semantic_hash": ""
   },
   "mvnw": {
     "mtime": 1784061972.0,
@@ -120,8 +120,8 @@
     "semantic_hash": "d35793e6063350f5b451873c033f43b2"
   },
   "src/main/resources/application.yml": {
-    "mtime": 1784103410.9626687,
-    "ast_hash": "6276a668182327dd4add0534f8940b47",
+    "mtime": 1784104639.669618,
+    "ast_hash": "415cf3f9a2cf7f886c0eb70a3f5d5f64",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
@@ -260,8 +260,8 @@
     "semantic_hash": ""
   },
   "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java": {
-    "mtime": 1784098837.0028245,
-    "ast_hash": "b45200adac8a84765581231a4cb03458",
+    "mtime": 1784104883.1951165,
+    "ast_hash": "55828f1f107cbcf29af29469f4dcef8a",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/controller/ReportController.java": {
@@ -315,13 +315,13 @@
     "semantic_hash": ""
   },
   "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java": {
-    "mtime": 1784101270.36405,
-    "ast_hash": "84b9981602a431270090d23144dfe201",
+    "mtime": 1784104887.6178172,
+    "ast_hash": "4592278515927c8d7ab56b151753e4da",
     "semantic_hash": ""
   },
   "docs/postman_collection.json": {
-    "mtime": 1784101891.011701,
-    "ast_hash": "c9895c51e3a0d81d386074abbb02141e",
+    "mtime": 1784107393.2006218,
+    "ast_hash": "220fe23094636d2477c98c2bac7b4640",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/config/OpenApiConfig.java": {
@@ -330,8 +330,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784103466.034328,
-    "ast_hash": "f0226650dbac8bd7e7925b43f51cf68a",
+    "mtime": 1784114266.895045,
+    "ast_hash": "cf6cf952cf59ee1fc0373e70acc4d19f",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/config/JacksonConfig.java": {
@@ -365,8 +365,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/service/impl/AiServiceImpl.java": {
-    "mtime": 1784103546.5520399,
-    "ast_hash": "1ce9c23833c90fe6bf25989e2c64e2f4",
+    "mtime": 1784105443.5565975,
+    "ast_hash": "2c5f4182b9565cf6282cfcf0035c52c8",
+    "semantic_hash": ""
+  },
+  "docs/AI_Review_Report.md": {
+    "mtime": 1784114272.7194688,
+    "ast_hash": "99029bb7f043467a9048ae302123c823",
     "semantic_hash": ""
   }
 }

@@ -100,8 +100,8 @@
     "semantic_hash": ""
   },
   "docker-compose.yml": {
-    "mtime": 1784102973.957041,
-    "ast_hash": "70bcabd411352ccee444536388d863fe",
+    "mtime": 1784115303.7252662,
+    "ast_hash": "4da14410a9ac26e8e2a412f24f8b1bd0",
     "semantic_hash": ""
   },
   "docs/Project_Resource_Allocation_Assignment.md": {
@@ -330,8 +330,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784114266.895045,
-    "ast_hash": "cf6cf952cf59ee1fc0373e70acc4d19f",
+    "mtime": 1784115317.7197032,
+    "ast_hash": "a881088696e056b1a87be20548df4007",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/config/JacksonConfig.java": {
@@ -370,8 +370,13 @@
     "semantic_hash": ""
   },
   "docs/AI_Review_Report.md": {
-    "mtime": 1784114272.7194688,
-    "ast_hash": "99029bb7f043467a9048ae302123c823",
+    "mtime": 1784115311.5582,
+    "ast_hash": "1dbd93a1159e732b934b5994c73527c4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/config/CorsConfig.java": {
+    "mtime": 1784114946.2347453,
+    "ast_hash": "4bdeffbd87337dcc219c4b257d849a77",
     "semantic_hash": ""
   }
 }
