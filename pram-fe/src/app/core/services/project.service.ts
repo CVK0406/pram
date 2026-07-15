@@ -2,7 +2,7 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from '../../../environments/environment';
-import { Project, ProjectRequest, ProjectStatusRequest, ProjectStatus } from '../models/project.model';
+import { Project, ProjectRequest, ProjectStatus } from '../models/project.model';
 
 @Injectable({ providedIn: 'root' })
 export class ProjectService {
@@ -22,6 +22,6 @@ export class ProjectService {
   }
 
   updateStatus(id: number, status: ProjectStatus): Observable<Project> {
-    return this.http.put<Project>(`${this.baseUrl}/${id}/status`, { status } as ProjectStatusRequest);
+    return this.http.put<Project>(`${this.baseUrl}/${id}/status`, { status });
   }
 }
