@@ -94,7 +94,7 @@ com.company.pram
 - [x] Phase 1 — Employee module (CRUD, duplicate validation, pagination)
 - [x] Phase 2 — Project module (CRUD, status transitions)
 - [x] Phase 3 — Allocation happy path
-- [ ] Phase 4 — Allocation business rules (2/3)
+- [x] Phase 4 — Allocation business rules (2/3)
 - [ ] Phase 5 — Concurrency handling (pessimistic lock)
 - [ ] Phase 6 — Reporting APIs
 - [ ] Phase 7 — Exception & validation polish

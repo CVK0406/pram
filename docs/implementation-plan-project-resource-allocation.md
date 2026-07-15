@@ -171,11 +171,11 @@ CRUD hoạt động, mapping response đúng field liên kết.
 ### Task chi tiết
 
 **4.1 Rule 3 — Không allocate vào project COMPLETED (30p-1h)**
-- [ ] Thêm check trong `createAllocation()`: nếu `project.status == COMPLETED` → ném `InvalidProjectStatusException`
-- [ ] Test: allocate vào project COMPLETED → 400 đúng message
+- [x] Thêm check trong `createAllocation()`: nếu `project.status == COMPLETED` → ném `InvalidProjectStatusException`
+- [x] Test: allocate vào project COMPLETED → 400 đúng message
 
 **4.2 Rule 2 — Tổng allocation ≤ 100% (2-3h, phần khó nhất)**
-- [ ] Viết query `sumOverlappingAllocation(employeeId, startDate, endDate)` trong `AllocationRepository` dùng `@Query` (JPQL), logic overlap:
+- [x] Viết query `sumOverlappingAllocations(employeeId, startDate, endDate, excludeAllocationId)` trong `AllocationRepository` dùng `@Query` (JPQL), logic overlap:
 ```sql
 WHERE a.employee_id = :employeeId
   AND a.deleted_at IS NULL
@@ -186,10 +186,10 @@ WHERE a.employee_id = :employeeId
 - [ ] Trong `updateAllocation()`: **loại trừ chính bản ghi đang sửa** ra khỏi tổng trước khi so sánh (lỗi thường gặp: quên loại trừ, dẫn tới không bao giờ update được)
 
 **4.3 Test tay đầy đủ theo bảng ví dụ trong SRS (1h)**
-- [ ] 60% + 40% = 100% → thành công
-- [ ] 60% + 50% = 110% → 400 "Employee allocation exceeds 100%"
-- [ ] Update allocation hiện tại từ 60% → 70% (khi tổng đang là 100%, tự trừ 60% cũ ra trước) → phải thành công vì 40%(còn lại) + 70% = 110% → thực ra phải reject; kiểm tra kỹ case này bằng tay
-- [ ] 2 allocation không overlap thời gian (VD dự án A kết thúc trước khi dự án B bắt đầu) → không cộng dồn, đều pass dù mỗi cái 100%
+- [x] 60% + 40% = 100% → thành công
+- [x] 60% + 50% = 110% → 400 "Employee allocation exceeds 100%"
+- [x] Update allocation hiện tại từ 60% → 70% (khi tổng đang là 100%, tự trừ 60% cũ ra trước) → phải thành công vì 40%(còn lại) + 70% = 110% → thực ra phải reject; kiểm tra kỹ case này bằng tay
+- [x] 2 allocation không overlap thời gian (VD dự án A kết thúc trước khi dự án B bắt đầu) → không cộng dồn, đều pass dù mỗi cái 100%
 
 ### Deliverable
 Allocation module an toàn về nghiệp vụ, đúng theo SRS mục 3.3.

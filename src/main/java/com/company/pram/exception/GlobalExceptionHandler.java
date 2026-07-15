@@ -41,6 +41,19 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
 
+    @ExceptionHandler(AllocationExceededException.class)
+    public ResponseEntity<ErrorResponse> handleAllocationExceededException(AllocationExceededException ex,
+            WebRequest request) {
+        ErrorResponse error = ErrorResponse.builder()
+                .timestamp(LocalDateTime.now())
+                .status(HttpStatus.BAD_REQUEST.value())
+                .error(HttpStatus.BAD_REQUEST.getReasonPhrase())
+                .message(ex.getMessage())
+                .path(request.getDescription(false).replace("uri=", ""))
+                .build();
+        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+    }
+
     @ExceptionHandler(AllocationNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleAllocationNotFoundException(AllocationNotFoundException ex,
             WebRequest request) {

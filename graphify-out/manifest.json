@@ -65,8 +65,8 @@
     "semantic_hash": "2237f61e9b5954cf38f1814cb708275d"
   },
   "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java": {
-    "mtime": 1784096907.7602859,
-    "ast_hash": "af283f216cbc5430d11c3b37b72d0401",
+    "mtime": 1784097246.9594922,
+    "ast_hash": "757cc5ce8d834f78292373b2b1ddb1dc",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/mapper/EmployeeMapper.java": {
@@ -95,8 +95,8 @@
     "semantic_hash": "365841efd47cfc5cb0dba72caadc0ef1"
   },
   "CLAUDE.md": {
-    "mtime": 1784096148.3348002,
-    "ast_hash": "6ed835e15c7a14ddcd3a4e3fe0e2fc75",
+    "mtime": 1784097119.1842012,
+    "ast_hash": "005d0866b7b4a563afc079aa96d0484d",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
@@ -110,8 +110,8 @@
     "semantic_hash": "50e8b891c7f82837f5b6e09cb5368906"
   },
   "docs/implementation-plan-project-resource-allocation.md": {
-    "mtime": 1784097050.5024047,
-    "ast_hash": "c6e664faae7aafef96a731abaf9031a0",
+    "mtime": 1784097730.5057495,
+    "ast_hash": "34c3a71034c83f69b3fc67789b4eee7e",
     "semantic_hash": ""
   },
   "docs/srs-project-resource-allocation.md": {
@@ -220,8 +220,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/repository/AllocationRepository.java": {
-    "mtime": 1784096359.8441627,
-    "ast_hash": "aa42915255f3a4f70ee6255155f61df4",
+    "mtime": 1784097317.5928445,
+    "ast_hash": "e91589df74305b824b7330fdbf72b149",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/service/AllocationService.java": {
@@ -230,8 +230,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java": {
-    "mtime": 1784096387.9631548,
-    "ast_hash": "800cd07baff2e18a7ca2e385eb378296",
+    "mtime": 1784097330.8955925,
+    "ast_hash": "2e809da795174bef0709eac7bde7e0c6",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/exception/AllocationExceededException.java": {
+    "mtime": 1784097238.7886994,
+    "ast_hash": "6315e7bc0a4081af960ad40aaafed438",
     "semantic_hash": ""
   }
 }

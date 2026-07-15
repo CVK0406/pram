@@ -550,7 +550,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_allocationrequest",
-      "community": 133,
+      "community": 103,
       "norm_label": "allocationrequest.java"
     },
     {
@@ -560,7 +560,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "request_allocationrequest_allocationrequest",
-      "community": 133,
+      "community": 103,
       "norm_label": "allocationrequest"
     },
     {
@@ -570,7 +570,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "request_allocationrequest_allocationrequest_isenddateafterorequalstartdate",
-      "community": 133,
+      "community": 103,
       "norm_label": ".isenddateafterorequalstartdate()"
     },
     {
@@ -580,7 +580,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_dto_request_allocationrequest_java_asserttrue",
-      "community": 133,
+      "community": 103,
       "norm_label": "asserttrue"
     },
     {
@@ -610,7 +610,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_projectrequest",
-      "community": 110,
+      "community": 103,
       "norm_label": "projectrequest.java"
     },
     {
@@ -620,7 +620,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "request_projectrequest_projectrequest",
-      "community": 110,
+      "community": 103,
       "norm_label": "projectrequest"
     },
     {
@@ -630,7 +630,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "request_projectrequest_projectrequest_isenddateafterorequalstartdate",
-      "community": 110,
+      "community": 103,
       "norm_label": ".isenddateafterorequalstartdate()"
     },
     {
@@ -640,7 +640,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_dto_request_projectrequest_java_asserttrue",
-      "community": 110,
+      "community": 103,
       "norm_label": "asserttrue"
     },
     {
@@ -670,7 +670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "response_allocationresponse",
-      "community": 134,
+      "community": 103,
       "norm_label": "allocationresponse.java"
     },
     {
@@ -680,7 +680,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "response_allocationresponse_allocationresponse",
-      "community": 134,
+      "community": 103,
       "norm_label": "allocationresponse"
     },
     {
@@ -750,7 +750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "response_projectresponse",
-      "community": 127,
+      "community": 103,
       "norm_label": "projectresponse.java"
     },
     {
@@ -760,7 +760,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "response_projectresponse_projectresponse",
-      "community": 127,
+      "community": 103,
       "norm_label": "projectresponse"
     },
     {
@@ -994,6 +994,56 @@
       "norm_label": "projectstatus.java"
     },
     {
+      "label": "AllocationExceededException.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "exception_allocationexceededexception",
+      "community": 98,
+      "norm_label": "allocationexceededexception.java"
+    },
+    {
+      "label": "AllocationExceededException",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "exception_allocationexceededexception_allocationexceededexception",
+      "community": 98,
+      "norm_label": "allocationexceededexception"
+    },
+    {
+      "label": "RuntimeException",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "runtimeexception",
+      "community": 98,
+      "norm_label": "runtimeexception"
+    },
+    {
+      "label": ".AllocationExceededException()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "exception_allocationexceededexception_allocationexceededexception_allocationexceededexception",
+      "community": 98,
+      "norm_label": ".allocationexceededexception()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_exception_allocationexceededexception_java_string",
+      "community": 98,
+      "norm_label": "string"
+    },
+    {
       "label": "AllocationNotFoundException.java",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
@@ -1012,16 +1062,6 @@
       "id": "exception_allocationnotfoundexception_allocationnotfoundexception",
       "community": 98,
       "norm_label": "allocationnotfoundexception"
-    },
-    {
-      "label": "RuntimeException",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "runtimeexception",
-      "community": 98,
-      "norm_label": "runtimeexception"
     },
     {
       "label": ".AllocationNotFoundException()",
@@ -1224,10 +1264,30 @@
       "norm_label": "projectnotfoundexception"
     },
     {
-      "label": ".handleAllocationNotFoundException()",
+      "label": ".handleAllocationExceededException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
       "source_location": "L44",
+      "_origin": "ast",
+      "id": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationexceededexception",
+      "community": 1,
+      "norm_label": ".handleallocationexceededexception()"
+    },
+    {
+      "label": "AllocationExceededException",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "allocationexceededexception",
+      "community": 1,
+      "norm_label": "allocationexceededexception"
+    },
+    {
+      "label": ".handleAllocationNotFoundException()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
       "community": 1,
@@ -1237,7 +1297,7 @@
       "label": "AllocationNotFoundException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L44",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "allocationnotfoundexception",
       "community": 1,
@@ -1247,7 +1307,7 @@
       "label": ".handleInvalidProjectStatusException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L57",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleinvalidprojectstatusexception",
       "community": 1,
@@ -1257,7 +1317,7 @@
       "label": "InvalidProjectStatusException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L57",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "invalidprojectstatusexception",
       "community": 1,
@@ -1267,7 +1327,7 @@
       "label": ".handleDuplicateResourceException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L70",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
       "community": 1,
@@ -1277,17 +1337,17 @@
       "label": "DuplicateResourceException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L70",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "duplicateresourceexception",
-      "community": 1,
+      "community": 3,
       "norm_label": "duplicateresourceexception"
     },
     {
       "label": ".handleValidationExceptions()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L83",
+      "source_location": "L96",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handlevalidationexceptions",
       "community": 1,
@@ -1297,7 +1357,7 @@
       "label": "MethodArgumentNotValidException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L83",
+      "source_location": "L96",
       "_origin": "ast",
       "id": "methodargumentnotvalidexception",
       "community": 1,
@@ -1307,7 +1367,7 @@
       "label": "Map",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L83",
+      "source_location": "L96",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_map",
       "community": 1,
@@ -1317,7 +1377,7 @@
       "label": "String",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L83",
+      "source_location": "L96",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_string",
       "community": 1,
@@ -1327,7 +1387,7 @@
       "label": ".handleGlobalException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L92",
+      "source_location": "L105",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
       "community": 1,
@@ -1337,7 +1397,7 @@
       "label": "Exception",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L92",
+      "source_location": "L105",
       "_origin": "ast",
       "id": "exception",
       "community": 1,
@@ -1667,7 +1727,7 @@
       "label": "AllocationRepository",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
-      "source_location": "L8",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "repository_allocationrepository_allocationrepository",
       "community": 103,
@@ -1677,7 +1737,7 @@
       "label": ".findByEmployeeEmployeeIdAndDeletedAtIsNull()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
-      "source_location": "L10",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull",
       "community": 103,
@@ -1687,7 +1747,7 @@
       "label": "Long",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
-      "source_location": "L10",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_allocationrepository_java_long",
       "community": 103,
@@ -1697,7 +1757,7 @@
       "label": "List",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
-      "source_location": "L10",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_allocationrepository_java_list",
       "community": 103,
@@ -1707,11 +1767,51 @@
       "label": "Allocation",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
-      "source_location": "L10",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_allocationrepository_java_allocation",
       "community": 103,
       "norm_label": "allocation"
+    },
+    {
+      "label": ".sumOverlappingAllocations()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
+      "community": 103,
+      "norm_label": ".sumoverlappingallocations()"
+    },
+    {
+      "label": "LocalDate",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "localdate",
+      "community": 103,
+      "norm_label": "localdate"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "integer",
+      "community": 103,
+      "norm_label": "integer"
+    },
+    {
+      "label": "Query",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "query",
+      "community": 103,
+      "norm_label": "query"
     },
     {
       "label": "EmployeeRepository.java",
@@ -1770,7 +1870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repository_projectrepository",
-      "community": 105,
+      "community": 8,
       "norm_label": "projectrepository.java"
     },
     {
@@ -1780,7 +1880,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "repository_projectrepository_projectrepository",
-      "community": 105,
+      "community": 8,
       "norm_label": "projectrepository"
     },
     {
@@ -1790,7 +1890,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "repository_projectrepository_projectrepository_existsbyprojectcode",
-      "community": 105,
+      "community": 8,
       "norm_label": ".existsbyprojectcode()"
     },
     {
@@ -1800,7 +1900,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_projectrepository_java_string",
-      "community": 105,
+      "community": 8,
       "norm_label": "string"
     },
     {
@@ -1810,7 +1910,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "repository_projectrepository_projectrepository_findbystatus",
-      "community": 105,
+      "community": 8,
       "norm_label": ".findbystatus()"
     },
     {
@@ -1820,7 +1920,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_projectrepository_java_projectstatus",
-      "community": 105,
+      "community": 8,
       "norm_label": "projectstatus"
     },
     {
@@ -1830,7 +1930,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_projectrepository_java_pageable",
-      "community": 105,
+      "community": 8,
       "norm_label": "pageable"
     },
     {
@@ -1840,7 +1940,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_projectrepository_java_page",
-      "community": 105,
+      "community": 8,
       "norm_label": "page"
     },
     {
@@ -1850,7 +1950,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_projectrepository_java_project",
-      "community": 105,
+      "community": 8,
       "norm_label": "project"
     },
     {
@@ -2060,7 +2160,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "service_projectservice",
-      "community": 8,
+      "community": 105,
       "norm_label": "projectservice.java"
     },
     {
@@ -2070,7 +2170,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "service_projectservice_projectservice",
-      "community": 8,
+      "community": 105,
       "norm_label": "projectservice"
     },
     {
@@ -2080,7 +2180,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "service_projectservice_projectservice_createproject",
-      "community": 8,
+      "community": 105,
       "norm_label": ".createproject()"
     },
     {
@@ -2090,7 +2190,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_projectservice_java_projectrequest",
-      "community": 8,
+      "community": 105,
       "norm_label": "projectrequest"
     },
     {
@@ -2100,7 +2200,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_projectservice_java_projectresponse",
-      "community": 8,
+      "community": 105,
       "norm_label": "projectresponse"
     },
     {
@@ -2110,7 +2210,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "service_projectservice_projectservice_getprojectbyid",
-      "community": 8,
+      "community": 105,
       "norm_label": ".getprojectbyid()"
     },
     {
@@ -2120,7 +2220,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_projectservice_java_long",
-      "community": 8,
+      "community": 105,
       "norm_label": "long"
     },
     {
@@ -2130,7 +2230,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "service_projectservice_projectservice_getprojects",
-      "community": 8,
+      "community": 105,
       "norm_label": ".getprojects()"
     },
     {
@@ -2140,7 +2240,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_projectservice_java_projectstatus",
-      "community": 8,
+      "community": 105,
       "norm_label": "projectstatus"
     },
     {
@@ -2150,7 +2250,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_projectservice_java_pageable",
-      "community": 8,
+      "community": 105,
       "norm_label": "pageable"
     },
     {
@@ -2160,7 +2260,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_projectservice_java_page",
-      "community": 8,
+      "community": 105,
       "norm_label": "page"
     },
     {
@@ -2170,7 +2270,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "service_projectservice_projectservice_updateprojectstatus",
-      "community": 8,
+      "community": 105,
       "norm_label": ".updateprojectstatus()"
     },
     {
@@ -2187,7 +2287,7 @@
       "label": "AllocationServiceImpl",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L24",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl",
       "community": 103,
@@ -2197,7 +2297,7 @@
       "label": ".createAllocation()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
       "community": 103,
@@ -2207,7 +2307,7 @@
       "label": "AllocationRequest",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest",
       "community": 103,
@@ -2217,7 +2317,7 @@
       "label": "AllocationResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse",
       "community": 103,
@@ -2227,7 +2327,7 @@
       "label": "Override",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override",
       "community": 103,
@@ -2237,7 +2337,7 @@
       "label": "Transactional",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional",
       "community": 103,
@@ -2247,7 +2347,7 @@
       "label": ".updateAllocation()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L46",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
       "community": 103,
@@ -2257,7 +2357,7 @@
       "label": "Long",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L46",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long",
       "community": 103,
@@ -2267,7 +2367,7 @@
       "label": ".deleteAllocation()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L69",
+      "source_location": "L109",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_deleteallocation",
       "community": 103,
@@ -2277,7 +2377,7 @@
       "label": ".getAllocationsByEmployee()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L79",
+      "source_location": "L119",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
       "community": 103,
@@ -2287,7 +2387,7 @@
       "label": "List",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
-      "source_location": "L79",
+      "source_location": "L119",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_list",
       "community": 103,
@@ -6410,6 +6510,17 @@
       "target": "src_main_java_com_company_pram_controller_projectcontroller_java_putmapping"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/AllocationRequest.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "request_allocationrequest",
+      "target": "localdate",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/dto/request/AllocationRequest.java",
@@ -6460,6 +6571,17 @@
       "confidence_score": 1.0,
       "source": "request_employeerequest",
       "target": "request_employeerequest_employeerequest"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/request/ProjectRequest.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "request_projectrequest",
+      "target": "localdate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6514,6 +6636,17 @@
       "target": "request_projectstatusrequest_projectstatusrequest"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/AllocationResponse.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "response_allocationresponse",
+      "target": "localdate",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/dto/response/AllocationResponse.java",
@@ -6565,6 +6698,17 @@
       "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_string"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/ProjectResponse.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "response_projectresponse",
+      "target": "localdate",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/dto/response/ProjectResponse.java",
@@ -6583,6 +6727,17 @@
       "confidence_score": 1.0,
       "source": "entity_allocation",
       "target": "entity_allocation_allocation"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Allocation.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "entity_allocation",
+      "target": "localdate",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6753,6 +6908,17 @@
       "target": "entity_project_project"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/entity/Project.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "entity_project",
+      "target": "localdate",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/entity/Project.java",
@@ -6808,22 +6974,32 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "exception_allocationnotfoundexception",
-      "target": "exception_allocationnotfoundexception_allocationnotfoundexception"
+      "source": "exception_allocationexceededexception",
+      "target": "exception_allocationexceededexception_allocationexceededexception",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "exception_allocationnotfoundexception_allocationnotfoundexception",
-      "target": "exception_allocationnotfoundexception_allocationnotfoundexception_allocationnotfoundexception"
+      "source": "exception_allocationexceededexception_allocationexceededexception",
+      "target": "exception_allocationexceededexception_allocationexceededexception_allocationexceededexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "exception_allocationexceededexception_allocationexceededexception",
+      "target": "runtimeexception",
+      "confidence_score": 1.0
     },
     {
       "relation": "inherits",
@@ -6874,6 +7050,37 @@
       "confidence_score": 1.0,
       "source": "exception_projectnotfoundexception_projectnotfoundexception",
       "target": "runtimeexception"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationExceededException.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "exception_allocationexceededexception_allocationexceededexception_allocationexceededexception",
+      "target": "src_main_java_com_company_pram_exception_allocationexceededexception_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "exception_allocationnotfoundexception",
+      "target": "exception_allocationnotfoundexception_allocationnotfoundexception"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "exception_allocationnotfoundexception_allocationnotfoundexception",
+      "target": "exception_allocationnotfoundexception_allocationnotfoundexception_allocationnotfoundexception"
     },
     {
       "relation": "references",
@@ -7028,6 +7235,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "exception_globalexceptionhandler_globalexceptionhandler",
+      "target": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationexceededexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
       "source_location": "L43",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7175,6 +7392,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationexceededexception",
+      "target": "webrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
@@ -7225,6 +7453,17 @@
       "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleprojectnotfoundexception",
       "target": "webrequest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationexceededexception",
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7296,6 +7535,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationexceededexception",
+      "target": "errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
       "source_location": "L43",
       "weight": 1.0,
       "context": "generic_arg",
@@ -7346,6 +7596,17 @@
       "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleprojectnotfoundexception",
       "target": "errorresponse"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationexceededexception",
+      "target": "exceptionhandler",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7450,6 +7711,28 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationexceededexception",
+      "target": "allocationexceededexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "impl_allocationserviceimpl",
+      "target": "allocationexceededexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
@@ -7478,6 +7761,17 @@
       "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleinvalidprojectstatusexception",
       "target": "invalidprojectstatusexception"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "impl_allocationserviceimpl",
+      "target": "invalidprojectstatusexception",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7995,6 +8289,28 @@
       "target": "src_main_java_com_company_pram_mapper_projectmapper_java_projectresponse"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "repository_allocationrepository",
+      "target": "localdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "repository_allocationrepository",
+      "target": "query",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
@@ -8035,6 +8351,16 @@
       "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository",
       "target": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "repository_allocationrepository_allocationrepository",
+      "target": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -8079,6 +8405,83 @@
       "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull",
       "target": "src_main_java_com_company_pram_repository_allocationrepository_java_long"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_long",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
+      "target": "repository_allocationrepository_allocationrepository_sumoverlappingallocations"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
+      "target": "repository_allocationrepository_allocationrepository_sumoverlappingallocations"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
+      "target": "integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
+      "target": "localdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
+      "target": "query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "impl_allocationserviceimpl",
+      "target": "localdate",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11325,5 +11728,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a8f970f2d97449cb9667aee088a4564d91f8832c"
+  "built_at_commit": "800e8d60d1f6478cacafd53e0afe037ddd0dc73f"
 }

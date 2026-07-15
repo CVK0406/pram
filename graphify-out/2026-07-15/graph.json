@@ -1137,7 +1137,7 @@
       "label": "GlobalExceptionHandler",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L16",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler",
       "community": 1,
@@ -1147,7 +1147,7 @@
       "label": ".handleEmployeeNotFoundException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L19",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleemployeenotfoundexception",
       "community": 1,
@@ -1157,7 +1157,7 @@
       "label": "EmployeeNotFoundException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L19",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "employeenotfoundexception",
       "community": 1,
@@ -1167,7 +1167,7 @@
       "label": "WebRequest",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L19",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "webrequest",
       "community": 1,
@@ -1177,7 +1177,7 @@
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L19",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
       "community": 1,
@@ -1187,7 +1187,7 @@
       "label": "ErrorResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L19",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "errorresponse",
       "community": 1,
@@ -1197,7 +1197,7 @@
       "label": "ExceptionHandler",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L19",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "exceptionhandler",
       "community": 1,
@@ -1227,7 +1227,7 @@
       "label": ".handleAllocationNotFoundException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L43",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
       "community": 1,
@@ -1237,7 +1237,7 @@
       "label": "AllocationNotFoundException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L43",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "allocationnotfoundexception",
       "community": 1,
@@ -1247,7 +1247,7 @@
       "label": ".handleInvalidProjectStatusException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L55",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleinvalidprojectstatusexception",
       "community": 1,
@@ -1257,7 +1257,7 @@
       "label": "InvalidProjectStatusException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L55",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "invalidprojectstatusexception",
       "community": 1,
@@ -1267,7 +1267,7 @@
       "label": ".handleDuplicateResourceException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L67",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleduplicateresourceexception",
       "community": 1,
@@ -1277,7 +1277,7 @@
       "label": "DuplicateResourceException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L67",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "duplicateresourceexception",
       "community": 1,
@@ -1287,7 +1287,7 @@
       "label": ".handleValidationExceptions()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L79",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handlevalidationexceptions",
       "community": 1,
@@ -1297,7 +1297,7 @@
       "label": "MethodArgumentNotValidException",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L79",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "methodargumentnotvalidexception",
       "community": 1,
@@ -1307,7 +1307,7 @@
       "label": "Map",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L79",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_map",
       "community": 1,
@@ -1317,7 +1317,7 @@
       "label": "String",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L79",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_string",
       "community": 1,
@@ -1327,7 +1327,7 @@
       "label": ".handleGlobalException()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L88",
+      "source_location": "L92",
       "_origin": "ast",
       "id": "exception_globalexceptionhandler_globalexceptionhandler_handleglobalexception",
       "community": 1,
@@ -1337,7 +1337,7 @@
       "label": "Exception",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
-      "source_location": "L88",
+      "source_location": "L92",
       "_origin": "ast",
       "id": "exception",
       "community": 1,
@@ -5485,9 +5485,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller",
-      "target": "controller_allocationcontroller_allocationcontroller",
-      "confidence_score": 1.0
+      "target": "controller_allocationcontroller_allocationcontroller"
     },
     {
       "relation": "imports",
@@ -5496,9 +5496,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller",
-      "target": "service_allocationservice_allocationservice",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice"
     },
     {
       "relation": "imports",
@@ -5507,9 +5507,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationrequest"
     },
     {
       "relation": "imports",
@@ -5518,9 +5518,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse"
     },
     {
       "relation": "imports",
@@ -5529,9 +5529,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_list"
     },
     {
       "relation": "imports",
@@ -5540,9 +5540,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity"
     },
     {
       "relation": "method",
@@ -5550,9 +5550,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller",
-      "target": "controller_allocationcontroller_allocationcontroller_createallocation",
-      "confidence_score": 1.0
+      "target": "controller_allocationcontroller_allocationcontroller_createallocation"
     },
     {
       "relation": "method",
@@ -5560,9 +5560,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller",
-      "target": "controller_allocationcontroller_allocationcontroller_deleteallocation",
-      "confidence_score": 1.0
+      "target": "controller_allocationcontroller_allocationcontroller_deleteallocation"
     },
     {
       "relation": "method",
@@ -5570,9 +5570,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller",
-      "target": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
-      "confidence_score": 1.0
+      "target": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee"
     },
     {
       "relation": "method",
@@ -5580,9 +5580,9 @@
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller",
-      "target": "controller_allocationcontroller_allocationcontroller_updateallocation",
-      "confidence_score": 1.0
+      "target": "controller_allocationcontroller_allocationcontroller_updateallocation"
     },
     {
       "relation": "references",
@@ -5591,9 +5591,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_createallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationrequest"
     },
     {
       "relation": "references",
@@ -5602,9 +5602,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_createallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -5613,9 +5613,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_createallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_postmapping",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_postmapping"
     },
     {
       "relation": "references",
@@ -5624,9 +5624,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_createallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity"
     },
     {
       "relation": "references",
@@ -5635,9 +5635,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationrequest"
     },
     {
       "relation": "references",
@@ -5646,9 +5646,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_deleteallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity"
     },
     {
       "relation": "references",
@@ -5657,9 +5657,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity"
     },
     {
       "relation": "references",
@@ -5668,9 +5668,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity"
     },
     {
       "relation": "references",
@@ -5679,9 +5679,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -5690,9 +5690,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -5701,9 +5701,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_long"
     },
     {
       "relation": "references",
@@ -5712,9 +5712,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_putmapping",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_putmapping"
     },
     {
       "relation": "references",
@@ -5723,9 +5723,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_deleteallocation",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_long"
     },
     {
       "relation": "references",
@@ -5734,9 +5734,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_long"
     },
     {
       "relation": "references",
@@ -5745,9 +5745,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_deleteallocation",
-      "target": "deletemapping",
-      "confidence_score": 1.0
+      "target": "deletemapping"
     },
     {
       "relation": "references",
@@ -5756,9 +5756,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_deleteallocation",
-      "target": "void",
-      "confidence_score": 1.0
+      "target": "void"
     },
     {
       "relation": "references",
@@ -5767,9 +5767,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_getmapping",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_getmapping"
     },
     {
       "relation": "references",
@@ -5778,9 +5778,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_list"
     },
     {
       "relation": "contains",
@@ -6405,9 +6405,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "controller_projectcontroller_projectcontroller_updateprojectstatus",
-      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_putmapping",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_putmapping"
     },
     {
       "relation": "contains",
@@ -6415,9 +6415,9 @@
       "source_file": "src/main/java/com/company/pram/dto/request/AllocationRequest.java",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_allocationrequest",
-      "target": "request_allocationrequest_allocationrequest",
-      "confidence_score": 1.0
+      "target": "request_allocationrequest_allocationrequest"
     },
     {
       "relation": "imports",
@@ -6426,9 +6426,9 @@
       "source_file": "src/main/java/com/company/pram/dto/request/AllocationRequest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_allocationrequest",
-      "target": "src_main_java_com_company_pram_dto_request_allocationrequest_java_asserttrue",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_dto_request_allocationrequest_java_asserttrue"
     },
     {
       "relation": "method",
@@ -6436,9 +6436,9 @@
       "source_file": "src/main/java/com/company/pram/dto/request/AllocationRequest.java",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_allocationrequest_allocationrequest",
-      "target": "request_allocationrequest_allocationrequest_isenddateafterorequalstartdate",
-      "confidence_score": 1.0
+      "target": "request_allocationrequest_allocationrequest_isenddateafterorequalstartdate"
     },
     {
       "relation": "references",
@@ -6447,9 +6447,9 @@
       "source_location": "L39",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_allocationrequest_allocationrequest_isenddateafterorequalstartdate",
-      "target": "src_main_java_com_company_pram_dto_request_allocationrequest_java_asserttrue",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_dto_request_allocationrequest_java_asserttrue"
     },
     {
       "relation": "contains",
@@ -6478,9 +6478,9 @@
       "source_file": "src/main/java/com/company/pram/dto/request/ProjectRequest.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_projectrequest",
-      "target": "src_main_java_com_company_pram_dto_request_projectrequest_java_asserttrue",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_dto_request_projectrequest_java_asserttrue"
     },
     {
       "relation": "method",
@@ -6499,9 +6499,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_projectrequest_projectrequest_isenddateafterorequalstartdate",
-      "target": "src_main_java_com_company_pram_dto_request_projectrequest_java_asserttrue",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_dto_request_projectrequest_java_asserttrue"
     },
     {
       "relation": "contains",
@@ -6519,9 +6519,9 @@
       "source_file": "src/main/java/com/company/pram/dto/response/AllocationResponse.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "response_allocationresponse",
-      "target": "response_allocationresponse_allocationresponse",
-      "confidence_score": 1.0
+      "target": "response_allocationresponse_allocationresponse"
     },
     {
       "relation": "contains",
@@ -6580,9 +6580,9 @@
       "source_file": "src/main/java/com/company/pram/entity/Allocation.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "entity_allocation",
-      "target": "entity_allocation_allocation",
-      "confidence_score": 1.0
+      "target": "entity_allocation_allocation"
     },
     {
       "relation": "method",
@@ -6590,9 +6590,9 @@
       "source_file": "src/main/java/com/company/pram/entity/Allocation.java",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "entity_allocation_allocation",
-      "target": "entity_allocation_allocation_equals",
-      "confidence_score": 1.0
+      "target": "entity_allocation_allocation_equals"
     },
     {
       "relation": "method",
@@ -6600,9 +6600,9 @@
       "source_file": "src/main/java/com/company/pram/entity/Allocation.java",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "entity_allocation_allocation",
-      "target": "entity_allocation_allocation_hashcode",
-      "confidence_score": 1.0
+      "target": "entity_allocation_allocation_hashcode"
     },
     {
       "relation": "references",
@@ -6611,9 +6611,9 @@
       "source_location": "L51",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "entity_allocation_allocation_equals",
-      "target": "src_main_java_com_company_pram_entity_allocation_java_object",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_allocation_java_object"
     },
     {
       "relation": "references",
@@ -6622,9 +6622,9 @@
       "source_location": "L51",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "entity_allocation_allocation_equals",
-      "target": "src_main_java_com_company_pram_entity_allocation_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_allocation_java_override"
     },
     {
       "relation": "references",
@@ -6633,9 +6633,9 @@
       "source_location": "L59",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "entity_allocation_allocation_hashcode",
-      "target": "src_main_java_com_company_pram_entity_allocation_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_allocation_java_override"
     },
     {
       "relation": "contains",
@@ -6653,9 +6653,9 @@
       "source_file": "src/main/java/com/company/pram/entity/Employee.java",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "entity_employee_employee",
-      "target": "entity_employee_employee_equals",
-      "confidence_score": 1.0
+      "target": "entity_employee_employee_equals"
     },
     {
       "relation": "method",
@@ -6663,9 +6663,9 @@
       "source_file": "src/main/java/com/company/pram/entity/Employee.java",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "entity_employee_employee",
-      "target": "entity_employee_employee_hashcode",
-      "confidence_score": 1.0
+      "target": "entity_employee_employee_hashcode"
     },
     {
       "relation": "method",
@@ -6716,9 +6716,9 @@
       "source_location": "L59",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "entity_employee_employee_equals",
-      "target": "src_main_java_com_company_pram_entity_employee_java_object",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_employee_java_object"
     },
     {
       "relation": "references",
@@ -6727,9 +6727,9 @@
       "source_location": "L59",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "entity_employee_employee_equals",
-      "target": "src_main_java_com_company_pram_entity_employee_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_employee_java_override"
     },
     {
       "relation": "references",
@@ -6738,9 +6738,9 @@
       "source_location": "L67",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "entity_employee_employee_hashcode",
-      "target": "src_main_java_com_company_pram_entity_employee_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_employee_java_override"
     },
     {
       "relation": "contains",
@@ -6758,9 +6758,9 @@
       "source_file": "src/main/java/com/company/pram/entity/Project.java",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "entity_project_project",
-      "target": "entity_project_project_equals",
-      "confidence_score": 1.0
+      "target": "entity_project_project_equals"
     },
     {
       "relation": "method",
@@ -6768,9 +6768,9 @@
       "source_file": "src/main/java/com/company/pram/entity/Project.java",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "entity_project_project",
-      "target": "entity_project_project_hashcode",
-      "confidence_score": 1.0
+      "target": "entity_project_project_hashcode"
     },
     {
       "relation": "references",
@@ -6779,9 +6779,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "entity_project_project_equals",
-      "target": "src_main_java_com_company_pram_entity_project_java_object",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_project_java_object"
     },
     {
       "relation": "references",
@@ -6790,9 +6790,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "entity_project_project_equals",
-      "target": "src_main_java_com_company_pram_entity_project_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_project_java_override"
     },
     {
       "relation": "references",
@@ -6801,9 +6801,9 @@
       "source_location": "L54",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "entity_project_project_hashcode",
-      "target": "src_main_java_com_company_pram_entity_project_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_entity_project_java_override"
     },
     {
       "relation": "contains",
@@ -6811,9 +6811,9 @@
       "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "exception_allocationnotfoundexception",
-      "target": "exception_allocationnotfoundexception_allocationnotfoundexception",
-      "confidence_score": 1.0
+      "target": "exception_allocationnotfoundexception_allocationnotfoundexception"
     },
     {
       "relation": "method",
@@ -6821,9 +6821,9 @@
       "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "exception_allocationnotfoundexception_allocationnotfoundexception",
-      "target": "exception_allocationnotfoundexception_allocationnotfoundexception_allocationnotfoundexception",
-      "confidence_score": 1.0
+      "target": "exception_allocationnotfoundexception_allocationnotfoundexception_allocationnotfoundexception"
     },
     {
       "relation": "inherits",
@@ -6831,9 +6831,9 @@
       "source_file": "src/main/java/com/company/pram/exception/AllocationNotFoundException.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "exception_allocationnotfoundexception_allocationnotfoundexception",
-      "target": "runtimeexception",
-      "confidence_score": 1.0
+      "target": "runtimeexception"
     },
     {
       "relation": "inherits",
@@ -6882,9 +6882,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "exception_allocationnotfoundexception_allocationnotfoundexception_allocationnotfoundexception",
-      "target": "src_main_java_com_company_pram_exception_allocationnotfoundexception_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_exception_allocationnotfoundexception_java_long"
     },
     {
       "relation": "contains",
@@ -7030,9 +7030,9 @@
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler",
-      "target": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
-      "confidence_score": 1.0
+      "target": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception"
     },
     {
       "relation": "method",
@@ -7156,9 +7156,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "employeenotfoundexception",
-      "confidence_score": 1.0
+      "target": "employeenotfoundexception"
     },
     {
       "relation": "imports",
@@ -7178,9 +7178,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
-      "target": "webrequest",
-      "confidence_score": 1.0
+      "target": "webrequest"
     },
     {
       "relation": "references",
@@ -7233,9 +7233,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
-      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_exception_globalexceptionhandler_java_responseentity"
     },
     {
       "relation": "references",
@@ -7299,9 +7299,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
-      "target": "errorresponse",
-      "confidence_score": 1.0
+      "target": "errorresponse"
     },
     {
       "relation": "references",
@@ -7354,9 +7354,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
-      "target": "exceptionhandler",
-      "confidence_score": 1.0
+      "target": "exceptionhandler"
     },
     {
       "relation": "references",
@@ -7431,9 +7431,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "projectnotfoundexception",
-      "confidence_score": 1.0
+      "target": "projectnotfoundexception"
     },
     {
       "relation": "imports",
@@ -7453,9 +7453,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "exception_globalexceptionhandler_globalexceptionhandler_handleallocationnotfoundexception",
-      "target": "allocationnotfoundexception",
-      "confidence_score": 1.0
+      "target": "allocationnotfoundexception"
     },
     {
       "relation": "imports",
@@ -7464,9 +7464,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "allocationnotfoundexception",
-      "confidence_score": 1.0
+      "target": "allocationnotfoundexception"
     },
     {
       "relation": "references",
@@ -7635,9 +7635,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper",
-      "target": "mapper_allocationmapper_allocationmapper",
-      "confidence_score": 1.0
+      "target": "mapper_allocationmapper_allocationmapper"
     },
     {
       "relation": "imports",
@@ -7646,9 +7646,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocation",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocation"
     },
     {
       "relation": "imports",
@@ -7657,9 +7657,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationrequest"
     },
     {
       "relation": "imports",
@@ -7668,9 +7668,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationresponse"
     },
     {
       "relation": "imports",
@@ -7679,9 +7679,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_employee",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_employee"
     },
     {
       "relation": "imports",
@@ -7690,9 +7690,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_project",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_project"
     },
     {
       "relation": "method",
@@ -7700,9 +7700,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper",
-      "target": "mapper_allocationmapper_allocationmapper_toentity",
-      "confidence_score": 1.0
+      "target": "mapper_allocationmapper_allocationmapper_toentity"
     },
     {
       "relation": "method",
@@ -7710,9 +7710,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/AllocationMapper.java",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper",
-      "target": "mapper_allocationmapper_allocationmapper_toresponse",
-      "confidence_score": 1.0
+      "target": "mapper_allocationmapper_allocationmapper_toresponse"
     },
     {
       "relation": "references",
@@ -7721,9 +7721,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper_toentity",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocation",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocation"
     },
     {
       "relation": "references",
@@ -7732,9 +7732,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper_toentity",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationrequest"
     },
     {
       "relation": "references",
@@ -7743,9 +7743,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper_toentity",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_employee",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_employee"
     },
     {
       "relation": "references",
@@ -7754,9 +7754,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper_toentity",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_project",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_project"
     },
     {
       "relation": "references",
@@ -7765,9 +7765,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper_toresponse",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocation",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocation"
     },
     {
       "relation": "references",
@@ -7776,9 +7776,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "mapper_allocationmapper_allocationmapper_toresponse",
-      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_allocationmapper_java_allocationresponse"
     },
     {
       "relation": "contains",
@@ -7797,9 +7797,9 @@
       "source_file": "src/main/java/com/company/pram/mapper/EmployeeMapper.java",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mapper_employeemapper",
-      "target": "src_main_java_com_company_pram_mapper_employeemapper_java_employee",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_java_employee"
     },
     {
       "relation": "imports",
@@ -7850,9 +7850,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "mapper_employeemapper_employeemapper_toentity",
-      "target": "src_main_java_com_company_pram_mapper_employeemapper_java_employee",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_java_employee"
     },
     {
       "relation": "references",
@@ -7872,9 +7872,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "mapper_employeemapper_employeemapper_toresponse",
-      "target": "src_main_java_com_company_pram_mapper_employeemapper_java_employee",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_mapper_employeemapper_java_employee"
     },
     {
       "relation": "references",
@@ -8000,9 +8000,9 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository",
-      "target": "repository_allocationrepository_allocationrepository",
-      "confidence_score": 1.0
+      "target": "repository_allocationrepository_allocationrepository"
     },
     {
       "relation": "imports",
@@ -8011,9 +8011,9 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_allocation",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_allocation"
     },
     {
       "relation": "imports",
@@ -8022,9 +8022,9 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_list"
     },
     {
       "relation": "method",
@@ -8032,9 +8032,9 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository",
-      "target": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull",
-      "confidence_score": 1.0
+      "target": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull"
     },
     {
       "relation": "calls",
@@ -8054,9 +8054,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_allocation",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_allocation"
     },
     {
       "relation": "references",
@@ -8065,9 +8065,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_list"
     },
     {
       "relation": "references",
@@ -8076,9 +8076,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_long"
     },
     {
       "relation": "contains",
@@ -8311,9 +8311,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice",
-      "target": "service_allocationservice_allocationservice",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice"
     },
     {
       "relation": "imports",
@@ -8322,9 +8322,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationrequest"
     },
     {
       "relation": "imports",
@@ -8333,9 +8333,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse"
     },
     {
       "relation": "imports",
@@ -8344,9 +8344,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_list"
     },
     {
       "relation": "imports",
@@ -8355,9 +8355,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "service_allocationservice_allocationservice",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice"
     },
     {
       "relation": "implements",
@@ -8365,9 +8365,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl",
-      "target": "service_allocationservice_allocationservice",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice"
     },
     {
       "relation": "method",
@@ -8375,9 +8375,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice",
-      "target": "service_allocationservice_allocationservice_createallocation",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice_createallocation"
     },
     {
       "relation": "method",
@@ -8385,9 +8385,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice",
-      "target": "service_allocationservice_allocationservice_deleteallocation",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice_deleteallocation"
     },
     {
       "relation": "method",
@@ -8395,9 +8395,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice",
-      "target": "service_allocationservice_allocationservice_getallocationsbyemployee",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice_getallocationsbyemployee"
     },
     {
       "relation": "method",
@@ -8405,9 +8405,9 @@
       "source_file": "src/main/java/com/company/pram/service/AllocationService.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice",
-      "target": "service_allocationservice_allocationservice_updateallocation",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice_updateallocation"
     },
     {
       "relation": "references",
@@ -8416,9 +8416,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_createallocation",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationrequest"
     },
     {
       "relation": "references",
@@ -8427,9 +8427,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_createallocation",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -8438,9 +8438,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_updateallocation",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationrequest"
     },
     {
       "relation": "references",
@@ -8449,9 +8449,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -8460,9 +8460,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_updateallocation",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -8471,9 +8471,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_updateallocation",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_long"
     },
     {
       "relation": "references",
@@ -8482,9 +8482,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_deleteallocation",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_long"
     },
     {
       "relation": "references",
@@ -8493,9 +8493,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_long"
     },
     {
       "relation": "references",
@@ -8504,9 +8504,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "service_allocationservice_allocationservice_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_allocationservice_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_allocationservice_java_list"
     },
     {
       "relation": "contains",
@@ -8943,9 +8943,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "impl_allocationserviceimpl_allocationserviceimpl",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceimpl_allocationserviceimpl"
     },
     {
       "relation": "imports",
@@ -8954,9 +8954,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest"
     },
     {
       "relation": "imports",
@@ -8965,9 +8965,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse"
     },
     {
       "relation": "imports",
@@ -8976,9 +8976,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_list"
     },
     {
       "relation": "imports",
@@ -8987,9 +8987,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional"
     },
     {
       "relation": "method",
@@ -8997,9 +8997,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl",
-      "target": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceimpl_allocationserviceimpl_createallocation"
     },
     {
       "relation": "method",
@@ -9007,9 +9007,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl",
-      "target": "impl_allocationserviceimpl_allocationserviceimpl_deleteallocation",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceimpl_allocationserviceimpl_deleteallocation"
     },
     {
       "relation": "method",
@@ -9017,9 +9017,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl",
-      "target": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee"
     },
     {
       "relation": "method",
@@ -9027,9 +9027,9 @@
       "source_file": "src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl",
-      "target": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation"
     },
     {
       "relation": "references",
@@ -9038,9 +9038,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest"
     },
     {
       "relation": "references",
@@ -9049,9 +9049,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -9060,9 +9060,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override"
     },
     {
       "relation": "references",
@@ -9071,9 +9071,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional"
     },
     {
       "relation": "references",
@@ -9082,9 +9082,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest"
     },
     {
       "relation": "references",
@@ -9093,9 +9093,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -9104,9 +9104,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse"
     },
     {
       "relation": "references",
@@ -9115,9 +9115,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_deleteallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override"
     },
     {
       "relation": "references",
@@ -9126,9 +9126,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override"
     },
     {
       "relation": "references",
@@ -9137,9 +9137,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override"
     },
     {
       "relation": "references",
@@ -9148,9 +9148,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_deleteallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional"
     },
     {
       "relation": "references",
@@ -9159,9 +9159,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional"
     },
     {
       "relation": "references",
@@ -9170,9 +9170,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional"
     },
     {
       "relation": "references",
@@ -9181,9 +9181,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long"
     },
     {
       "relation": "references",
@@ -9192,9 +9192,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_deleteallocation",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long"
     },
     {
       "relation": "references",
@@ -9203,9 +9203,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long"
     },
     {
       "relation": "references",
@@ -9214,9 +9214,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
-      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_list",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_list"
     },
     {
       "relation": "contains",
