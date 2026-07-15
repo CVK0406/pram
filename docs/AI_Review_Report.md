@@ -19,7 +19,7 @@ This report evaluates the final implementation of the **Project Resource Allocat
 The codebase adheres strictly to the **Layered Architecture Pattern** combined with **Clean Code** guidelines.
 
 ### Layer Segmentation
-- **Controller Layer**: Clean REST controllers ([`AllocationController.java`](file:///e:/Fresher/ojt/RA/src/main/java/com/company/pram/controller/AllocationController.java), etc.) utilizing Jakarta annotations for request parameter validation. Controller responsibilities are strictly restricted to HTTP status management and routing.
+- **Controller Layer**: Clean REST controllers ([`AllocationController.java`](file:///e:/Fresher/ojt/prams/src/main/java/com/company/pram/controller/AllocationController.java), etc.) utilizing Jakarta annotations for request parameter validation. Controller responsibilities are strictly restricted to HTTP status management and routing.
 - **Service Layer**: Business logics are isolated behind interfaces (e.g., `AllocationService` implemented by `AllocationServiceImpl`). Enforces transactional context boundary requirements.
 - **Repository Layer**: Extends Spring Data JPA. Complex custom queries are clean and parameterized.
 - **Data Transfer Objects (DTOs)**: Complete segregation between Hibernate Entities and REST DTOs using `@Builder` patterns to prevent JPA entity exposure.
@@ -37,7 +37,7 @@ The codebase adheres strictly to the **Layered Architecture Pattern** combined w
 
 The database design provides high data integrity and indexing performance.
 
-### Schema Validation ([`schema.sql`](file:///e:/Fresher/ojt/RA/db/schema.sql))
+### Schema Validation ([`schema.sql`](file:///e:/Fresher/ojt/prams/db/schema.sql))
 - Enforces strict table constraints (`UNIQUE` columns on `employee_code`, `email`, and `project_code`).
 - Project statuses are bounded via standard CHECK constraints:
   `CHECK (status IN ('PLANNING','ACTIVE','COMPLETED'))`
