@@ -35,11 +35,11 @@ Giống backend: mỗi giai đoạn phải **chạy được, nhìn thấy đư�
 
 ### Task chi tiết
 
-- [ ] `ng new pram-frontend --standalone --routing --style=scss`
-- [ ] Cài Angular Material: `ng add @angular/material` (chọn theme bất kỳ, enable animations)
-- [ ] Cấu hình `environment.ts` / `environment.prod.ts` chứa `apiBaseUrl` (VD: `http://localhost:8080`)
-- [ ] Cấu hình CORS phía backend nếu chưa có (`@CrossOrigin` hoặc `CorsConfigurationSource` — nhắc lại để không quên, vì đây là lỗi hay gặp đầu tiên khi test)
-- [ ] Cấu trúc thư mục:
+- [x] `ng new pram-frontend --standalone --routing --style=scss`
+- [x] Cài Angular Material: `ng add @angular/material` (chọn theme bất kỳ, enable animations)
+- [x] Cấu hình `environment.ts` / `environment.prod.ts` chứa `apiBaseUrl` (VD: `http://localhost:8080`)
+- [x] Cấu hình CORS phía backend nếu chưa có (`@CrossOrigin` hoặc `CorsConfigurationSource` — nhắc lại để không quên, vì đây là lỗi hay gặp đầu tiên khi test)
+- [x] Cấu trúc thư mục:
 ```text
 src/app
 ├── core/
@@ -55,7 +55,7 @@ src/app
 │   └── components/       # loading-spinner, confirm-dialog, error-toast
 └── app.routes.ts
 ```
-- [ ] Test nhanh: gọi `GET /employees` bằng `HttpClient` trong `AppComponent`, console.log kết quả
+- [x] Test nhanh: gọi `GET /employees` bằng `HttpClient` trong `AppComponent`, console.log kết quả
 
 ### Deliverable
 Project chạy `ng serve`, gọi được API backend, không lỗi CORS.
