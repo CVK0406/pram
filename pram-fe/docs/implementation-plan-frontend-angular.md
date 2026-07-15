@@ -81,7 +81,7 @@ export interface Employee {
   department: string;
 }
 ```
-- [ ] Tương tự cho `Project`, `Allocation`, `ErrorResponse`, `WorkloadResponse`, `UtilizationReportItem`, `AvailableReportItem`, `OverloadedReportItem`
+- [x] Tương tự cho `Project`, `Allocation`, `ErrorResponse`, `WorkloadResponse`, `UtilizationReportItem`, `AvailableReportItem`, `OverloadedReportItem`
 
 **1.2 Services (1 service / resource, dùng `inject(HttpClient)`)**
 ```typescript
@@ -102,7 +102,7 @@ export class EmployeeService {
   }
 }
 ```
-- [ ] Tương tự `ProjectService`, `AllocationService`, `ReportService`
+- [x] Tương tự `ProjectService`, `AllocationService`, `ReportService`
 
 ### Deliverable
 4 service hoàn chỉnh, có thể inject vào component bất kỳ.
@@ -117,17 +117,17 @@ Mỗi service test nhanh bằng cách gọi trong 1 component tạm, log ra dữ
 ### Task chi tiết
 
 **2.1 Employee List (2-3h)**
-- [ ] `EmployeeListComponent`: dùng `mat-table` hiển thị danh sách (employeeCode, fullName, email, role, department)
-- [ ] Load dữ liệu qua `EmployeeService.getAll()` trong `ngOnInit`
-- [ ] Thêm nút "Thêm nhân viên" mở dialog/form
+- [x] `EmployeeListComponent`: dùng `mat-table` hiển thị danh sách (employeeCode, fullName, email, role, department)
+- [x] Load dữ liệu qua `EmployeeService.getAll()` trong `ngOnInit`
+- [x] Thêm nút "Add Employee" navigate đến create page
 
 **2.2 Employee Create Form (2-3h)**
-- [ ] `EmployeeFormComponent` dùng Reactive Form (`FormBuilder`)
-- [ ] Validation phía frontend khớp backend: `Validators.required`, `Validators.email`
-- [ ] Submit gọi `EmployeeService.create()`, sau khi thành công: đóng dialog + refresh list + hiện thông báo thành công
+- [x] `EmployeeFormComponent` dùng Reactive Form (`FormBuilder`)
+- [x] Validation phía frontend khớp backend: `Validators.required`, `Validators.email`
+- [x] Submit gọi `EmployeeService.create()`, sau thành công navigate về list
 
 **2.3 Xử lý lỗi cơ bản (30p-1h)**
-- [ ] Bắt lỗi `409 Conflict` (trùng code/email) từ backend, hiển thị message ngay trên form (chưa cần interceptor toàn cục, để giai đoạn 7 làm chung)
+- [x] Bắt lỗi `409 Conflict` (trùng code/email) từ backend, hiển thị message ngay trên form
 
 ### Deliverable
 Xem danh sách + thêm nhân viên hoạt động đầy đủ qua UI.

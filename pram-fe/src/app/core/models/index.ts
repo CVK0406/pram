@@ -6,3 +6,4 @@ export * from './report.model';
 export * from './dashboard.model';
 export * from './ai.model';
 export * from './error-response.model';
+export * from './page.model';
