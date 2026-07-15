@@ -137,26 +137,26 @@ Status transition rule test pass, endDate validation pass.
 ### Task chi tiết
 
 **3.1 Entity & Repository (1-2h)**
-- [ ] `Allocation` entity (FK tới Employee, Project qua `@ManyToOne`)
-- [ ] `AllocationRepository`
-- [ ] Method query: `findByEmployeeIdAndDeletedAtIsNull(Long employeeId)`
+- [x] `Allocation` entity (FK tới Employee, Project qua `@ManyToOne`)
+- [x] `AllocationRepository`
+- [x] Method query: `findByEmployeeEmployeeIdAndDeletedAtIsNull(Long employeeId)`
 
 **3.2 DTO (1h)**
-- [ ] `AllocationRequest` (validate `@Min(1) @Max(100)` cho allocationPercent — đây là Rule 1, làm luôn ở bước này vì Bean Validation đơn giản)
-- [ ] `AllocationResponse` (bao gồm `employeeName`, `projectCode` — cần map từ entity liên kết)
+- [x] `AllocationRequest` (validate `@Min(1) @Max(100)` cho allocationPercent — đây là Rule 1, làm luôn ở bước này vì Bean Validation đơn giản)
+- [x] `AllocationResponse` (bao gồm `employeeName`, `projectCode` — cần map từ entity liên kết)
 
 **3.3 Service — chỉ phần tạo cơ bản (2-3h)**
-- [ ] `createAllocation()`: lookup Employee, lookup Project, save — **chưa check Rule 2/3**
-- [ ] `updateAllocation()`, `deleteAllocation()` (soft-delete: set `deletedAt = now()`)
-- [ ] `getAllocationsByEmployee(employeeId)`
+- [x] `createAllocation()`: lookup Employee, lookup Project, save — **chưa check Rule 2/3**
+- [x] `updateAllocation()`, `deleteAllocation()` (soft-delete: set `deletedAt = now()`)
+- [x] `getAllocationsByEmployee(employeeId)`
 
 **3.4 Controller (1h)**
-- [ ] `POST /allocations`, `PUT /allocations/{id}`, `DELETE /allocations/{id}`, `GET /allocations?employeeId=`
+- [x] `POST /allocations`, `PUT /allocations/{id}`, `DELETE /allocations/{id}`, `GET /allocations?employeeId=`
 
 **3.5 Test tay (30p)**
-- [ ] Tạo allocation với employeeId/projectId hợp lệ → 201, response có đủ employeeName/projectCode
-- [ ] employeeId không tồn tại → 404 (`EmployeeNotFoundException`)
-- [ ] allocationPercent = 150 → 400 (Bean Validation bắt được nhờ `@Max(100)`)
+- [x] Tạo allocation với employeeId/projectId hợp lệ → 201, response có đủ employeeName/projectCode
+- [x] employeeId không tồn tại → 404 (`EmployeeNotFoundException`)
+- [x] allocationPercent = 150 → 400 (Bean Validation bắt được nhờ `@Max(100)`)
 
 ### Deliverable
 Allocation CRUD chạy được nhưng **chưa an toàn về nghiệp vụ** (chưa chặn vượt 100%, chưa chặn allocate vào COMPLETED). Đây là điều bình thường ở giai đoạn này — sẽ xử lý ở Giai đoạn 4.

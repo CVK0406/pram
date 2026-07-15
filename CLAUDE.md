@@ -92,8 +92,8 @@ com.company.pram
 
 - [x] Phase 0 — Setup (project init, DB, Docker, ping endpoint)
 - [x] Phase 1 — Employee module (CRUD, duplicate validation, pagination)
-- [ ] Phase 2 — Project module (CRUD, status transitions)
-- [ ] Phase 3 — Allocation happy path
+- [x] Phase 2 — Project module (CRUD, status transitions)
+- [x] Phase 3 — Allocation happy path
 - [ ] Phase 4 — Allocation business rules (2/3)
 - [ ] Phase 5 — Concurrency handling (pessimistic lock)
 - [ ] Phase 6 — Reporting APIs
