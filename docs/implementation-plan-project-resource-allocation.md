@@ -303,10 +303,10 @@ Coverage AllocationService (phần business logic) là ưu tiên số 1 vì đâ
 ## Giai đoạn 9 — Swagger + Postman + README (1 ngày)
 
 ### Task chi tiết
-- [ ] Thêm `springdoc-openapi-starter-webmvc-ui` dependency
-- [ ] Annotate `@Operation`, `@ApiResponse` cho các API chính (Allocation trước tiên)
-- [ ] Export Postman Collection đầy đủ từ các request đã test tay ở giai đoạn 1-6
-- [ ] Viết `README.md`: hướng dẫn setup DB, chạy app, link Swagger UI, danh sách API tóm tắt
+- [x] Thêm `springdoc-openapi-starter-webmvc-ui` dependency
+- [x] Annotate `@Operation`, `@ApiResponse` cho các API chính (Allocation trước tiên)
+- [x] Export Postman Collection đầy đủ từ các request đã test tay ở giai đoạn 1-6
+- [x] Viết `README.md`: hướng dẫn setup DB, chạy app, link Swagger UI, danh sách API tóm tắt
 
 ### Deliverable
 `/swagger-ui.html` truy cập được, Postman Collection file `.json`, README rõ ràng.

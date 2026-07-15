@@ -44,6 +44,26 @@
       "norm_label": "string"
     },
     {
+      "label": "OpenApiConfig.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/config/OpenApiConfig.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "config_openapiconfig",
+      "community": 141,
+      "norm_label": "openapiconfig.java"
+    },
+    {
+      "label": "OpenApiConfig",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/config/OpenApiConfig.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "config_openapiconfig_openapiconfig",
+      "community": 141,
+      "norm_label": "openapiconfig"
+    },
+    {
       "label": "AllocationController.java",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
@@ -57,7 +77,7 @@
       "label": "AllocationController",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L14",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "controller_allocationcontroller_allocationcontroller",
       "community": 104,
@@ -67,7 +87,7 @@
       "label": ".createAllocation()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L21",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "controller_allocationcontroller_allocationcontroller_createallocation",
       "community": 104,
@@ -77,7 +97,7 @@
       "label": "AllocationRequest",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L21",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationrequest",
       "community": 104,
@@ -87,7 +107,7 @@
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L21",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_responseentity",
       "community": 104,
@@ -97,17 +117,37 @@
       "label": "AllocationResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L21",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse",
       "community": 104,
       "norm_label": "allocationresponse"
     },
     {
+      "label": "Operation",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_operation",
+      "community": 104,
+      "norm_label": "operation"
+    },
+    {
+      "label": "ApiResponses",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_apiresponses",
+      "community": 104,
+      "norm_label": "apiresponses"
+    },
+    {
       "label": "PostMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L21",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_postmapping",
       "community": 104,
@@ -117,7 +157,7 @@
       "label": ".updateAllocation()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L27",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "controller_allocationcontroller_allocationcontroller_updateallocation",
       "community": 104,
@@ -127,7 +167,7 @@
       "label": "Long",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L27",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_long",
       "community": 104,
@@ -137,7 +177,7 @@
       "label": "PutMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L27",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_putmapping",
       "community": 104,
@@ -147,7 +187,7 @@
       "label": ".deleteAllocation()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L35",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "controller_allocationcontroller_allocationcontroller_deleteallocation",
       "community": 104,
@@ -157,7 +197,7 @@
       "label": "Void",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L35",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "void",
       "community": 104,
@@ -167,7 +207,7 @@
       "label": "DeleteMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L35",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "deletemapping",
       "community": 104,
@@ -177,7 +217,7 @@
       "label": ".getAllocationsByEmployee()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L41",
+      "source_location": "L71",
       "_origin": "ast",
       "id": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
       "community": 104,
@@ -187,7 +227,7 @@
       "label": "List",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L41",
+      "source_location": "L71",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_list",
       "community": 104,
@@ -197,7 +237,7 @@
       "label": "GetMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
-      "source_location": "L41",
+      "source_location": "L71",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_allocationcontroller_java_getmapping",
       "community": 104,
@@ -277,7 +317,7 @@
       "label": "EmployeeController",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L17",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller",
       "community": 0,
@@ -287,7 +327,7 @@
       "label": ".createEmployee()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L25",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller_createemployee",
       "community": 0,
@@ -297,7 +337,7 @@
       "label": "EmployeeRequest",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L25",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_employeerequest",
       "community": 0,
@@ -307,7 +347,7 @@
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L25",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
       "community": 0,
@@ -317,17 +357,37 @@
       "label": "EmployeeResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L25",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeresponse",
       "community": 0,
       "norm_label": "employeeresponse"
     },
     {
+      "label": "Operation",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_operation",
+      "community": 0,
+      "norm_label": "operation"
+    },
+    {
+      "label": "ApiResponses",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponses",
+      "community": 0,
+      "norm_label": "apiresponses"
+    },
+    {
       "label": "PostMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L25",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_postmapping",
       "community": 0,
@@ -337,7 +397,7 @@
       "label": ".getEmployeeById()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L31",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller_getemployeebyid",
       "community": 0,
@@ -347,7 +407,7 @@
       "label": "Long",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L31",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_long",
       "community": 0,
@@ -357,7 +417,7 @@
       "label": "GetMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L31",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_getmapping",
       "community": 0,
@@ -367,7 +427,7 @@
       "label": ".getAllEmployees()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L37",
+      "source_location": "L55",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller_getallemployees",
       "community": 0,
@@ -377,17 +437,27 @@
       "label": "Page",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L37",
+      "source_location": "L55",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_page",
       "community": 0,
       "norm_label": "page"
     },
     {
+      "label": "ApiResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponse",
+      "community": 0,
+      "norm_label": "apiresponse"
+    },
+    {
       "label": ".getEmployeeWorkload()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L46",
+      "source_location": "L66",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller_getemployeeworkload",
       "community": 0,
@@ -397,7 +467,7 @@
       "label": "EmployeeWorkloadResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L46",
+      "source_location": "L66",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeworkloadresponse",
       "community": 0,
@@ -477,7 +547,7 @@
       "label": "ProjectController",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L17",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "controller_projectcontroller_projectcontroller",
       "community": 99,
@@ -487,7 +557,7 @@
       "label": ".createProject()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L24",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "controller_projectcontroller_projectcontroller_createproject",
       "community": 99,
@@ -497,7 +567,7 @@
       "label": "ProjectRequest",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L24",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_projectrequest",
       "community": 99,
@@ -507,7 +577,7 @@
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L24",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_responseentity",
       "community": 99,
@@ -517,17 +587,37 @@
       "label": "ProjectResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L24",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_projectresponse",
       "community": 99,
       "norm_label": "projectresponse"
     },
     {
+      "label": "Operation",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_projectcontroller_java_operation",
+      "community": 99,
+      "norm_label": "operation"
+    },
+    {
+      "label": "ApiResponses",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponses",
+      "community": 99,
+      "norm_label": "apiresponses"
+    },
+    {
       "label": "PostMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L24",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_postmapping",
       "community": 99,
@@ -537,7 +627,7 @@
       "label": ".getProjectById()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L30",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "controller_projectcontroller_projectcontroller_getprojectbyid",
       "community": 99,
@@ -547,7 +637,7 @@
       "label": "Long",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L30",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_long",
       "community": 99,
@@ -557,7 +647,7 @@
       "label": "GetMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L30",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_getmapping",
       "community": 99,
@@ -567,7 +657,7 @@
       "label": ".getProjects()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L36",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "controller_projectcontroller_projectcontroller_getprojects",
       "community": 99,
@@ -577,7 +667,7 @@
       "label": "ProjectStatus",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L36",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_projectstatus",
       "community": 99,
@@ -587,17 +677,27 @@
       "label": "Page",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L36",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_page",
       "community": 99,
       "norm_label": "page"
     },
     {
+      "label": "ApiResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponse",
+      "community": 99,
+      "norm_label": "apiresponse"
+    },
+    {
       "label": ".updateProjectStatus()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L46",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "controller_projectcontroller_projectcontroller_updateprojectstatus",
       "community": 99,
@@ -607,7 +707,7 @@
       "label": "ProjectStatusRequest",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L46",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "projectstatusrequest",
       "community": 99,
@@ -617,7 +717,7 @@
       "label": "PutMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
-      "source_location": "L46",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_projectcontroller_java_putmapping",
       "community": 99,
@@ -637,7 +737,7 @@
       "label": "ReportController",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L16",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "controller_reportcontroller_reportcontroller",
       "community": 134,
@@ -647,7 +747,7 @@
       "label": ".getEmployeeUtilization()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L23",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "controller_reportcontroller_reportcontroller_getemployeeutilization",
       "community": 134,
@@ -657,7 +757,7 @@
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L23",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_reportcontroller_java_responseentity",
       "community": 134,
@@ -667,7 +767,7 @@
       "label": "List",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L23",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_reportcontroller_java_list",
       "community": 134,
@@ -677,17 +777,37 @@
       "label": "EmployeeUtilizationResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L23",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_reportcontroller_java_employeeutilizationresponse",
       "community": 134,
       "norm_label": "employeeutilizationresponse"
     },
     {
+      "label": "Operation",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_operation",
+      "community": 134,
+      "norm_label": "operation"
+    },
+    {
+      "label": "ApiResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_apiresponse",
+      "community": 134,
+      "norm_label": "apiresponse"
+    },
+    {
       "label": "GetMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L23",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_reportcontroller_java_getmapping",
       "community": 134,
@@ -697,7 +817,7 @@
       "label": ".getAvailableResources()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L29",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "controller_reportcontroller_reportcontroller_getavailableresources",
       "community": 134,
@@ -707,7 +827,7 @@
       "label": "Integer",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L29",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_reportcontroller_java_integer",
       "community": 134,
@@ -717,7 +837,7 @@
       "label": "AvailableResourceResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L29",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_reportcontroller_java_availableresourceresponse",
       "community": 134,
@@ -727,7 +847,7 @@
       "label": ".getOverloadedEmployees()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L36",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
       "community": 134,
@@ -737,7 +857,7 @@
       "label": "OverloadedEmployeeResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
-      "source_location": "L36",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_reportcontroller_java_overloadedemployeeresponse",
       "community": 134,
@@ -1520,7 +1640,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "employeenotfoundexception",
-      "community": 133,
+      "community": 100,
       "norm_label": "employeenotfoundexception"
     },
     {
@@ -1620,7 +1740,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "allocationnotfoundexception",
-      "community": 103,
+      "community": 129,
       "norm_label": "allocationnotfoundexception"
     },
     {
@@ -1640,7 +1760,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "invalidprojectstatusexception",
-      "community": 103,
+      "community": 8,
       "norm_label": "invalidprojectstatusexception"
     },
     {
@@ -1660,7 +1780,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "duplicateresourceexception",
-      "community": 8,
+      "community": 100,
       "norm_label": "duplicateresourceexception"
     },
     {
@@ -2850,7 +2970,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl",
-      "community": 103,
+      "community": 129,
       "norm_label": "allocationserviceimpl.java"
     },
     {
@@ -2860,7 +2980,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl",
-      "community": 103,
+      "community": 129,
       "norm_label": "allocationserviceimpl"
     },
     {
@@ -2870,7 +2990,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_createallocation",
-      "community": 103,
+      "community": 129,
       "norm_label": ".createallocation()"
     },
     {
@@ -2880,7 +3000,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationrequest",
-      "community": 103,
+      "community": 129,
       "norm_label": "allocationrequest"
     },
     {
@@ -2890,7 +3010,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_allocationresponse",
-      "community": 103,
+      "community": 129,
       "norm_label": "allocationresponse"
     },
     {
@@ -2900,7 +3020,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_override",
-      "community": 103,
+      "community": 129,
       "norm_label": "override"
     },
     {
@@ -2910,7 +3030,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_transactional",
-      "community": 103,
+      "community": 129,
       "norm_label": "transactional"
     },
     {
@@ -2920,7 +3040,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_updateallocation",
-      "community": 103,
+      "community": 129,
       "norm_label": ".updateallocation()"
     },
     {
@@ -2930,7 +3050,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_long",
-      "community": 103,
+      "community": 129,
       "norm_label": "long"
     },
     {
@@ -2940,7 +3060,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_deleteallocation",
-      "community": 103,
+      "community": 129,
       "norm_label": ".deleteallocation()"
     },
     {
@@ -2950,7 +3070,7 @@
       "source_location": "L137",
       "_origin": "ast",
       "id": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
-      "community": 103,
+      "community": 129,
       "norm_label": ".getallocationsbyemployee()"
     },
     {
@@ -2960,7 +3080,7 @@
       "source_location": "L137",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_allocationserviceimpl_java_list",
-      "community": 103,
+      "community": 129,
       "norm_label": "list"
     },
     {
@@ -3030,7 +3150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "impl_employeeserviceimpl",
-      "community": 3,
+      "community": 100,
       "norm_label": "employeeserviceimpl.java"
     },
     {
@@ -3040,7 +3160,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "impl_employeeserviceimpl_employeeserviceimpl",
-      "community": 3,
+      "community": 100,
       "norm_label": "employeeserviceimpl"
     },
     {
@@ -3050,7 +3170,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "impl_employeeserviceimpl_employeeserviceimpl_createemployee",
-      "community": 3,
+      "community": 100,
       "norm_label": ".createemployee()"
     },
     {
@@ -3060,7 +3180,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_employeerequest",
-      "community": 3,
+      "community": 100,
       "norm_label": "employeerequest"
     },
     {
@@ -3070,7 +3190,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_employeeresponse",
-      "community": 3,
+      "community": 100,
       "norm_label": "employeeresponse"
     },
     {
@@ -3080,7 +3200,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_override",
-      "community": 3,
+      "community": 100,
       "norm_label": "override"
     },
     {
@@ -3090,7 +3210,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_transactional",
-      "community": 3,
+      "community": 100,
       "norm_label": "transactional"
     },
     {
@@ -3100,7 +3220,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "impl_employeeserviceimpl_employeeserviceimpl_getemployeebyid",
-      "community": 3,
+      "community": 100,
       "norm_label": ".getemployeebyid()"
     },
     {
@@ -3110,7 +3230,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_long",
-      "community": 3,
+      "community": 100,
       "norm_label": "long"
     },
     {
@@ -3120,7 +3240,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "impl_employeeserviceimpl_employeeserviceimpl_getallemployees",
-      "community": 3,
+      "community": 100,
       "norm_label": ".getallemployees()"
     },
     {
@@ -3130,7 +3250,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_pageable",
-      "community": 3,
+      "community": 100,
       "norm_label": "pageable"
     },
     {
@@ -3140,7 +3260,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_impl_employeeserviceimpl_java_page",
-      "community": 3,
+      "community": 100,
       "norm_label": "page"
     },
     {
@@ -4062,6 +4182,186 @@
       "id": "claude_graphify",
       "community": 102,
       "norm_label": "graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 140,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Project Resource Allocation Management System (PRAMS)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_project_resource_allocation_management_system_prams",
+      "community": 140,
+      "norm_label": "project resource allocation management system (prams)"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "readme_tech_stack",
+      "community": 140,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "readme_prerequisites",
+      "community": 140,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Running with Docker Compose (Recommended)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "readme_running_with_docker_compose_recommended",
+      "community": 140,
+      "norm_label": "running with docker compose (recommended)"
+    },
+    {
+      "label": "Running Locally (Development)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "readme_running_locally_development",
+      "community": 140,
+      "norm_label": "running locally (development)"
+    },
+    {
+      "label": "Running Tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "readme_running_tests",
+      "community": 140,
+      "norm_label": "running tests"
+    },
+    {
+      "label": "API Documentation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "readme_api_documentation",
+      "community": 140,
+      "norm_label": "api documentation"
+    },
+    {
+      "label": "Swagger UI",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "readme_swagger_ui",
+      "community": 140,
+      "norm_label": "swagger ui"
+    },
+    {
+      "label": "Postman Collection",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "readme_postman_collection",
+      "community": 140,
+      "norm_label": "postman collection"
+    },
+    {
+      "label": "API Summary",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "readme_api_summary",
+      "community": 140,
+      "norm_label": "api summary"
+    },
+    {
+      "label": "Employee (`/employees`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "readme_employee_employees",
+      "community": 140,
+      "norm_label": "employee (`/employees`)"
+    },
+    {
+      "label": "Project (`/projects`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "readme_project_projects",
+      "community": 140,
+      "norm_label": "project (`/projects`)"
+    },
+    {
+      "label": "Allocation (`/allocations`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "readme_allocation_allocations",
+      "community": 140,
+      "norm_label": "allocation (`/allocations`)"
+    },
+    {
+      "label": "Reports (`/reports`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L125",
+      "_origin": "ast",
+      "id": "readme_reports_reports",
+      "community": 140,
+      "norm_label": "reports (`/reports`)"
+    },
+    {
+      "label": "Business Rules",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "readme_business_rules",
+      "community": 140,
+      "norm_label": "business rules"
+    },
+    {
+      "label": "Error Response Format",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "readme_error_response_format",
+      "community": 140,
+      "norm_label": "error response format"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L179",
+      "_origin": "ast",
+      "id": "readme_project_structure",
+      "community": 140,
+      "norm_label": "project structure"
     },
     {
       "label": "Project_Resource_Allocation_Assignment.md",
@@ -6832,6 +7132,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/config/OpenApiConfig.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "config_openapiconfig",
+      "target": "config_openapiconfig_openapiconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L14",
       "weight": 1.0,
@@ -6877,11 +7187,33 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "controller_allocationcontroller",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
       "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "controller_allocationcontroller",
       "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_list"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "controller_allocationcontroller",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6955,6 +7287,28 @@
       "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_createallocation",
       "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_createallocation",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_createallocation",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7043,6 +7397,72 @@
       "confidence_score": 1.0,
       "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
       "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_allocationresponse"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_deleteallocation",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_deleteallocation",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_getallocationsbyemployee",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/AllocationController.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_allocationcontroller_allocationcontroller_updateallocation",
+      "target": "src_main_java_com_company_pram_controller_allocationcontroller_java_apiresponses",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7266,6 +7686,28 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7293,6 +7735,17 @@
       "confidence_score": 1.0,
       "source": "controller_employeecontroller",
       "target": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeworkloadresponse"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -7360,6 +7813,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_createemployee",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
       "source_location": "L22",
       "weight": 1.0,
       "context": "parameter_type",
@@ -7377,6 +7841,17 @@
       "confidence_score": 1.0,
       "source": "controller_employeecontroller_employeecontroller_createemployee",
       "target": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeresponse"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_createemployee",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7459,6 +7934,61 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_getallemployees",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_getemployeebyid",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_getemployeebyid",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
       "source_location": "L28",
       "weight": 1.0,
       "context": "attribute",
@@ -7509,6 +8039,17 @@
       "confidence_score": 1.0,
       "source": "controller_employeecontroller_employeecontroller_getemployeeworkload",
       "target": "src_main_java_com_company_pram_controller_employeecontroller_java_getmapping"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_getallemployees",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_apiresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7679,6 +8220,39 @@
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
       "source_location": "L10",
       "weight": 1.0,
+      "source": "controller_projectcontroller",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "controller_projectcontroller",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "controller_projectcontroller",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L10",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "controller_projectcontroller",
       "target": "src_main_java_com_company_pram_controller_projectcontroller_java_page"
@@ -7766,6 +8340,28 @@
       "confidence_score": 1.0,
       "source": "controller_projectcontroller_projectcontroller",
       "target": "controller_projectcontroller_projectcontroller_updateprojectstatus"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_createproject",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_createproject",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7881,6 +8477,61 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_getprojectbyid",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_getprojects",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L67",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_updateprojectstatus",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_getprojectbyid",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L67",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_updateprojectstatus",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
       "source_location": "L30",
       "weight": 1.0,
       "context": "attribute",
@@ -7920,6 +8571,17 @@
       "confidence_score": 1.0,
       "source": "controller_projectcontroller_projectcontroller_getprojects",
       "target": "src_main_java_com_company_pram_controller_projectcontroller_java_getmapping"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ProjectController.java",
+      "source_location": "L54",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_projectcontroller_projectcontroller_getprojects",
+      "target": "src_main_java_com_company_pram_controller_projectcontroller_java_apiresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7991,6 +8653,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_apiresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8029,6 +8702,17 @@
       "confidence_score": 1.0,
       "source": "controller_reportcontroller",
       "target": "src_main_java_com_company_pram_controller_reportcontroller_java_list"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -8086,6 +8770,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_apiresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
       "source_location": "L23",
       "weight": 1.0,
       "context": "generic_arg",
@@ -8119,6 +8814,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
       "source_location": "L23",
       "weight": 1.0,
       "context": "return_type",
@@ -8169,6 +8875,50 @@
       "confidence_score": 1.0,
       "source": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
       "target": "src_main_java_com_company_pram_controller_reportcontroller_java_list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_operation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_apiresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_apiresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -9149,9 +9899,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "employeenotfoundexception",
-      "confidence_score": 1.0
+      "target": "employeenotfoundexception"
     },
     {
       "relation": "imports",
@@ -9171,9 +9921,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest",
-      "target": "employeenotfoundexception",
-      "confidence_score": 1.0
+      "target": "employeenotfoundexception"
     },
     {
       "relation": "imports",
@@ -9523,9 +10273,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "projectnotfoundexception",
-      "confidence_score": 1.0
+      "target": "projectnotfoundexception"
     },
     {
       "relation": "imports",
@@ -9545,9 +10295,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "projectnotfoundexception",
-      "confidence_score": 1.0
+      "target": "projectnotfoundexception"
     },
     {
       "relation": "references",
@@ -9589,9 +10339,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "allocationexceededexception",
-      "confidence_score": 1.0
+      "target": "allocationexceededexception"
     },
     {
       "relation": "references",
@@ -9622,9 +10372,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "allocationnotfoundexception",
-      "confidence_score": 1.0
+      "target": "allocationnotfoundexception"
     },
     {
       "relation": "references",
@@ -9655,9 +10405,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "invalidprojectstatusexception",
-      "confidence_score": 1.0
+      "target": "invalidprojectstatusexception"
     },
     {
       "relation": "imports",
@@ -9677,9 +10427,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "invalidprojectstatusexception",
-      "confidence_score": 1.0
+      "target": "invalidprojectstatusexception"
     },
     {
       "relation": "references",
@@ -9710,9 +10460,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest",
-      "target": "duplicateresourceexception",
-      "confidence_score": 1.0
+      "target": "duplicateresourceexception"
     },
     {
       "relation": "imports",
@@ -9732,9 +10482,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "duplicateresourceexception",
-      "confidence_score": 1.0
+      "target": "duplicateresourceexception"
     },
     {
       "relation": "references",
@@ -10703,9 +11453,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "localdate",
-      "confidence_score": 1.0
+      "target": "localdate"
     },
     {
       "relation": "imports",
@@ -10725,9 +11475,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "localdate",
-      "confidence_score": 1.0
+      "target": "localdate"
     },
     {
       "relation": "imports",
@@ -11161,9 +11911,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "optional",
-      "confidence_score": 1.0
+      "target": "optional"
     },
     {
       "relation": "imports",
@@ -11172,9 +11922,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest",
-      "target": "optional",
-      "confidence_score": 1.0
+      "target": "optional"
     },
     {
       "relation": "imports",
@@ -11183,9 +11933,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "optional",
-      "confidence_score": 1.0
+      "target": "optional"
     },
     {
       "relation": "contains",
@@ -13539,9 +14289,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_beforeeach"
     },
     {
       "relation": "imports",
@@ -13612,9 +14362,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_setup",
-      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_beforeeach"
     },
     {
       "relation": "references",
@@ -13655,9 +14405,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest"
     },
     {
       "relation": "imports",
@@ -13666,9 +14416,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_beforeeach"
     },
     {
       "relation": "imports",
@@ -13677,9 +14427,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "imports",
@@ -13688,9 +14438,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "method",
@@ -13698,9 +14448,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_createallocation_employeenotfound_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_createallocation_employeenotfound_throwsexception"
     },
     {
       "relation": "method",
@@ -13708,9 +14458,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L186",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_createallocation_exactlyat100_succeeds",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_createallocation_exactlyat100_succeeds"
     },
     {
       "relation": "method",
@@ -13718,9 +14468,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L172",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_createallocation_exceedscapacity_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_createallocation_exceedscapacity_throwsexception"
     },
     {
       "relation": "method",
@@ -13728,9 +14478,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_createallocation_projectcompleted_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_createallocation_projectcompleted_throwsexception"
     },
     {
       "relation": "method",
@@ -13738,9 +14488,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_createallocation_projectnotfound_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_createallocation_projectnotfound_throwsexception"
     },
     {
       "relation": "method",
@@ -13748,9 +14498,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_createallocation_success",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_createallocation_success"
     },
     {
       "relation": "method",
@@ -13758,9 +14508,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L310",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_deleteallocation_notfound_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_deleteallocation_notfound_throwsexception"
     },
     {
       "relation": "method",
@@ -13768,9 +14518,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_setup",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_setup"
     },
     {
       "relation": "method",
@@ -13778,9 +14528,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L225",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_updateallocation_excludescurrentallocation_succeeds",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_updateallocation_excludescurrentallocation_succeeds"
     },
     {
       "relation": "method",
@@ -13788,9 +14538,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L215",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_updateallocation_notfound_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_updateallocation_notfound_throwsexception"
     },
     {
       "relation": "method",
@@ -13798,9 +14548,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java",
       "source_location": "L274",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest",
-      "target": "impl_allocationservicetest_allocationservicetest_updateallocation_projectcompleted_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_allocationservicetest_allocationservicetest_updateallocation_projectcompleted_throwsexception"
     },
     {
       "relation": "references",
@@ -13809,9 +14559,9 @@
       "source_location": "L55",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_setup",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_beforeeach"
     },
     {
       "relation": "references",
@@ -13820,9 +14570,9 @@
       "source_location": "L110",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_success",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -13831,9 +14581,9 @@
       "source_location": "L110",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_success",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13842,9 +14592,9 @@
       "source_location": "L129",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_employeenotfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13853,9 +14603,9 @@
       "source_location": "L186",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_exactlyat100_succeeds",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13864,9 +14614,9 @@
       "source_location": "L172",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_exceedscapacity_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13875,9 +14625,9 @@
       "source_location": "L151",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_projectcompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13886,9 +14636,9 @@
       "source_location": "L139",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_projectnotfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13897,9 +14647,9 @@
       "source_location": "L310",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_deleteallocation_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13908,9 +14658,9 @@
       "source_location": "L225",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_updateallocation_excludescurrentallocation_succeeds",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13919,9 +14669,9 @@
       "source_location": "L215",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_updateallocation_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13930,9 +14680,9 @@
       "source_location": "L274",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_updateallocation_projectcompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_test"
     },
     {
       "relation": "references",
@@ -13941,9 +14691,9 @@
       "source_location": "L129",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_employeenotfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -13952,9 +14702,9 @@
       "source_location": "L186",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_exactlyat100_succeeds",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -13963,9 +14713,9 @@
       "source_location": "L172",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_exceedscapacity_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -13974,9 +14724,9 @@
       "source_location": "L151",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_projectcompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -13985,9 +14735,9 @@
       "source_location": "L139",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_createallocation_projectnotfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -13996,9 +14746,9 @@
       "source_location": "L310",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_deleteallocation_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14007,9 +14757,9 @@
       "source_location": "L225",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_updateallocation_excludescurrentallocation_succeeds",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14018,9 +14768,9 @@
       "source_location": "L215",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_updateallocation_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14029,9 +14779,9 @@
       "source_location": "L274",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationservicetest_allocationservicetest_updateallocation_projectcompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationservicetest_java_displayname"
     },
     {
       "relation": "contains",
@@ -14039,9 +14789,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest",
-      "target": "impl_employeeservicetest_employeeservicetest",
-      "confidence_score": 1.0
+      "target": "impl_employeeservicetest_employeeservicetest"
     },
     {
       "relation": "imports",
@@ -14050,9 +14800,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_beforeeach"
     },
     {
       "relation": "imports",
@@ -14061,9 +14811,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname"
     },
     {
       "relation": "imports",
@@ -14072,9 +14822,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test"
     },
     {
       "relation": "method",
@@ -14082,9 +14832,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest",
-      "target": "impl_employeeservicetest_employeeservicetest_createemployee_duplicatecode_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_employeeservicetest_employeeservicetest_createemployee_duplicatecode_throwsexception"
     },
     {
       "relation": "method",
@@ -14092,9 +14842,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest",
-      "target": "impl_employeeservicetest_employeeservicetest_createemployee_duplicateemail_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_employeeservicetest_employeeservicetest_createemployee_duplicateemail_throwsexception"
     },
     {
       "relation": "method",
@@ -14102,9 +14852,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest",
-      "target": "impl_employeeservicetest_employeeservicetest_createemployee_success",
-      "confidence_score": 1.0
+      "target": "impl_employeeservicetest_employeeservicetest_createemployee_success"
     },
     {
       "relation": "method",
@@ -14112,9 +14862,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest",
-      "target": "impl_employeeservicetest_employeeservicetest_getemployeebyid_notfound_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_employeeservicetest_employeeservicetest_getemployeebyid_notfound_throwsexception"
     },
     {
       "relation": "method",
@@ -14122,9 +14872,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest",
-      "target": "impl_employeeservicetest_employeeservicetest_setup",
-      "confidence_score": 1.0
+      "target": "impl_employeeservicetest_employeeservicetest_setup"
     },
     {
       "relation": "references",
@@ -14133,9 +14883,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_setup",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_beforeeach"
     },
     {
       "relation": "references",
@@ -14144,9 +14894,9 @@
       "source_location": "L56",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_createemployee_success",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14155,9 +14905,9 @@
       "source_location": "L56",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_createemployee_success",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14166,9 +14916,9 @@
       "source_location": "L72",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_createemployee_duplicatecode_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14177,9 +14927,9 @@
       "source_location": "L84",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_createemployee_duplicateemail_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14188,9 +14938,9 @@
       "source_location": "L97",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_getemployeebyid_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14199,9 +14949,9 @@
       "source_location": "L72",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_createemployee_duplicatecode_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14210,9 +14960,9 @@
       "source_location": "L84",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_createemployee_duplicateemail_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14221,9 +14971,9 @@
       "source_location": "L97",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_employeeservicetest_employeeservicetest_getemployeebyid_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_employeeservicetest_java_displayname"
     },
     {
       "relation": "contains",
@@ -14231,9 +14981,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest"
     },
     {
       "relation": "imports",
@@ -14242,9 +14992,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_beforeeach"
     },
     {
       "relation": "imports",
@@ -14253,9 +15003,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname"
     },
     {
       "relation": "imports",
@@ -14264,9 +15014,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test"
     },
     {
       "relation": "method",
@@ -14274,9 +15024,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest_createproject_duplicatecode_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest_createproject_duplicatecode_throwsexception"
     },
     {
       "relation": "method",
@@ -14284,9 +15034,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest_createproject_success",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest_createproject_success"
     },
     {
       "relation": "method",
@@ -14294,9 +15044,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest_getprojectbyid_notfound_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest_getprojectbyid_notfound_throwsexception"
     },
     {
       "relation": "method",
@@ -14304,9 +15054,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest_setup",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest_setup"
     },
     {
       "relation": "method",
@@ -14314,9 +15064,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L140",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest_updatestatus_fromcompleted_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest_updatestatus_fromcompleted_throwsexception"
     },
     {
       "relation": "method",
@@ -14324,9 +15074,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest_updatestatus_planningtoactive_succeeds",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest_updatestatus_planningtoactive_succeeds"
     },
     {
       "relation": "method",
@@ -14334,9 +15084,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest",
-      "target": "impl_projectservicetest_projectservicetest_updatestatus_planningtocompleted_throwsexception",
-      "confidence_score": 1.0
+      "target": "impl_projectservicetest_projectservicetest_updatestatus_planningtocompleted_throwsexception"
     },
     {
       "relation": "references",
@@ -14345,9 +15095,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_setup",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_beforeeach",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_beforeeach"
     },
     {
       "relation": "references",
@@ -14356,9 +15106,9 @@
       "source_location": "L83",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_createproject_success",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14367,9 +15117,9 @@
       "source_location": "L83",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_createproject_success",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14378,9 +15128,9 @@
       "source_location": "L107",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_createproject_duplicatecode_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14389,9 +15139,9 @@
       "source_location": "L150",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_getprojectbyid_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14400,9 +15150,9 @@
       "source_location": "L140",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_updatestatus_fromcompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14411,9 +15161,9 @@
       "source_location": "L119",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_updatestatus_planningtoactive_succeeds",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14422,9 +15172,9 @@
       "source_location": "L130",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_updatestatus_planningtocompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_test"
     },
     {
       "relation": "references",
@@ -14433,9 +15183,9 @@
       "source_location": "L107",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_createproject_duplicatecode_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14444,9 +15194,9 @@
       "source_location": "L150",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_getprojectbyid_notfound_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14455,9 +15205,9 @@
       "source_location": "L140",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_updatestatus_fromcompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14466,9 +15216,9 @@
       "source_location": "L119",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_updatestatus_planningtoactive_succeeds",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname"
     },
     {
       "relation": "references",
@@ -14477,9 +15227,9 @@
       "source_location": "L130",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_projectservicetest_projectservicetest_updatestatus_planningtocompleted_throwsexception",
-      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_projectservicetest_java_displayname"
     },
     {
       "relation": "contains",
@@ -14590,6 +15340,176 @@
       "confidence_score": 1.0,
       "source": "claude_architecture",
       "target": "claude_reporting_queries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_project_resource_allocation_management_system_prams",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_api_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_api_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_business_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_error_response_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_running_locally_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_running_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_running_with_docker_compose_recommended",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "readme_project_resource_allocation_management_system_prams",
+      "target": "readme_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "readme_api_documentation",
+      "target": "readme_postman_collection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "readme_api_documentation",
+      "target": "readme_swagger_ui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "readme_api_summary",
+      "target": "readme_allocation_allocations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "readme_api_summary",
+      "target": "readme_employee_employees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "readme_api_summary",
+      "target": "readme_project_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "readme_api_summary",
+      "target": "readme_reports_reports",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -15983,5 +16903,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "374fcba6ad61d2f4dab400a230744c5d339a5780"
+  "built_at_commit": "f0b300153e22292b2c2956b41cb5be5b03fef7f6"
 }

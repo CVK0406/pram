@@ -1,0 +1,208 @@
+{
+  "info": {
+    "name": "PRAMS — Project Resource Allocation Management System",
+    "description": "Complete API collection for PRAMS. Covers Employee, Project, Allocation, and Report endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8080", "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "Employee",
+      "item": [
+        {
+          "name": "Create Employee",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/employees", "host": ["{{baseUrl}}"], "path": ["employees"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"employeeCode\": \"EMP001\",\n  \"fullName\": \"Tuan Ho Anh\",\n  \"email\": \"tuanha@company.com\",\n  \"role\": \"Senior Developer\",\n  \"department\": \"FSOFT-Q1\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Employee by ID",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/employees/1", "host": ["{{baseUrl}}"], "path": ["employees", "1"] }
+          }
+        },
+        {
+          "name": "Get All Employees (Paginated)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/employees?page=0&size=20",
+              "host": ["{{baseUrl}}"], "path": ["employees"],
+              "query": [{ "key": "page", "value": "0" }, { "key": "size", "value": "20" }]
+            }
+          }
+        },
+        {
+          "name": "Get Employee Workload",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/employees/1/workload", "host": ["{{baseUrl}}"], "path": ["employees", "1", "workload"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Project",
+      "item": [
+        {
+          "name": "Create Project",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/projects", "host": ["{{baseUrl}}"], "path": ["projects"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"projectCode\": \"NCG\",\n  \"projectName\": \"NCG Ticketing Platform\",\n  \"customer\": \"NCG Corp\",\n  \"startDate\": \"2026-08-01\",\n  \"endDate\": \"2026-12-31\",\n  \"status\": \"PLANNING\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Get Project by ID",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/projects/1", "host": ["{{baseUrl}}"], "path": ["projects", "1"] }
+          }
+        },
+        {
+          "name": "Get All Projects (Paginated)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/projects?page=0&size=20",
+              "host": ["{{baseUrl}}"], "path": ["projects"],
+              "query": [{ "key": "page", "value": "0" }, { "key": "size", "value": "20" }]
+            }
+          }
+        },
+        {
+          "name": "Get Projects by Status",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/projects?status=ACTIVE&page=0&size=20",
+              "host": ["{{baseUrl}}"], "path": ["projects"],
+              "query": [{ "key": "status", "value": "ACTIVE" }, { "key": "page", "value": "0" }, { "key": "size", "value": "20" }]
+            }
+          }
+        },
+        {
+          "name": "Update Project Status",
+          "request": {
+            "method": "PUT",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/projects/1/status", "host": ["{{baseUrl}}"], "path": ["projects", "1", "status"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"ACTIVE\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Allocation",
+      "item": [
+        {
+          "name": "Create Allocation",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/allocations", "host": ["{{baseUrl}}"], "path": ["allocations"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"employeeId\": 1,\n  \"projectId\": 1,\n  \"allocationPercent\": 50,\n  \"roleInProject\": \"Backend Developer\",\n  \"startDate\": \"2026-08-01\",\n  \"endDate\": \"2026-12-31\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Allocation",
+          "request": {
+            "method": "PUT",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": { "raw": "{{baseUrl}}/allocations/1", "host": ["{{baseUrl}}"], "path": ["allocations", "1"] },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"employeeId\": 1,\n  \"projectId\": 1,\n  \"allocationPercent\": 60,\n  \"roleInProject\": \"Tech Lead\",\n  \"startDate\": \"2026-08-01\",\n  \"endDate\": \"2026-12-31\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Allocation (Soft)",
+          "request": {
+            "method": "DELETE",
+            "url": { "raw": "{{baseUrl}}/allocations/1", "host": ["{{baseUrl}}"], "path": ["allocations", "1"] }
+          }
+        },
+        {
+          "name": "Get Allocations by Employee",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/allocations?employeeId=1",
+              "host": ["{{baseUrl}}"], "path": ["allocations"],
+              "query": [{ "key": "employeeId", "value": "1" }]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reports",
+      "item": [
+        {
+          "name": "Utilization Report",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/reports/utilization", "host": ["{{baseUrl}}"], "path": ["reports", "utilization"] }
+          }
+        },
+        {
+          "name": "Available Resource Report",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/reports/available", "host": ["{{baseUrl}}"], "path": ["reports", "available"] }
+          }
+        },
+        {
+          "name": "Available Resource Report (min 50%)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/reports/available?minAvailable=50",
+              "host": ["{{baseUrl}}"], "path": ["reports", "available"],
+              "query": [{ "key": "minAvailable", "value": "50" }]
+            }
+          }
+        },
+        {
+          "name": "Overloaded Employee Report",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/reports/overloaded", "host": ["{{baseUrl}}"], "path": ["reports", "overloaded"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "Ping",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/ping", "host": ["{{baseUrl}}"], "path": ["ping"] }
+          }
+        }
+      ]
+    }
+  ]
+}

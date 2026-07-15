@@ -95,8 +95,8 @@
     "semantic_hash": "365841efd47cfc5cb0dba72caadc0ef1"
   },
   "CLAUDE.md": {
-    "mtime": 1784100866.4651372,
-    "ast_hash": "7ca9bc97637578d4041b5d043e0450c5",
+    "mtime": 1784101420.6820598,
+    "ast_hash": "004d32c60520e44503cfa5ee183af9c3",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
@@ -110,8 +110,8 @@
     "semantic_hash": "50e8b891c7f82837f5b6e09cb5368906"
   },
   "docs/implementation-plan-project-resource-allocation.md": {
-    "mtime": 1784100856.1304584,
-    "ast_hash": "324232589d4f7bd138da31cc7ef3542e",
+    "mtime": 1784101444.0947328,
+    "ast_hash": "efa1e9cd956e715c61233a6794049178",
     "semantic_hash": ""
   },
   "docs/srs-project-resource-allocation.md": {
@@ -302,6 +302,21 @@
   "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java": {
     "mtime": 1784099447.7643647,
     "ast_hash": "7cb5a5b2ac974b80494e2842bb2b8960",
+    "semantic_hash": ""
+  },
+  "src/test/java/com/company/pram/service/impl/AllocationServiceTest.java": {
+    "mtime": 1784101249.2086432,
+    "ast_hash": "079f014caeb679b7c6b6998fbeaa476c",
+    "semantic_hash": ""
+  },
+  "src/test/java/com/company/pram/service/impl/EmployeeServiceTest.java": {
+    "mtime": 1784101286.5693133,
+    "ast_hash": "1bafd831f10720ef9e951529329d2121",
+    "semantic_hash": ""
+  },
+  "src/test/java/com/company/pram/service/impl/ProjectServiceTest.java": {
+    "mtime": 1784101270.36405,
+    "ast_hash": "84b9981602a431270090d23144dfe201",
     "semantic_hash": ""
   }
 }
