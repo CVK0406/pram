@@ -1,5 +1,7 @@
 @use '@angular/material' as mat;
 
+@include mat.core();
+
 :root {
   /* Colors */
   --surface-bg: #0b0c15;
@@ -305,4 +307,17 @@ body {
   gap: 1rem;
   padding: 3rem 2rem;
   color: var(--text-muted);
+}
+
+/* --- CDK Overlay panel overrides (dropdowns, autocompletes, datepickers) --- */
+.cdk-overlay-pane {
+  .mat-mdc-select-panel,
+  .mat-mdc-autocomplete-panel,
+  .mat-datepicker-content {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 8px !important;
+    box-shadow: var(--card-shadow) !important;
+    color: var(--text-primary) !important;
+  }
 }
