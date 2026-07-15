@@ -6,16 +6,9 @@ import { MatPaginatorModule, PageEvent } from '@angular/material/paginator';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
-import { MatChipsModule } from '@angular/material/chips';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { ProjectService } from '../../core/services/project.service';
 import { Project, ProjectStatus } from '../../core/models/project.model';
-
-const STATUS_COLORS: Record<ProjectStatus, string> = {
-  PLANNING: 'mat-chip-gray',
-  ACTIVE: 'mat-chip-green',
-  COMPLETED: 'mat-chip-blue',
-};
 
 @Component({
   selector: 'app-project-list',
@@ -28,7 +21,6 @@ const STATUS_COLORS: Record<ProjectStatus, string> = {
     MatButtonModule,
     MatIconModule,
     MatSelectModule,
-    MatChipsModule,
     MatSnackBarModule,
   ],
   templateUrl: './project-list.component.html',
@@ -88,7 +80,12 @@ export class ProjectListComponent implements OnInit {
   }
 
   getStatusClass(status: ProjectStatus): string {
-    return STATUS_COLORS[status] || '';
+    switch (status) {
+      case 'PLANNING': return 'planning';
+      case 'ACTIVE': return 'active';
+      case 'COMPLETED': return 'completed';
+      default: return '';
+    }
   }
 
   getNextStatus(status: ProjectStatus): ProjectStatus | null {

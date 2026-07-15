@@ -1,4 +1,4 @@
-<div class="header">
+<div class="page-header">
   <h2>Employees</h2>
   <button mat-raised-button color="primary" routerLink="/employees/create">
     <mat-icon>add</mat-icon>
@@ -7,7 +7,10 @@
 </div>
 
 <ng-container *ngIf="loading; else loaded">
-  <div class="state-message">Loading...</div>
+  <div class="loading-state">
+    <mat-spinner diameter="28" />
+    <span>Loading employees…</span>
+  </div>
 </ng-container>
 
 <ng-template #loaded>
@@ -19,8 +22,8 @@
   </ng-container>
 
   <ng-template #data>
-    <div class="table-wrapper">
-    <table mat-table [dataSource]="employees" class="mat-elevation-z1">
+    <div class="table-container">
+    <table mat-table [dataSource]="employees">
       <ng-container matColumnDef="employeeCode">
         <th mat-header-cell *matHeaderCellDef>Code</th>
         <td mat-cell *matCellDef="let e">{{ e.employeeCode }}</td>
@@ -50,6 +53,7 @@
         <th mat-header-cell *matHeaderCellDef></th>
         <td mat-cell *matCellDef="let e">
           <a mat-stroked-button [routerLink]="['/employees', e.employeeId, 'workload']">
+            <mat-icon>bar_chart</mat-icon>
             Workload
           </a>
         </td>
@@ -59,7 +63,7 @@
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
 
       <tr class="mat-row" *matNoDataRow>
-        <td class="mat-cell state-message" [colSpan]="displayedColumns.length">
+        <td class="mat-cell" [colSpan]="displayedColumns.length" style="text-align:center;padding:2rem;color:#6b7280;">
           No employees found
         </td>
       </tr>
@@ -72,8 +76,7 @@
       [pageSizeOptions]="[10, 20, 50]"
       (page)="onPageChange($event)"
       showFirstLastButtons
-    >
-    </mat-paginator>
+    />
     </div>
   </ng-template>
 </ng-template>

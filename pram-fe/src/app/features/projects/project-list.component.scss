@@ -1,15 +1,18 @@
-.header {
+.page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 
   h2 {
     margin: 0;
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #1a1a2e;
   }
 }
 
-.filter-bar {
+.filter-row {
   margin-bottom: 1rem;
 
   mat-form-field {
@@ -17,33 +20,10 @@
   }
 }
 
-.state-message {
-  text-align: center;
-  padding: 2rem;
-  color: var(--mat-sys-on-surface-variant);
-
-  &.error {
-    color: var(--mat-sys-error);
-
-    p {
-      margin-bottom: 1rem;
-    }
-  }
-}
-
-.table-wrapper {
+.table-container {
   overflow-x: auto;
 }
 
 table {
   width: 100%;
-}
-
-.status-chip {
-  font-size: 0.8rem;
-  font-weight: 500;
-}
-
-mat-paginator {
-  margin-top: 0.5rem;
 }

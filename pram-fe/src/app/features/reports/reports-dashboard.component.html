@@ -1,27 +1,27 @@
-<div class="header">
+<div class="page-header">
   <h2>Reports Dashboard</h2>
 </div>
 
 <!-- Summary Cards -->
 <div class="stats-row" *ngIf="!loadingStats && dashboard">
-  <mat-card class="stat-card">
-    <mat-card-header>
-      <mat-card-title>{{ dashboard.totalEmployees }}</mat-card-title>
-      <mat-card-subtitle>Employees</mat-card-subtitle>
-    </mat-card-header>
-  </mat-card>
-  <mat-card class="stat-card">
-    <mat-card-header>
-      <mat-card-title>{{ dashboard.totalProjects }}</mat-card-title>
-      <mat-card-subtitle>Projects</mat-card-subtitle>
-    </mat-card-header>
-  </mat-card>
-  <mat-card class="stat-card">
-    <mat-card-header>
-      <mat-card-title>{{ dashboard.activeAllocations }}</mat-card-title>
-      <mat-card-subtitle>Active Allocations</mat-card-subtitle>
-    </mat-card-header>
-  </mat-card>
+  <div class="summary-card stat-card">
+    <div class="card-body">
+      <div class="stat-value">{{ dashboard.totalEmployees }}</div>
+      <div class="stat-label">Employees</div>
+    </div>
+  </div>
+  <div class="summary-card stat-card">
+    <div class="card-body">
+      <div class="stat-value">{{ dashboard.totalProjects }}</div>
+      <div class="stat-label">Projects</div>
+    </div>
+  </div>
+  <div class="summary-card stat-card">
+    <div class="card-body">
+      <div class="stat-value">{{ dashboard.activeAllocations }}</div>
+      <div class="stat-label">Active Allocations</div>
+    </div>
+  </div>
 </div>
 
 <!-- Tabbed Reports -->
@@ -30,7 +30,10 @@
   <mat-tab label="Utilization">
     <div class="tab-content">
       <ng-container *ngIf="loadingUtil; else utilLoaded">
-        <div class="state-message">Loading...</div>
+        <div class="loading-state">
+          <mat-spinner diameter="28" />
+          <span>Loading…</span>
+        </div>
       </ng-container>
       <ng-template #utilLoaded>
         <ng-container *ngIf="errorUtil; else utilData">
@@ -40,8 +43,8 @@
           </div>
         </ng-container>
         <ng-template #utilData>
-          <div class="table-wrapper">
-          <table mat-table [dataSource]="utilization" class="mat-elevation-z1">
+          <div class="table-container">
+          <table mat-table [dataSource]="utilization">
             <ng-container matColumnDef="employeeCode">
               <th mat-header-cell *matHeaderCellDef>Code</th>
               <td mat-cell *matCellDef="let r">{{ r.employeeCode }}</td>
@@ -59,7 +62,7 @@
             <tr mat-header-row *matHeaderRowDef="utilDisplayed"></tr>
             <tr mat-row *matRowDef="let row; columns: utilDisplayed"></tr>
             <tr class="mat-row" *matNoDataRow>
-              <td class="mat-cell state-message" [colSpan]="utilDisplayed.length">No data</td>
+              <td class="mat-cell" [colSpan]="utilDisplayed.length" style="text-align:center;padding:2rem;color:#6b7280;">No data</td>
             </tr>
           </table>
           </div>
@@ -71,7 +74,7 @@
   <!-- Available -->
   <mat-tab label="Available Resources">
     <div class="tab-content">
-      <div class="filter-bar">
+      <div class="filter-row">
         <mat-form-field appearance="outline" subscriptSizing="dynamic">
           <mat-label>Min Available %</mat-label>
           <input matInput type="number" [(ngModel)]="minAvailable" min="0" max="100" />
@@ -80,7 +83,10 @@
       </div>
 
       <ng-container *ngIf="loadingAvail; else availLoaded">
-        <div class="state-message">Loading...</div>
+        <div class="loading-state">
+          <mat-spinner diameter="28" />
+          <span>Loading…</span>
+        </div>
       </ng-container>
       <ng-template #availLoaded>
         <ng-container *ngIf="errorAvail; else availData">
@@ -90,8 +96,8 @@
           </div>
         </ng-container>
         <ng-template #availData>
-          <div class="table-wrapper">
-          <table mat-table [dataSource]="available" class="mat-elevation-z1">
+          <div class="table-container">
+          <table mat-table [dataSource]="available">
             <ng-container matColumnDef="fullName">
               <th mat-header-cell *matHeaderCellDef>Name</th>
               <td mat-cell *matCellDef="let r">{{ r.fullName }}</td>
@@ -107,7 +113,7 @@
             <tr mat-header-row *matHeaderRowDef="availDisplayed"></tr>
             <tr mat-row *matRowDef="let row; columns: availDisplayed"></tr>
             <tr class="mat-row" *matNoDataRow>
-              <td class="mat-cell state-message" [colSpan]="availDisplayed.length">No data</td>
+              <td class="mat-cell" [colSpan]="availDisplayed.length" style="text-align:center;padding:2rem;color:#6b7280;">No data</td>
             </tr>
           </table>
           </div>
@@ -120,7 +126,10 @@
   <mat-tab label="Overloaded">
     <div class="tab-content">
       <ng-container *ngIf="loadingOver; else overLoaded">
-        <div class="state-message">Loading...</div>
+        <div class="loading-state">
+          <mat-spinner diameter="28" />
+          <span>Loading…</span>
+        </div>
       </ng-container>
       <ng-template #overLoaded>
         <ng-container *ngIf="errorOver; else overData">
@@ -130,8 +139,8 @@
           </div>
         </ng-container>
         <ng-template #overData>
-          <div class="table-wrapper">
-          <table mat-table [dataSource]="overloaded" class="mat-elevation-z1">
+          <div class="table-container">
+          <table mat-table [dataSource]="overloaded">
             <ng-container matColumnDef="fullName">
               <th mat-header-cell *matHeaderCellDef>Name</th>
               <td mat-cell *matCellDef="let r">{{ r.fullName }}</td>
@@ -143,7 +152,7 @@
             <tr mat-header-row *matHeaderRowDef="overDisplayed"></tr>
             <tr mat-row *matRowDef="let row; columns: overDisplayed"></tr>
             <tr class="mat-row" *matNoDataRow>
-              <td class="mat-cell state-message" [colSpan]="overDisplayed.length">No overloaded employees</td>
+              <td class="mat-cell" [colSpan]="overDisplayed.length" style="text-align:center;padding:2rem;color:#6b7280;">No overloaded employees</td>
             </tr>
           </table>
           </div>
@@ -154,11 +163,11 @@
 </mat-tab-group>
 
 <!-- AI Query Box -->
-<mat-card class="ai-card">
-  <mat-card-header>
-    <mat-card-title>AI Assistant</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
+<div class="ai-card">
+  <div class="card-header">
+    <h3>AI Assistant</h3>
+  </div>
+  <div class="card-body">
     <mat-form-field appearance="outline" class="ai-input">
       <mat-label>Ask about resources or risks</mat-label>
       <input matInput [(ngModel)]="aiQuery" placeholder="e.g. Find Java developer with 50% available" />
@@ -170,38 +179,34 @@
       <button mat-raised-button color="accent" [disabled]="!aiQuery || aiLoading" (click)="detectRisk()">
         Detect Risk
       </button>
-      <mat-spinner *ngIf="aiLoading" diameter="24" class="ai-spinner"></mat-spinner>
+      <mat-spinner *ngIf="aiLoading" diameter="22" class="ai-spinner" />
     </div>
 
     <div class="ai-error" *ngIf="aiError">{{ aiError }}</div>
 
-    <!-- Recommendation Results -->
     <div class="ai-results" *ngIf="aiRecs && aiRecs.length > 0">
-      <h3>Recommended Resources</h3>
-      <div class="ai-chip-list">
-        <mat-card class="ai-result-card" *ngFor="let r of aiRecs">
-          <mat-card-content>
-            <strong>{{ r.employee }}</strong> — {{ r.available }}% available
-          </mat-card-content>
-        </mat-card>
+      <h4>Recommended Resources</h4>
+      <div class="result-list">
+        <div class="result-item" *ngFor="let r of aiRecs">
+          <strong>{{ r.employee }}</strong> — {{ r.available }}% available
+        </div>
       </div>
     </div>
-    <div class="ai-no-results" *ngIf="aiRecs && aiRecs.length === 0">
+    <div class="state-message" *ngIf="aiRecs && aiRecs.length === 0">
       No matching resources found.
     </div>
 
-    <!-- Risk Results -->
     <div class="ai-results" *ngIf="aiRisks && aiRisks.length > 0">
-      <h3>Risk Detection Results</h3>
-      <mat-card class="ai-result-card" *ngFor="let risk of aiRisks">
-        <mat-card-content>
-          <mat-icon color="warn">warning</mat-icon>
+      <h4>Risk Detection Results</h4>
+      <div class="result-list">
+        <div class="result-item risk" *ngFor="let risk of aiRisks">
+          <span class="material-icons" style="font-size:1rem;color:#ef4444;vertical-align:middle;">warning</span>
           {{ risk }}
-        </mat-card-content>
-      </mat-card>
+        </div>
+      </div>
     </div>
-    <div class="ai-no-results" *ngIf="aiRisks && aiRisks.length === 0">
+    <div class="state-message" *ngIf="aiRisks && aiRisks.length === 0">
       No risks detected.
     </div>
-  </mat-card-content>
-</mat-card>
+  </div>
+</div>

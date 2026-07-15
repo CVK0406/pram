@@ -22,6 +22,7 @@ import { Employee } from '../../core/models/employee.model';
     MatIconModule,
     MatSelectModule,
     MatSnackBarModule,
+    MatTooltipModule,
   ],
   templateUrl: './allocation-list.component.html',
   styleUrl: './allocation-list.component.scss',

@@ -1,103 +1,93 @@
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>Create Allocation</mat-card-title>
-  </mat-card-header>
+<a routerLink="/allocations" class="back-link">
+  <span class="material-icons">arrow_back</span>
+  Back to Allocations
+</a>
 
-  <mat-card-content>
-    <form [formGroup]="form" (ngSubmit)="onSubmit()">
-      <div class="form-grid">
-        <!-- Employee autocomplete -->
-        <mat-form-field appearance="outline">
-          <mat-label>Employee</mat-label>
-          <input
-            matInput
-            [matAutocomplete]="auto"
-            [formControl]="employeeCtrl"
-            placeholder="Search by name or code"
-          />
-          <mat-autocomplete
-            #auto="matAutocomplete"
-            [displayWith]="displayEmployee"
-            (optionSelected)="onEmployeeSelected($event.option.value)"
-          >
-            <mat-option *ngFor="let e of filteredEmployees | async" [value]="e">
-              {{ e.employeeCode }} — {{ e.fullName }}
-            </mat-option>
-          </mat-autocomplete>
-          <mat-error *ngIf="serverErrors['employee']">{{ serverErrors['employee'] }}</mat-error>
-        </mat-form-field>
+<div class="form-card">
+  <h3 class="form-title">Add Allocation</h3>
 
-        <!-- Workload info -->
-        <div class="workload-info" *ngIf="employeeWorkloadMsg">
-          {{ employeeWorkloadMsg }}
-        </div>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-grid">
+      <!-- Employee autocomplete -->
+      <mat-form-field appearance="outline">
+        <mat-label>Employee</mat-label>
+        <input
+          matInput
+          [matAutocomplete]="auto"
+          [formControl]="employeeCtrl"
+          placeholder="Search by name or code"
+        />
+        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayEmployee" (optionSelected)="onEmployeeSelected($event.option.value)">
+          <mat-option *ngFor="let e of filteredEmployees | async" [value]="e">
+            {{ e.employeeCode }} — {{ e.fullName }}
+          </mat-option>
+        </mat-autocomplete>
+        <mat-error *ngIf="serverErrors['employee']">{{ serverErrors['employee'] }}</mat-error>
+      </mat-form-field>
 
-        <!-- Project dropdown (no COMPLETED) -->
-        <mat-form-field appearance="outline">
-          <mat-label>Project</mat-label>
-          <mat-select formControlName="projectId" (selectionChange)="onProjectIdChange($event.value)">
-            <mat-option *ngFor="let p of projects" [value]="p.projectId">
-              {{ p.projectCode }} — {{ p.projectName }}
-            </mat-option>
-          </mat-select>
-          <mat-error *ngIf="f.projectId.errors?.['required']">Required</mat-error>
-          <mat-error *ngIf="serverErrors['projectId']">{{ serverErrors['projectId'] }}</mat-error>
-        </mat-form-field>
+      <!-- Workload info -->
+      <div class="workload-info" *ngIf="employeeWorkloadMsg">{{ employeeWorkloadMsg }}</div>
 
-        <!-- Allocation percent -->
-        <mat-form-field appearance="outline">
-          <mat-label>Allocation %</mat-label>
-          <input
-            matInput
-            type="number"
-            formControlName="allocationPercent"
-            min="1"
-            max="100"
-            placeholder="50"
-          />
-          <span matSuffix>%</span>
-          <mat-error *ngIf="f.allocationPercent.errors?.['required']">Required</mat-error>
-          <mat-error *ngIf="f.allocationPercent.errors?.['min']">Min 1%</mat-error>
-          <mat-error *ngIf="f.allocationPercent.errors?.['max']">Max 100%</mat-error>
-          <mat-error *ngIf="serverErrors['allocationPercent']">{{ serverErrors['allocationPercent'] }}</mat-error>
-        </mat-form-field>
+      <!-- Project -->
+      <mat-form-field appearance="outline">
+        <mat-label>Project</mat-label>
+        <mat-select formControlName="projectId" (selectionChange)="onProjectIdChange($event.value)">
+          <mat-option *ngFor="let p of projects" [value]="p.projectId">
+            {{ p.projectCode }} — {{ p.projectName }}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="f.projectId.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="serverErrors['projectId']">{{ serverErrors['projectId'] }}</mat-error>
+      </mat-form-field>
 
-        <!-- Role -->
-        <mat-form-field appearance="outline">
-          <mat-label>Role in Project</mat-label>
-          <input matInput formControlName="roleInProject" placeholder="Developer" />
-          <mat-error *ngIf="f.roleInProject.errors?.['required']">Required</mat-error>
-        </mat-form-field>
+      <!-- Allocation percent -->
+      <mat-form-field appearance="outline">
+        <mat-label>Allocation %</mat-label>
+        <input matInput formControlName="allocationPercent" type="number" min="1" max="100" placeholder="50" />
+        <span matSuffix>%</span>
+        <mat-error *ngIf="f.allocationPercent.errors?.['required']">Required</mat-error>
+        <mat-error *ngIf="f.allocationPercent.errors?.['min']">Min 1%</mat-error>
+        <mat-error *ngIf="f.allocationPercent.errors?.['max']">Max 100%</mat-error>
+        <mat-error *ngIf="serverErrors['allocationPercent']">{{ serverErrors['allocationPercent'] }}</mat-error>
+      </mat-form-field>
 
-        <!-- Start date -->
-        <mat-form-field appearance="outline">
-          <mat-label>Start Date</mat-label>
-          <input matInput [matDatepicker]="startPicker" formControlName="startDate" />
-          <mat-datepicker-toggle matSuffix [for]="startPicker"></mat-datepicker-toggle>
-          <mat-datepicker #startPicker></mat-datepicker>
-          <mat-error *ngIf="f.startDate.errors?.['required']">Required</mat-error>
-        </mat-form-field>
+      <!-- Role -->
+      <mat-form-field appearance="outline">
+        <mat-label>Role in Project</mat-label>
+        <input matInput formControlName="roleInProject" placeholder="Developer" />
+        <mat-error *ngIf="f.roleInProject.errors?.['required']">Required</mat-error>
+      </mat-form-field>
 
-        <!-- End date -->
-        <mat-form-field appearance="outline">
-          <mat-label>End Date (optional)</mat-label>
-          <input matInput [matDatepicker]="endPicker" formControlName="endDate" />
-          <mat-datepicker-toggle matSuffix [for]="endPicker"></mat-datepicker-toggle>
-          <mat-datepicker #endPicker></mat-datepicker>
-        </mat-form-field>
-      </div>
+      <!-- Start date -->
+      <mat-form-field appearance="outline">
+        <mat-label>Start Date</mat-label>
+        <input matInput [matDatepicker]="startPicker" formControlName="startDate" />
+        <mat-datepicker-toggle matSuffix [for]="startPicker" />
+        <mat-datepicker #startPicker />
+        <mat-error *ngIf="f.startDate.errors?.['required']">Required</mat-error>
+      </mat-form-field>
 
-      <div class="general-error" *ngIf="serverErrors['general']">
-        {{ serverErrors['general'] }}
-      </div>
+      <!-- End date -->
+      <mat-form-field appearance="outline">
+        <mat-label>End Date</mat-label>
+        <input matInput [matDatepicker]="endPicker" formControlName="endDate" />
+        <mat-datepicker-toggle matSuffix [for]="endPicker" />
+        <mat-datepicker #endPicker />
+      </mat-form-field>
+    </div>
 
-      <div class="actions">
-        <button mat-stroked-button type="button" routerLink="/allocations">Cancel</button>
-        <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid || submitting">
-          <mat-spinner *ngIf="submitting" diameter="20" class="btn-spinner"></mat-spinner>
-          <span *ngIf="!submitting">Create</span>
-        </button>
-      </div>
-    </form>
-  </mat-card-content>
-</mat-card>
+    <div class="general-error" *ngIf="serverErrors['general']">
+      {{ serverErrors['general'] }}
+    </div>
+
+    <div class="actions">
+      <button mat-stroked-button type="button" routerLink="/allocations">Cancel</button>
+      <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid || submitting">
+        @if (submitting) {
+          <mat-spinner diameter="18" class="btn-spinner" />
+        }
+        <span>Create</span>
+      </button>
+    </div>
+  </form>
+</div>
