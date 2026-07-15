@@ -142,16 +142,16 @@ Thêm nhân viên trùng code → hiện lỗi rõ ràng trên form, không ph�
 ### Task chi tiết
 
 **3.1 Project List (2h)**
-- [ ] `ProjectListComponent`: bảng hiển thị projectCode, projectName, customer, startDate, endDate, status (dùng `mat-chip` màu theo status: PLANNING=xám, ACTIVE=xanh, COMPLETED=xanh dương)
-- [ ] Filter theo status (dropdown đơn giản gọi lại API với query param)
+- [x] `ProjectListComponent`: bảng hiển thị projectCode, projectName, customer, startDate, endDate, status (dùng `mat-chip` màu theo status: PLANNING=xám, ACTIVE=xanh, COMPLETED=xanh dương)
+- [x] Filter theo status (dropdown đơn giản gọi lại API với query param)
 
 **3.2 Project Create Form (2-3h)**
-- [ ] Form tương tự Employee, thêm `mat-datepicker` cho startDate/endDate
-- [ ] Validate `endDate >= startDate` ngay trên form trước khi submit (feedback nhanh hơn, backend vẫn validate lại)
+- [x] Form tương tự Employee, thêm `mat-datepicker` cho startDate/endDate
+- [x] Validate `endDate >= startDate` ngay trên form (feedback nhanh hơn, backend vẫn validate lại)
 
 **3.3 Đổi trạng thái dự án (1-2h)**
-- [ ] Nút "Chuyển trạng thái" trên mỗi dòng — chỉ hiện option hợp lệ tiếp theo (VD: đang PLANNING chỉ cho chọn ACTIVE, không cho chọn COMPLETED trực tiếp — khớp rule backend)
-- [ ] Gọi `PUT /projects/{id}/status`, xử lý lỗi nếu backend reject
+- [x] Nút "Chuyển trạng thái" trên mỗi dòng — chỉ hiện option hợp lệ tiếp theo (VD: đang PLANNING chỉ cho chọn ACTIVE, không cho chọn COMPLETED trực tiếp — khớp rule backend)
+- [x] Gọi `PUT /projects/{id}/status`, xử lý lỗi nếu backend reject
 
 ### Deliverable
 Project CRUD + đổi trạng thái hoạt động qua UI.
