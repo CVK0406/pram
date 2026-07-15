@@ -193,13 +193,20 @@
       ]
     },
     {
-      "name": "Health",
+      "name": "System & Diagnostics",
       "item": [
         {
           "name": "Ping",
           "request": {
             "method": "GET",
             "url": { "raw": "{{baseUrl}}/ping", "host": ["{{baseUrl}}"], "path": ["ping"] }
+          }
+        },
+        {
+          "name": "Dashboard Statistics",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "{{baseUrl}}/dashboard", "host": ["{{baseUrl}}"], "path": ["dashboard"] }
           }
         }
       ]
