@@ -70,7 +70,7 @@
       <!-- End date -->
       <mat-form-field appearance="outline">
         <mat-label>End Date</mat-label>
-        <input matInput [matDatepicker]="endPicker" formControlName="endDate" />
+        <input matInput [matDatepicker]="endPicker" formControlName="endDate" [min]="form.value.startDate || null" />
         <mat-datepicker-toggle matSuffix [for]="endPicker" />
         <mat-datepicker #endPicker />
       </mat-form-field>

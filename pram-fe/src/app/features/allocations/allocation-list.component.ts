@@ -80,6 +80,7 @@ export class AllocationListComponent implements OnInit {
     this.allocationService.delete(id).subscribe({
       next: () => {
         this.allocations = this.allocations.filter((a) => a.allocationId !== id);
+        this.allocations = [...this.allocations];
         this.snackBar.open('Allocation deleted', 'Close', { duration: 3000 });
       },
       error: (err) => {

@@ -51,7 +51,7 @@ export class AllocationFormComponent implements OnInit {
 
   form = this.fb.nonNullable.group({
     employee: ['', Validators.required],
-    projectId: [0 as number, Validators.required],
+    projectId: [null as number | null, Validators.required],
     allocationPercent: [0 as number, [Validators.required, Validators.min(1), Validators.max(100)]],
     roleInProject: ['', Validators.required],
     startDate: ['', Validators.required],
