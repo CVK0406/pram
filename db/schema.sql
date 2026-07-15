@@ -47,9 +47,9 @@ CREATE INDEX IF NOT EXISTS idx_allocation_project ON allocation(project_id);
 -- Insert Employees
 INSERT INTO employee (employee_id, employee_code, full_name, email, role, department)
 VALUES 
-(1, 'EMP001', 'Tuan Ho Anh', 'tuanha@company.com', 'Senior Developer', 'FSOFT-Q1'),
+(1, 'EMP001', 'Tuan Ho Anh', 'tuanha@company.com', 'Senior Java Developer', 'FSOFT-Q1'),
 (2, 'EMP002', 'Le Thi C', 'cle@company.com', 'QA Lead', 'FSOFT-Q2'),
-(3, 'EMP003', 'Nguyen Van B', 'bnguyen@company.com', 'Junior Developer', 'FSOFT-Q1'),
+(3, 'EMP003', 'Nguyen Van B', 'bnguyen@company.com', 'Junior Java Developer', 'FSOFT-Q1'),
 (4, 'EMP004', 'Test User', 'test@company.com', 'Tester', 'FSOFT-Q3'),
 (5, 'EMP005', 'Le Hoang Nam', 'namlh@company.com', 'Project Manager', 'FSOFT-Q1')
 ON CONFLICT (employee_code) DO NOTHING;

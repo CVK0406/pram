@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 @Slf4j
 @Service
@@ -46,64 +45,75 @@ public class AiServiceImpl implements AiService {
     private String apiUrl;
 
     // -----------------------------------------------------------------------
-    // 8.1 AI Resource Recommendation — rule-based, no LLM needed
+    // 8.1 AI Resource Recommendation — LLM-based
     // -----------------------------------------------------------------------
 
     @Override
     public AiRecommendResponse recommendResource(String query) {
         log.info("[AI RECOMMEND] query='{}'", query);
 
-        // Extract minAvailable (e.g. "50%", "50 percent", "tối thiểu 50")
-        int minAvailable = extractMinAvailable(query);
+        // Fetch all available resources (with minAvailable = 0 to let the LLM filter
+        // them)
+        List<AvailableResourceResponse> available = reportService.getAvailableResources(0);
+        String prompt = buildRecommendPrompt(query, available);
 
-        // Extract role keyword (anything that isn't a number/percent/stopword)
-        String role = extractRole(query);
-
-        log.info("[AI RECOMMEND] parsed role='{}', minAvailable={}", role, minAvailable);
-
-        List<AvailableResourceResponse> available = reportService.getAvailableResources(minAvailable);
-
-        // Filter by role (case-insensitive substring match against employee's role field)
-        List<AiRecommendResponse.RecommendedResource> result = available.stream()
-                .filter(r -> role.isBlank() ||
-                        (r.getRole() != null && r.getRole().toLowerCase().contains(role.toLowerCase())))
-                .map(r -> AiRecommendResponse.RecommendedResource.builder()
-                        .employee(r.getFullName())
-                        .available(r.getAvailable())
-                        .build())
-                .collect(Collectors.toList());
-
-        return AiRecommendResponse.builder().recommendedResources(result).build();
+        try {
+            String rawResponse = callOpenRouter(prompt);
+            return parseRecommendations(rawResponse);
+        } catch (Exception e) {
+            log.error("[AI RECOMMEND] OpenRouter call failed: {}", e.getMessage());
+            return AiRecommendResponse.builder()
+                    .recommendedResources(new ArrayList<>())
+                    .build();
+        }
     }
 
-    private int extractMinAvailable(String query) {
-        // Match patterns like "50%", "50 %", "tối thiểu 50", "minimum 50", "ít nhất 50"
-        Pattern p = Pattern.compile("(\\d{1,3})\\s*%?");
-        Matcher m = p.matcher(query);
-        if (m.find()) {
-            int val = Integer.parseInt(m.group(1));
-            if (val >= 1 && val <= 100) return val;
+    private String buildRecommendPrompt(String userQuery, List<AvailableResourceResponse> available) {
+        StringBuilder sb = new StringBuilder();
+        for (AvailableResourceResponse r : available) {
+            sb.append("- ").append(r.getFullName())
+                    .append(" (Role: ").append(r.getRole() != null ? r.getRole() : "Unknown").append("): ")
+                    .append(r.getAvailable()).append("% available\n");
         }
-        return 0;
+        return """
+                You are a resource recommendation assistant for a software outsourcing company.
+
+                Available resource pool:
+                %s
+
+                User query: "%s"
+
+                Based on the available resource pool and the user's query (matching required role/skills and minimum availability), recommend the matching resources.
+                Format your output as a valid JSON object matching this schema:
+                {
+                  "recommendedResources": [
+                    { "employee": "Name of Employee", "available": capacity_number }
+                  ]
+                }
+                Return ONLY the JSON object, no explanations, no markdown, just valid JSON.
+                """
+                .formatted(sb.toString(), userQuery);
     }
 
-    private String extractRole(String query) {
-        // Remove numbers, percent signs, and common filler words
-        String cleaned = query
-                .replaceAll("\\d+\\s*%?", "")
-                .replaceAll("(?i)(tìm|find|tối thiểu|minimum|ít nhất|at least|còn|available|developer|percent|còn|của|tìm kiếm)", " $1 ")
-                // keep meaningful words (letters only, 3+ chars)
-                .trim();
-
-        // Try to find a meaningful role phrase: e.g. "Java Developer", "Backend", "Frontend"
-        Pattern rolePattern = Pattern.compile("(?i)(java|python|backend|frontend|fullstack|full.stack|qa|tester|devops|senior|junior|developer|engineer|designer|analyst)");
-        Matcher m = rolePattern.matcher(cleaned);
-        StringBuilder roleBuilder = new StringBuilder();
-        while (m.find()) {
-            if (!roleBuilder.isEmpty()) roleBuilder.append(" ");
-            roleBuilder.append(m.group());
+    private AiRecommendResponse parseRecommendations(String content) {
+        try {
+            String trimmed = content.strip();
+            if (trimmed.contains("```")) {
+                Pattern fence = Pattern.compile("```(?:json)?\\s*([\\s\\S]*?)\\s*```");
+                Matcher m = fence.matcher(trimmed);
+                if (m.find())
+                    trimmed = m.group(1).strip();
+            }
+            int start = trimmed.indexOf('{');
+            int end = trimmed.lastIndexOf('}');
+            if (start >= 0 && end > start) {
+                trimmed = trimmed.substring(start, end + 1);
+            }
+            return objectMapper.readValue(trimmed, AiRecommendResponse.class);
+        } catch (Exception e) {
+            log.error("[AI RECOMMEND] Parsing failed: {}", e.getMessage());
+            return AiRecommendResponse.builder().recommendedResources(new ArrayList<>()).build();
         }
-        return roleBuilder.toString().trim();
     }
 
     // -----------------------------------------------------------------------
@@ -133,12 +143,13 @@ public class AiServiceImpl implements AiService {
     }
 
     private String buildUtilizationSummary(List<EmployeeUtilizationResponse> utilization) {
-        if (utilization.isEmpty()) return "No employee data available.";
+        if (utilization.isEmpty())
+            return "No employee data available.";
         StringBuilder sb = new StringBuilder();
         for (EmployeeUtilizationResponse u : utilization) {
             sb.append("- ").append(u.getFullName())
-              .append(" (").append(u.getEmployeeCode()).append("): ")
-              .append(u.getTotalAllocation()).append("% allocated\n");
+                    .append(" (").append(u.getEmployeeCode()).append("): ")
+                    .append(u.getTotalAllocation()).append("% allocated\n");
         }
         return sb.toString();
     }
@@ -146,12 +157,12 @@ public class AiServiceImpl implements AiService {
     private String buildRiskPrompt(String userQuery, String utilizationSummary) {
         return """
                 You are a resource allocation risk analyst for a software outsourcing company.
-                
+
                 Current team utilization data:
                 %s
-                
+
                 User query: "%s"
-                
+
                 Based on the utilization data above and the user's query, identify 2-4 specific risks.
                 Return ONLY a valid JSON array of strings, no markdown, no explanation, just the JSON array.
                 Example format: ["Risk 1 description", "Risk 2 description"]
@@ -159,13 +170,17 @@ public class AiServiceImpl implements AiService {
     }
 
     private String callOpenRouter(String prompt) throws Exception {
-        String requestBody = objectMapper.writeValueAsString(new java.util.HashMap<String, Object>() {{
-            put("model", model);
-            put("messages", List.of(new java.util.HashMap<String, String>() {{
-                put("role", "user");
-                put("content", prompt);
-            }}));
-        }});
+        String requestBody = objectMapper.writeValueAsString(new java.util.HashMap<String, Object>() {
+            {
+                put("model", model);
+                put("messages", List.of(new java.util.HashMap<String, String>() {
+                    {
+                        put("role", "user");
+                        put("content", prompt);
+                    }
+                }));
+            }
+        });
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -196,7 +211,8 @@ public class AiServiceImpl implements AiService {
             if (trimmed.contains("```")) {
                 Pattern fence = Pattern.compile("```(?:json)?\\s*([\\s\\S]*?)\\s*```");
                 Matcher m = fence.matcher(trimmed);
-                if (m.find()) trimmed = m.group(1).strip();
+                if (m.find())
+                    trimmed = m.group(1).strip();
             }
             // Find the first [ ... ] array
             int start = trimmed.indexOf('[');
@@ -207,7 +223,8 @@ public class AiServiceImpl implements AiService {
             JsonNode arr = objectMapper.readTree(trimmed);
             List<String> risks = new ArrayList<>();
             if (arr.isArray()) {
-                for (JsonNode n : arr) risks.add(n.asText());
+                for (JsonNode n : arr)
+                    risks.add(n.asText());
             }
             return risks.isEmpty() ? List.of(content) : risks;
         } catch (Exception e) {
