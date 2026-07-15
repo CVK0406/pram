@@ -1,0 +1,70 @@
+<div class="header">
+  <button mat-stroked-button routerLink="/employees">
+    <mat-icon>arrow_back</mat-icon>
+    Back to Employees
+  </button>
+</div>
+
+<ng-container *ngIf="loading; else loaded">
+  <div class="state-message">Loading...</div>
+</ng-container>
+
+<ng-template #loaded>
+  <ng-container *ngIf="error; else data">
+    <div class="state-message error">{{ error }}</div>
+  </ng-container>
+
+  <ng-template #data>
+    <mat-card *ngIf="workload" class="summary-card">
+      <mat-card-header>
+        <mat-card-title>{{ workload.employeeName }}</mat-card-title>
+        <mat-card-subtitle>Workload Detail</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat-label">Total Allocation</span>
+            <span class="stat-value">{{ workload.totalAllocation }}%</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Available</span>
+            <span class="stat-value" [class.over-allocated]="workload.available < 0">{{ workload.available }}%</span>
+          </div>
+        </div>
+
+        <mat-progress-bar
+          mode="determinate"
+          [value]="workload.totalAllocation"
+          [color]="workload.totalAllocation > 90 ? 'warn' : workload.totalAllocation > 70 ? 'accent' : 'primary'"
+        ></mat-progress-bar>
+
+        <div class="allocations-section" *ngIf="workload.allocations.length > 0">
+          <h3>Allocations</h3>
+          <table mat-table [dataSource]="workload.allocations" class="mat-elevation-z1">
+            <ng-container matColumnDef="projectCode">
+              <th mat-header-cell *matHeaderCellDef>Project</th>
+              <td mat-cell *matCellDef="let a">{{ a.projectCode }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="allocationPercent">
+              <th mat-header-cell *matHeaderCellDef>%</th>
+              <td mat-cell *matCellDef="let a">{{ a.allocationPercent }}%</td>
+            </ng-container>
+
+            <ng-container matColumnDef="roleInProject">
+              <th mat-header-cell *matHeaderCellDef>Role</th>
+              <td mat-cell *matCellDef="let a">{{ a.roleInProject }}</td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+          </table>
+        </div>
+
+        <div class="no-allocations" *ngIf="workload.allocations.length === 0">
+          No active allocations for this employee.
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </ng-template>
+</ng-template>

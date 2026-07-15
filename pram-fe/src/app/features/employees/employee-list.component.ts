@@ -25,7 +25,7 @@ import { Employee } from '../../core/models/employee.model';
 export class EmployeeListComponent implements OnInit {
   private employeeService = inject(EmployeeService);
 
-  displayedColumns = ['employeeCode', 'fullName', 'email', 'role', 'department'];
+  displayedColumns = ['employeeCode', 'fullName', 'email', 'role', 'department', 'actions'];
   employees: Employee[] = [];
   totalElements = 0;
   pageSize = 20;

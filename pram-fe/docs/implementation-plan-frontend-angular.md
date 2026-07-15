@@ -196,9 +196,9 @@ Form tạo allocation phản ánh đầy đủ 3 rule, feedback rõ ràng ngay t
 
 ### Task chi tiết
 
-- [ ] `WorkloadDetailComponent`: click vào 1 employee ở list → mở trang/dialog hiển thị `GET /employees/{id}/workload`
-- [ ] Hiển thị: tổng allocation, % available, danh sách project đang tham gia kèm role
-- [ ] Vẽ 1 progress bar đơn giản (`mat-progress-bar`) thể hiện % đã dùng — trực quan hơn số liệu thô
+- [x] `WorkloadDetailComponent`: click vào 1 employee ở list → navigate đến trang hiển thị `GET /employees/{id}/workload`
+- [x] Hiển thị: tổng allocation, % available, danh sách project đang tham gia kèm role
+- [x] Vẽ 1 progress bar đơn giản (`mat-progress-bar`) thể hiện % đã dùng — trực quan hơn số liệu thô
 
 ### Deliverable
 Trang chi tiết workload cho từng nhân viên.
