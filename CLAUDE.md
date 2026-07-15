@@ -98,7 +98,7 @@ com.company.pram
 - [x] Phase 5 — Concurrency handling (pessimistic lock)
 - [x] Phase 6 — Reporting APIs
 - [x] Phase 7 — Exception & validation polish
-- [ ] Phase 8 — Unit tests
+- [x] Phase 8 — Unit tests
 - [ ] Phase 9 — Swagger, Postman, README
 - [ ] Phase 10 — Docker Compose
 - [ ] Phase 11 — AI Bonus

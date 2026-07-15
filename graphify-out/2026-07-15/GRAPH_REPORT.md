@@ -1,16 +1,16 @@
 # Graph Report - RA  (2026-07-15)
 
 ## Corpus Check
-- 58 files · ~13,096 words
+- 58 files · ~13,129 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 601 nodes · 744 edges · 140 communities (39 shown, 101 thin omitted)
+- 599 nodes · 746 edges · 139 communities (39 shown, 100 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8799fe2d`
+- Built from commit: `a28d09b0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -134,7 +134,6 @@
 - [[_COMMUNITY_Community 116|Community 116]]
 - [[_COMMUNITY_Community 117|Community 117]]
 - [[_COMMUNITY_Community 118|Community 118]]
-- [[_COMMUNITY_Community 119|Community 119]]
 - [[_COMMUNITY_Community 120|Community 120]]
 - [[_COMMUNITY_Community 121|Community 121]]
 - [[_COMMUNITY_Community 122|Community 122]]
@@ -160,45 +159,45 @@
 2. `LocalDate` - 14 edges
 3. `SRS - Project Resource Allocation Management System` - 12 edges
 4. `GlobalExceptionHandler` - 9 edges
-5. `ResponseEntity` - 9 edges
-6. `ExceptionHandler` - 9 edges
-7. `AllocationService` - 9 edges
-8. `ReportService` - 9 edges
-9. `WebRequest` - 8 edges
-10. `ErrorResponse` - 8 edges
+5. `WebRequest` - 9 edges
+6. `ResponseEntity` - 9 edges
+7. `ErrorResponse` - 9 edges
+8. `ExceptionHandler` - 9 edges
+9. `AllocationService` - 9 edges
+10. `ReportService` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `AllocationServiceImpl` --implements--> `AllocationService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/AllocationServiceImpl.java → src/main/java/com/company/pram/service/AllocationService.java
-- `EmployeeServiceImpl` --implements--> `EmployeeService`  [EXTRACTED]
-  src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java → src/main/java/com/company/pram/service/EmployeeService.java
 - `ProjectServiceImpl` --implements--> `ProjectService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/ProjectServiceImpl.java → src/main/java/com/company/pram/service/ProjectService.java
 - `DashboardServiceImpl` --implements--> `DashboardService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/DashboardServiceImpl.java → src/main/java/com/company/pram/service/DashboardService.java
+- `EmployeeServiceImpl` --implements--> `EmployeeService`  [EXTRACTED]
+  src/main/java/com/company/pram/service/impl/EmployeeServiceImpl.java → src/main/java/com/company/pram/service/EmployeeService.java
 - `ReportServiceImpl` --implements--> `ReportService`  [EXTRACTED]
   src/main/java/com/company/pram/service/impl/ReportServiceImpl.java → src/main/java/com/company/pram/service/ReportService.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (140 total, 101 thin omitted)
+## Communities (139 total, 100 thin omitted)
 
 ### Community 0 - "Employee Controller Layer"
-Cohesion: 0.15
-Nodes (15): EmployeeController, EmployeeService, EmployeeRequest, EmployeeResponse, EmployeeWorkloadResponse, GetMapping, Long, Page (+7 more)
+Cohesion: 0.29
+Nodes (9): EmployeeController, EmployeeRequest, EmployeeResponse, EmployeeWorkloadResponse, GetMapping, Long, Page, PostMapping (+1 more)
 
 ### Community 1 - "Exception Handling"
-Cohesion: 0.20
-Nodes (15): AllocationExceededException, AllocationNotFoundException, DuplicateResourceException, EmployeeNotFoundException, ErrorResponse, Exception, GlobalExceptionHandler, ExceptionHandler (+7 more)
+Cohesion: 0.40
+Nodes (7): ErrorResponse, Exception, GlobalExceptionHandler, ExceptionHandler, MethodArgumentNotValidException, ResponseEntity, WebRequest
 
 ### Community 2 - "Employee Entity & Repository"
 Cohesion: 0.22
 Nodes (5): Employee, PrePersist, PreUpdate, Object, Override
 
 ### Community 3 - "Employee Service Implementation"
-Cohesion: 0.15
-Nodes (15): EmployeeServiceImpl, Optional, EmployeeRepository, Employee, Lock, Long, Query, String (+7 more)
+Cohesion: 0.10
+Nodes (22): DuplicateResourceException, EmployeeServiceImpl, Optional, EmployeeRepository, EmployeeService, Employee, Lock, Long (+14 more)
 
 ### Community 4 - "Maven Wrapper"
 Cohesion: 0.06
@@ -209,12 +208,12 @@ Cohesion: 0.07
 Nodes (26): 10. Danh sách Deliverables, 11. Roadmap đề xuất (2 tuần), 1.1 Mục đích, 1.2 Phạm vi, 1.3 Đối tượng sử dụng tài liệu, 1.4 Định nghĩa - Từ viết tắt, 1. Giới thiệu, 2.1 Bối cảnh nghiệp vụ (+18 more)
 
 ### Community 7 - "Health Check Endpoint"
-Cohesion: 0.47
-Nodes (4): PingController, GetMapping, Map, String
+Cohesion: 0.24
+Nodes (6): PingController, Map, ErrorResponse, GetMapping, String, String
 
 ### Community 8 - "Application Entry Point"
-Cohesion: 0.17
-Nodes (15): ProjectServiceImpl, ProjectRepository, Page, Pageable, Project, ProjectStatus, String, Long (+7 more)
+Cohesion: 0.15
+Nodes (17): ProjectServiceImpl, InvalidProjectStatusException, ProjectNotFoundException, ProjectRepository, Page, Pageable, Project, ProjectStatus (+9 more)
 
 ### Community 98 - "Community 98"
 Cohesion: 0.08
@@ -237,8 +236,8 @@ Cohesion: 0.17
 Nodes (11): Architecture, Build & Run, CLAUDE.md — PRAMS (Project Resource Allocation Management System), Conventions, Data flow, graphify, Key business rules (AllocationService), Naming conventions (+3 more)
 
 ### Community 103 - "Community 103"
-Cohesion: 0.11
-Nodes (21): AllocationServiceImpl, LocalDate, AllocationRepository, AllocationRequest, ProjectRequest, AllocationResponse, ProjectResponse, AssertTrue (+13 more)
+Cohesion: 0.10
+Nodes (22): AllocationNotFoundException, AllocationServiceImpl, LocalDate, AllocationRepository, AllocationRequest, ProjectRequest, AllocationResponse, ProjectResponse (+14 more)
 
 ### Community 104 - "Community 104"
 Cohesion: 0.23
@@ -313,8 +312,8 @@ Cohesion: 0.40
 Nodes (3): Project, Object, Override
 
 ### Community 129 - "Community 129"
-Cohesion: 0.18
-Nodes (9): AfterEach, BeforeEach, AllocationServiceConcurrencyTest, AllocationService, AllocationRequest, AllocationResponse, List, Long (+1 more)
+Cohesion: 0.17
+Nodes (10): AfterEach, AllocationExceededException, BeforeEach, AllocationServiceConcurrencyTest, AllocationService, AllocationRequest, AllocationResponse, List (+2 more)
 
 ### Community 130 - "Community 130"
 Cohesion: 0.39
@@ -329,32 +328,32 @@ Cohesion: 0.40
 Nodes (3): Allocation, Object, Override
 
 ### Community 133 - "Community 133"
-Cohesion: 0.12
-Nodes (18): ReportServiceImpl, ReportService, AvailableResourceResponse, EmployeeUtilizationResponse, EmployeeWorkloadResponse, Integer, List, Long (+10 more)
+Cohesion: 0.11
+Nodes (19): EmployeeNotFoundException, ReportServiceImpl, ReportService, AvailableResourceResponse, EmployeeUtilizationResponse, EmployeeWorkloadResponse, Integer, List (+11 more)
 
 ### Community 134 - "Community 134"
 Cohesion: 0.35
 Nodes (8): ReportController, AvailableResourceResponse, EmployeeUtilizationResponse, GetMapping, Integer, List, OverloadedEmployeeResponse, ResponseEntity
 
 ## Knowledge Gaps
-- **162 isolated node(s):** `String`, `PostMapping`, `PutMapping`, `Void`, `DeleteMapping` (+157 more)
+- **161 isolated node(s):** `String`, `PostMapping`, `PutMapping`, `Void`, `DeleteMapping` (+156 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **101 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **100 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `LocalDate` connect `Community 103` to `Community 129`, `Community 132`, `Community 133`, `Community 110`, `Community 123`?**
-  _High betweenness centrality (0.081) - this node is a cross-community bridge._
+  _High betweenness centrality (0.087) - this node is a cross-community bridge._
 - **Why does `ReportService` connect `Community 133` to `Employee Controller Layer`, `Community 134`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **Why does `ProjectService` connect `Community 105` to `Application Entry Point`, `Community 99`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
 - **What connects `String`, `PostMapping`, `PutMapping` to the rest of the system?**
-  _162 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _161 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Employee Service Implementation` be split into smaller, more focused modules?**
+  _Cohesion score 0.10160427807486631 - nodes in this community are weakly interconnected._
 - **Should `Maven Wrapper` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
 - **Should `Employee DTO & Mapper` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
-- **Should `Community 98` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._

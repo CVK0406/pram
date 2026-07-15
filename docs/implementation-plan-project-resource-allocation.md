@@ -287,10 +287,10 @@ Không còn exception nào "leak" ra ngoài dạng stack trace mặc định c�
 | `ReportService` | Thấp | Có thể test bằng integration test với DB in-memory (H2) thay vì mock |
 
 ### Task chi tiết
-- [ ] Setup Mockito cho Service test (mock Repository)
-- [ ] Viết test cho `AllocationService` (mục tiêu ít nhất 8-10 test case bám theo bảng ví dụ SRS)
-- [ ] Viết test cho `ProjectService`, `EmployeeService`
-- [ ] (Optional) Integration test với H2 in-memory DB cho Report queries
+- [x] Setup Mockito cho Service test (mock Repository)
+- [x] Viết test cho `AllocationService` (mục tiêu ít nhất 8-10 test case bám theo bảng ví dụ SRS)
+- [x] Viết test cho `ProjectService`, `EmployeeService`
+- [x] (Optional) Integration test với H2 in-memory DB cho Report queries — đã làm concurency test với PostgreSQL thật
 
 ### Deliverable
 Bộ unit test chạy `mvn test` pass toàn bộ.
