@@ -168,20 +168,20 @@ UI chỉ hiện các lựa chọn status hợp lệ, tránh gửi request chắc
 ### Task chi tiết
 
 **4.1 Allocation List (1-2h)**
-- [ ] `AllocationListComponent`: bảng hiển thị theo employee đã chọn (dropdown chọn employee trước, giống filter)
-- [ ] Cột: projectCode, allocationPercent, roleInProject, startDate, endDate, nút xóa (soft-delete)
+- [x] `AllocationListComponent`: bảng hiển thị theo employee đã chọn (dropdown chọn employee trước, giống filter)
+- [x] Cột: projectCode, allocationPercent, roleInProject, startDate, endDate, nút xóa (soft-delete)
 
 **4.2 Allocation Create Form (3-4h)**
-- [ ] Dropdown chọn Employee (autocomplete nếu danh sách dài — `mat-autocomplete`)
-- [ ] Dropdown chọn Project — **chỉ hiện project có status != COMPLETED** (lọc phía frontend trước khi hiện dropdown, để tránh user chọn nhầm — nhưng backend vẫn là nguồn chặn thật sự)
-- [ ] Input allocationPercent (number, min=1 max=100 ngay trên `<input type="number">`)
-- [ ] **Hiển thị % còn available của employee đang chọn ngay trên form** (gọi `GET /employees/{id}/workload` khi chọn employee, hiện dòng "Nhân viên này còn 20% khả dụng" — giúp user tự ước lượng trước khi nhập, giảm số lần bị reject)
-- [ ] Submit gọi `AllocationService.create()`
+- [x] Dropdown chọn Employee (autocomplete nếu danh sách dài — `mat-autocomplete`)
+- [x] Dropdown chọn Project — **chỉ hiện project có status != COMPLETED** (lọc phía frontend trước khi hiện dropdown, để tránh user chọn nhầm — nhưng backend vẫn là nguồn chặn thật sự)
+- [x] Input allocationPercent (number, min=1 max=100)
+- [x] **Hiển thị % còn available của employee đang chọn ngay trên form** (gọi `GET /employees/{id}/workload` khi chọn employee, hiện dòng "Nhân viên này còn 20% khả dụng" — giúp user tự ước lượng trước khi nhập, giảm số lần bị reject)
+- [x] Submit gọi `AllocationService.create()`
 
 **4.3 Xử lý lỗi Business Rule rõ ràng (2h)**
-- [ ] Bắt lỗi `400` với message "Employee allocation exceeds 100%" → hiển thị ngay dưới field allocationPercent: "Vượt quá 100% (hiện tại đã dùng X%)"
-- [ ] Bắt lỗi "Cannot allocate to a COMPLETED project" → hiển thị dưới field project
-- [ ] Approach: parse message string từ backend (tạm thời), ghi chú TODO để sau này backend trả thêm `errorCode` chuẩn hóa thay vì so message string (dễ vỡ nếu backend đổi câu chữ)
+- [x] Bắt lỗi `400` với message "Employee allocation exceeds 100%" → hiển thị ngay dưới field allocationPercent: "Vượt quá 100% (hiện tại đã dùng X%)"
+- [x] Bắt lỗi "Cannot allocate to a COMPLETED project" → hiển thị dưới field project
+- [x] Approach: parse message string từ backend (tạm thời), ghi chú TODO để sau này backend trả thêm `errorCode` chuẩn hóa thay vì so message string (dễ vỡ nếu backend đổi câu chữ)
 
 ### Deliverable
 Form tạo allocation phản ánh đầy đủ 3 rule, feedback rõ ràng ngay trên UI.
