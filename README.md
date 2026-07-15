@@ -228,7 +228,7 @@ Set the `baseUrl` variable to `http://localhost:8080`.
   *Evaluates current team capacity against project milestones to output risk statements.*
   ```json
   {
-    "query": "Sprint to can them 2 Java Developer"
+    "query": "Sprint toi can them 2 Java Developer"
   }
   ```
 
