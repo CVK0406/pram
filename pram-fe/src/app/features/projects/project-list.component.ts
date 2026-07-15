@@ -104,7 +104,10 @@ export class ProjectListComponent implements OnInit {
     this.projectService.updateStatus(project.projectId!, next).subscribe({
       next: (updated) => {
         const idx = this.projects.findIndex((p) => p.projectId === updated.projectId);
-        if (idx >= 0) this.projects[idx] = updated;
+        if (idx >= 0) {
+          this.projects[idx] = updated;
+          this.projects = [...this.projects];
+        }
         this.transitioningId = null;
         this.snackBar.open(`Status changed to ${next}`, 'Close', { duration: 3000 });
       },
