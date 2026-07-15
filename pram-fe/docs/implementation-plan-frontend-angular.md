@@ -236,11 +236,11 @@ Số liệu khớp 100% với dữ liệu SQL báo cáo phía backend.
 
 ### Task chi tiết
 
-- [ ] Viết `HttpErrorInterceptor` bắt lỗi chung (500, network error) → hiện toast/snackbar (`MatSnackBar`), tránh lặp code try/catch ở từng component
-- [ ] Thêm `LoadingInterceptor` hoặc spinner thủ công cho mọi request (biến `isLoading` đơn giản, không cần thư viện phức tạp)
-- [ ] Rà lại toàn bộ form: disable nút submit khi đang gọi API (tránh double-submit — quan trọng vì liên quan trực tiếp tới vấn đề concurrency ở backend)
-- [ ] Thêm route guard/redirect cơ bản nếu có phân trang layout (menu điều hướng Employee/Project/Allocation/Reports)
-- [ ] Kiểm tra lại toàn bộ message lỗi hiển thị bằng tiếng Việt dễ hiểu (không hiện thẳng message kỹ thuật từ backend)
+- [x] Viết `HttpErrorInterceptor` bắt lỗi chung (500, network error) → hiện toast/snackbar (`MatSnackBar`), tránh lặp code try/catch ở từng component
+- [x] Thêm `LoadingInterceptor` hoặc spinner thủ công cho mọi request (biến `isLoading` đơn giản, không cần thư viện phức tạp)
+- [x] Rà lại toàn bộ form: disable nút submit khi đang gọi API (tránh double-submit — quan trọng vì liên quan trực tiếp tới vấn đề concurrency ở backend)
+- [x] Thêm route guard/redirect cơ bản nếu có phân trang layout (menu điều hướng Employee/Project/Allocation/Reports)
+- [x] Kiểm tra lại toàn bộ message lỗi hiển thị bằng tiếng Việt dễ hiểu (không hiện thẳng message kỹ thuật từ backend)
 
 ### Deliverable
 UX nhất quán: loading, lỗi, thành công đều có feedback rõ ràng toàn ứng dụng.
