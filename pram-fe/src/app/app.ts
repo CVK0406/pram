@@ -1,14 +1,12 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { RouterOutlet, RouterLink } from '@angular/router';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { SidebarComponent } from './layout/sidebar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink],
+  standalone: true,
+  imports: [RouterOutlet, SidebarComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
-export class App implements OnInit {
-  ngOnInit(): void {
-    // Backend connectivity check removed — handled per-feature
-  }
-}
+export class App {}

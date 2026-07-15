@@ -1,30 +1,16 @@
 :host {
-  display: flex;
-  flex-direction: column;
+  display: block;
   height: 100dvh;
-  font-family: Roboto, sans-serif;
 }
 
-nav {
+.app-shell {
   display: flex;
-  gap: 1rem;
-  padding: 0.75rem 1.5rem;
-  background: var(--mat-sys-primary);
-  color: var(--mat-sys-on-primary);
-
-  a {
-    color: inherit;
-    text-decoration: none;
-    font-weight: 500;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  height: 100%;
 }
 
-main {
+.content {
   flex: 1;
-  padding: 1.5rem;
   overflow-y: auto;
+  background: #fafafa;
+  padding: 1.5rem 2rem;
 }
