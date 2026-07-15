@@ -25,7 +25,25 @@ Dưới đây là vị trí chính xác của 6 sản phẩm bàn giao theo yêu
 
 ## Quick Start
 
-### Docker Compose (recommended)
+### 1. Chuẩn bị biến môi trường (Bắt buộc cho tính năng AI)
+
+Tính năng AI Assistant (gợi ý resource & phát hiện rủi ro) yêu cầu API key từ [OpenRouter](https://openrouter.ai/settings/keys).
+
+**Bước 1**: Sao chép file mẫu cấu hình:
+```bash
+cp .env.example .env
+```
+
+**Bước 2**: Mở file `.env` vừa tạo và thay giá trị bằng API key thực của bạn:
+```env
+OPENROUTER_API_KEY=sk-or-v1-your-actual-key-here
+```
+
+> ⚠️ **Lưu ý**: File `.env` đã được thêm vào `.gitignore` và **sẽ không bao giờ bị commit lên Git**. Đây là cách lưu trữ secret an toàn theo tiêu chuẩn.
+
+---
+
+### 2. Chạy toàn bộ hệ thống bằng Docker Compose (Recommended)
 
 ```bash
 docker compose up --build -d
@@ -41,6 +59,8 @@ Mở `http://localhost:4200` — frontend gọi backend tự động.
 cd pram
 ./mvnw spring-boot:run
 ```
+
+> Cần set biến môi trường `OPENROUTER_API_KEY` trong terminal trước khi chạy, hoặc khai báo trong file `application.yml` (không khuyến khích).
 
 **Frontend**:
 
@@ -67,14 +87,12 @@ ng serve
 - **AI Assistant** — Gợi ý resource + phát hiện rủi ro qua OpenRouter LLM
 - **Swagger UI** — `http://localhost:8080/swagger-ui.html`
 
-### UI/UX & Redesign (New)
+### UI/UX & Redesign
 - **Premium Dark Mode Theme**: Giao diện tối hiện đại sử dụng CSS Variables, màu sắc đồng bộ, sidebar dịch chuyển mượt mà, hiệu ứng hover, frosted-glass (glassmorphism) và glow shadows.
-- **Instant Data Sync**: Trạng thái Project cập nhật inline nhanh chóng mà không cần tải lại toàn bộ trang (sử dụng Angular Change Detection reference checks).
-- **MDC Form Field & Overlay Repair**:
-  - Khắc phục lỗi chồng lấn viền nét đứt (notch border overlap) lên nhãn input khi click chuột.
-  - Tích hợp `@include mat.core()` và các lớp CSS CDK Overlay cụ thể, giải quyết lỗi menu dropdown và Datepicker bị trong suốt hoặc nhảy sai vị trí.
-- **Datepicker Validation Safety**: Ràng buộc thuộc tính `[min]` cho lịch ngày kết thúc dựa trên ngày bắt đầu, loại bỏ việc lựa chọn khoảng thời gian không hợp lệ.
-- **Form Server Validation Mapping**: Ánh xạ phản hồi trùng lặp thông tin từ máy chủ trực tiếp xuống trường Reactive Form tương ứng.
+- **Instant Data Sync**: Trạng thái Project cập nhật inline nhanh chóng mà không cần tải lại toàn bộ trang.
+- **MDC Form Field & Overlay Repair**: Khắc phục lỗi chồng lấn viền input, dropdown bị trong suốt, và datepicker nhảy sai vị trí.
+- **Datepicker Validation Safety**: Ràng buộc `[min]` cho lịch ngày kết thúc dựa trên ngày bắt đầu.
+- **Form Server Validation Mapping**: Ánh xạ lỗi từ server trực tiếp xuống trường Reactive Form tương ứng.
 
 ---
 
@@ -85,7 +103,7 @@ ojt/
 ├── pram/                    # Backend — Spring Boot REST API
 │   ├── src/main/java/       # Controllers, Services, Repositories, Entities, DTOs
 │   ├── db/schema.sql        # Database schema + seed data
-│   ├── docker-compose.yml   # Orchestrates DB + backend + frontend
+│   ├── docs/                # Postman collection + AI Review Report + assignment docs
 │   └── README.md            # Chi tiết backend
 │
 ├── pram-fe/                 # Frontend — Angular SPA
@@ -93,11 +111,13 @@ ojt/
 │   ├── src/app/features/    # Employee, Project, Allocation, Reports modules
 │   └── README.md            # Chi tiết frontend
 │
-├── docker-compose.yml       # Full-stack orchestration
-├── .editorconfig            # Editor settings (2-space indent, UTF-8)
-├── .gitattributes           # Line ending normalization
+├── api_screenshots.docx     # Ảnh chụp màn hình kết quả chạy API
+├── docker-compose.yml       # Full-stack orchestration (đọc key từ .env)
+├── .env.example             # Mẫu cấu hình biến môi trường (commit lên Git)
+├── .env                     # Cấu hình thực, chứa API key (KHÔNG commit — gitignored)
 ├── .gitignore               # Global ignores
-├── README.md                # File này
+└── README.md                # File này
 ```
 
 Chi tiết từng phần xem trong `pram/README.md` (backend) và `pram-fe/README.md` (frontend).
+
