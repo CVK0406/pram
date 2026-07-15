@@ -39,55 +39,62 @@ interface NavItem {
     .sidebar {
       width: 240px;
       height: 100dvh;
-      background: #1e1e2e;
+      background: var(--sidebar-bg);
       display: flex;
       flex-direction: column;
-      color: #c8c8d0;
+      color: var(--text-secondary);
+      border-right: 1px solid var(--border-color);
       user-select: none;
     }
     .brand {
       display: flex;
       align-items: center;
       gap: 0.625rem;
-      padding: 1.25rem 1.25rem 1.5rem;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding: 1.5rem 1.25rem;
+      border-bottom: 1px solid var(--border-color);
     }
     .brand-icon {
       font-size: 1.5rem;
-      color: #4f46e5;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
     }
     .brand-text {
       font-size: 1.125rem;
-      font-weight: 600;
+      font-weight: 700;
       color: #fff;
-      letter-spacing: 0.01em;
+      letter-spacing: 0.05em;
     }
     .nav {
       flex: 1;
       display: flex;
       flex-direction: column;
-      gap: 2px;
-      padding: 0.75rem 0.5rem;
+      gap: 4px;
+      padding: 1rem 0.75rem;
     }
     .nav-item {
       display: flex;
       align-items: center;
       gap: 0.75rem;
-      padding: 0.625rem 0.75rem;
-      border-radius: 6px;
-      color: #9ca3af;
+      padding: 0.75rem 0.875rem;
+      border-radius: 8px;
+      color: var(--text-muted);
       text-decoration: none;
       font-size: 0.875rem;
       font-weight: 500;
-      transition: all 0.15s ease;
+      transition: all 0.2s ease;
     }
     .nav-item:hover {
-      background: rgba(255,255,255,0.06);
-      color: #e5e7eb;
+      background: var(--row-hover-bg);
+      color: var(--text-primary);
+      transform: translateX(2px);
     }
     .nav-item.active {
-      background: rgba(79,70,229,0.15);
-      color: #818cf8;
+      background: var(--accent-gradient);
+      color: #ffffff;
+      box-shadow: var(--glow-shadow);
+      font-weight: 600;
     }
     .nav-icon {
       font-size: 1.25rem;
@@ -95,12 +102,12 @@ interface NavItem {
       height: 1.25rem;
     }
     .sidebar-footer {
-      padding: 0.75rem 1.25rem;
-      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 1rem 1.25rem;
+      border-top: 1px solid var(--border-color);
     }
     .version {
       font-size: 0.75rem;
-      color: #6b7280;
+      color: var(--text-muted);
     }
   `],
 })

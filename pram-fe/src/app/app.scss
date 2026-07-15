@@ -11,6 +11,6 @@
 .content {
   flex: 1;
   overflow-y: auto;
-  background: #fafafa;
+  background: var(--surface-bg);
   padding: 1.5rem 2rem;
 }
