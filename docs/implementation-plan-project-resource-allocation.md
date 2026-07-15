@@ -261,11 +261,11 @@ Kết quả report khớp 100% với bảng ví dụ trong SRS mục 4.
 
 ### Task chi tiết
 
-- [ ] Tạo `ErrorResponse` DTO chuẩn (timestamp, message, path — nên thêm để dễ debug)
-- [ ] Hoàn thiện `GlobalExceptionHandler` cho đủ 6 exception ở SRS mục 6
-- [ ] Rà soát toàn bộ Controller: đảm bảo dùng `@Valid` đúng chỗ
-- [ ] Test lại toàn bộ case lỗi từ giai đoạn 1-6, đảm bảo response format nhất quán (không có chỗ nào trả lỗi khác format)
-- [ ] Thêm logging (AOP hoặc đơn giản `@Slf4j` trong Service) cho Create/Update/Delete Allocation theo SRS mục 7 (Logging)
+- [x] Tạo `ErrorResponse` DTO chuẩn (timestamp, message, path — nên thêm để dễ debug)
+- [x] Hoàn thiện `GlobalExceptionHandler` cho đủ 6 exception ở SRS mục 6
+- [x] Rà soát toàn bộ Controller: đảm bảo dùng `@Valid` đúng chỗ
+- [x] Test lại toàn bộ case lỗi từ giai đoạn 1-6, đảm bảo response format nhất quán (không có chỗ nào trả lỗi khác format)
+- [x] Thêm logging (AOP hoặc đơn giản `@Slf4j` trong Service) cho Create/Update/Delete Allocation theo SRS mục 7 (Logging)
 
 ### Deliverable
 Toàn hệ thống trả lỗi theo 1 format duy nhất, có log đầy đủ cho thao tác allocation.

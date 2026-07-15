@@ -17,6 +17,7 @@ import com.company.pram.repository.EmployeeRepository;
 import com.company.pram.repository.ProjectRepository;
 import com.company.pram.service.AllocationService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,6 +26,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class AllocationServiceImpl implements AllocationService {
@@ -66,6 +68,9 @@ public class AllocationServiceImpl implements AllocationService {
 
         Allocation allocation = AllocationMapper.toEntity(request, employee, project);
         Allocation savedAllocation = allocationRepository.save(allocation);
+        log.info("[Allocation CREATED] allocationId={}, employeeId={}, projectId={}, allocationPercent={}%, timestamp={}",
+                savedAllocation.getAllocationId(), employee.getEmployeeId(), project.getProjectId(),
+                savedAllocation.getAllocationPercent(), LocalDateTime.now());
         return AllocationMapper.toResponse(savedAllocation);
     }
 
@@ -111,6 +116,9 @@ public class AllocationServiceImpl implements AllocationService {
         allocation.setEndDate(request.getEndDate());
 
         Allocation savedAllocation = allocationRepository.save(allocation);
+        log.info("[Allocation UPDATED] allocationId={}, employeeId={}, projectId={}, allocationPercent={}%, timestamp={}",
+                savedAllocation.getAllocationId(), employee.getEmployeeId(), project.getProjectId(),
+                savedAllocation.getAllocationPercent(), LocalDateTime.now());
         return AllocationMapper.toResponse(savedAllocation);
     }
 
@@ -122,6 +130,8 @@ public class AllocationServiceImpl implements AllocationService {
         
         allocation.setDeletedAt(LocalDateTime.now());
         allocationRepository.save(allocation);
+        log.info("[Allocation DELETED] allocationId={}, employeeId={}, timestamp={}",
+                id, allocation.getEmployee().getEmployeeId(), LocalDateTime.now());
     }
 
     @Override

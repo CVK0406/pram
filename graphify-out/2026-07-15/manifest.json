@@ -25,9 +25,9 @@
     "semantic_hash": "1a20e34a1f030969da4bc6b4c5a857f0"
   },
   "src/main/java/com/company/pram/controller/EmployeeController.java": {
-    "mtime": 1784088409.7285752,
-    "ast_hash": "f0af0b8b9c927f9c27f152008a67c88c",
-    "semantic_hash": "f0af0b8b9c927f9c27f152008a67c88c"
+    "mtime": 1784099460.5199149,
+    "ast_hash": "dc8997fd5262cb2846633d5db76271b3",
+    "semantic_hash": ""
   },
   "src/main/java/com/company/pram/controller/PingController.java": {
     "mtime": 1784087205.9059536,
@@ -95,8 +95,8 @@
     "semantic_hash": "365841efd47cfc5cb0dba72caadc0ef1"
   },
   "CLAUDE.md": {
-    "mtime": 1784099045.0549748,
-    "ast_hash": "fff3f5ecbdabb19e8b4281ce672a0ac6",
+    "mtime": 1784099767.3251224,
+    "ast_hash": "080e6a94e7c13191f63c2ab50ba2d4cd",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
@@ -220,8 +220,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/repository/AllocationRepository.java": {
-    "mtime": 1784098804.6464334,
-    "ast_hash": "2fffd2eb63756084bb5b61d583bc3db0",
+    "mtime": 1784099435.506162,
+    "ast_hash": "862b0d3b2d10499b3b0a868fc5d93dc5",
     "semantic_hash": ""
   },
   "src/main/java/com/company/pram/service/AllocationService.java": {
@@ -262,6 +262,46 @@
   "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java": {
     "mtime": 1784098837.0028245,
     "ast_hash": "b45200adac8a84765581231a4cb03458",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/controller/ReportController.java": {
+    "mtime": 1784099453.3549883,
+    "ast_hash": "1193dc223d65c146279f6ac6bb182315",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/response/AvailableResourceResponse.java": {
+    "mtime": 1784099417.5928903,
+    "ast_hash": "e5620b37f529683d663fd6233578df2c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/response/EmployeeUtilizationResponse.java": {
+    "mtime": 1784099413.082105,
+    "ast_hash": "ff82d2126525df8c47e6447313dc098c",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/response/EmployeeWorkloadResponse.java": {
+    "mtime": 1784099430.8397653,
+    "ast_hash": "9ad1894de5921ad0fd8fda8370425549",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/response/OverloadedEmployeeResponse.java": {
+    "mtime": 1784099421.9218016,
+    "ast_hash": "4e3999782495ee1747f383b9cb5b3ae4",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/dto/response/WorkloadAllocationDto.java": {
+    "mtime": 1784099426.2673101,
+    "ast_hash": "b51ac3251f232de2d866c735ba332d01",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/service/ReportService.java": {
+    "mtime": 1784099440.47816,
+    "ast_hash": "79eb622b306ee6a7e78fa21b4a05d735",
+    "semantic_hash": ""
+  },
+  "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java": {
+    "mtime": 1784099447.7643647,
+    "ast_hash": "7cb5a5b2ac974b80494e2842bb2b8960",
     "semantic_hash": ""
   }
 }

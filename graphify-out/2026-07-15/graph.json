@@ -277,7 +277,7 @@
       "label": "EmployeeController",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L15",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller",
       "community": 0,
@@ -287,7 +287,7 @@
       "label": ".createEmployee()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L22",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller_createemployee",
       "community": 0,
@@ -297,7 +297,7 @@
       "label": "EmployeeRequest",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L22",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_employeerequest",
       "community": 0,
@@ -307,7 +307,7 @@
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L22",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
       "community": 0,
@@ -317,7 +317,7 @@
       "label": "EmployeeResponse",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L22",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeresponse",
       "community": 0,
@@ -327,7 +327,7 @@
       "label": "PostMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L22",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_postmapping",
       "community": 0,
@@ -337,7 +337,7 @@
       "label": ".getEmployeeById()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L28",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller_getemployeebyid",
       "community": 0,
@@ -347,7 +347,7 @@
       "label": "Long",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L28",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_long",
       "community": 0,
@@ -357,7 +357,7 @@
       "label": "GetMapping",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L28",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_getmapping",
       "community": 0,
@@ -367,7 +367,7 @@
       "label": ".getAllEmployees()",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L34",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "controller_employeecontroller_employeecontroller_getallemployees",
       "community": 0,
@@ -377,11 +377,31 @@
       "label": "Page",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
-      "source_location": "L34",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_controller_employeecontroller_java_page",
       "community": 0,
       "norm_label": "page"
+    },
+    {
+      "label": ".getEmployeeWorkload()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "community": 0,
+      "norm_label": ".getemployeeworkload()"
+    },
+    {
+      "label": "EmployeeWorkloadResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeworkloadresponse",
+      "community": 0,
+      "norm_label": "employeeworkloadresponse"
     },
     {
       "label": "PingController.java",
@@ -604,6 +624,126 @@
       "norm_label": "putmapping"
     },
     {
+      "label": "ReportController.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "controller_reportcontroller",
+      "community": 134,
+      "norm_label": "reportcontroller.java"
+    },
+    {
+      "label": "ReportController",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "controller_reportcontroller_reportcontroller",
+      "community": 134,
+      "norm_label": "reportcontroller"
+    },
+    {
+      "label": ".getEmployeeUtilization()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "community": 134,
+      "norm_label": ".getemployeeutilization()"
+    },
+    {
+      "label": "ResponseEntity",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_responseentity",
+      "community": 134,
+      "norm_label": "responseentity"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_list",
+      "community": 134,
+      "norm_label": "list"
+    },
+    {
+      "label": "EmployeeUtilizationResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_employeeutilizationresponse",
+      "community": 134,
+      "norm_label": "employeeutilizationresponse"
+    },
+    {
+      "label": "GetMapping",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_getmapping",
+      "community": 134,
+      "norm_label": "getmapping"
+    },
+    {
+      "label": ".getAvailableResources()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "community": 134,
+      "norm_label": ".getavailableresources()"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_integer",
+      "community": 134,
+      "norm_label": "integer"
+    },
+    {
+      "label": "AvailableResourceResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_availableresourceresponse",
+      "community": 134,
+      "norm_label": "availableresourceresponse"
+    },
+    {
+      "label": ".getOverloadedEmployees()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "community": 134,
+      "norm_label": ".getoverloadedemployees()"
+    },
+    {
+      "label": "OverloadedEmployeeResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_controller_reportcontroller_java_overloadedemployeeresponse",
+      "community": 134,
+      "norm_label": "overloadedemployeeresponse"
+    },
+    {
       "label": "AllocationRequest.java",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/dto/request/AllocationRequest.java",
@@ -670,7 +810,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_projectrequest",
-      "community": 134,
+      "community": 103,
       "norm_label": "projectrequest.java"
     },
     {
@@ -680,7 +820,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "request_projectrequest_projectrequest",
-      "community": 134,
+      "community": 103,
       "norm_label": "projectrequest"
     },
     {
@@ -690,7 +830,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "request_projectrequest_projectrequest_isenddateafterorequalstartdate",
-      "community": 134,
+      "community": 103,
       "norm_label": ".isenddateafterorequalstartdate()"
     },
     {
@@ -700,7 +840,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_dto_request_projectrequest_java_asserttrue",
-      "community": 134,
+      "community": 103,
       "norm_label": "asserttrue"
     },
     {
@@ -744,6 +884,26 @@
       "norm_label": "allocationresponse"
     },
     {
+      "label": "AvailableResourceResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/AvailableResourceResponse.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "response_availableresourceresponse",
+      "community": 135,
+      "norm_label": "availableresourceresponse.java"
+    },
+    {
+      "label": "AvailableResourceResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/AvailableResourceResponse.java",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "response_availableresourceresponse_availableresourceresponse",
+      "community": 135,
+      "norm_label": "availableresourceresponse"
+    },
+    {
       "label": "DashboardResponse.java",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/dto/response/DashboardResponse.java",
@@ -782,6 +942,46 @@
       "id": "response_employeeresponse_employeeresponse",
       "community": 126,
       "norm_label": "employeeresponse"
+    },
+    {
+      "label": "EmployeeUtilizationResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeUtilizationResponse.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "response_employeeutilizationresponse",
+      "community": 136,
+      "norm_label": "employeeutilizationresponse.java"
+    },
+    {
+      "label": "EmployeeUtilizationResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeUtilizationResponse.java",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "response_employeeutilizationresponse_employeeutilizationresponse",
+      "community": 136,
+      "norm_label": "employeeutilizationresponse"
+    },
+    {
+      "label": "EmployeeWorkloadResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeWorkloadResponse.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "response_employeeworkloadresponse",
+      "community": 137,
+      "norm_label": "employeeworkloadresponse.java"
+    },
+    {
+      "label": "EmployeeWorkloadResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeWorkloadResponse.java",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "response_employeeworkloadresponse_employeeworkloadresponse",
+      "community": 137,
+      "norm_label": "employeeworkloadresponse"
     },
     {
       "label": "ErrorResponse.java",
@@ -824,6 +1024,26 @@
       "norm_label": "string"
     },
     {
+      "label": "OverloadedEmployeeResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/OverloadedEmployeeResponse.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "response_overloadedemployeeresponse",
+      "community": 138,
+      "norm_label": "overloadedemployeeresponse.java"
+    },
+    {
+      "label": "OverloadedEmployeeResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/OverloadedEmployeeResponse.java",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "response_overloadedemployeeresponse_overloadedemployeeresponse",
+      "community": 138,
+      "norm_label": "overloadedemployeeresponse"
+    },
+    {
       "label": "ProjectResponse.java",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/dto/response/ProjectResponse.java",
@@ -842,6 +1062,26 @@
       "id": "response_projectresponse_projectresponse",
       "community": 103,
       "norm_label": "projectresponse"
+    },
+    {
+      "label": "WorkloadAllocationDto.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/WorkloadAllocationDto.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "response_workloadallocationdto",
+      "community": 139,
+      "norm_label": "workloadallocationdto.java"
+    },
+    {
+      "label": "WorkloadAllocationDto",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/dto/response/WorkloadAllocationDto.java",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "response_workloadallocationdto_workloadallocationdto",
+      "community": 139,
+      "norm_label": "workloadallocationdto"
     },
     {
       "label": "Allocation.java",
@@ -1360,7 +1600,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "allocationexceededexception",
-      "community": 129,
+      "community": 1,
       "norm_label": "allocationexceededexception"
     },
     {
@@ -1909,7 +2149,7 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "integer",
+      "id": "src_main_java_com_company_pram_repository_allocationrepository_java_integer",
       "community": 103,
       "norm_label": "integer"
     },
@@ -1924,13 +2164,23 @@
       "norm_label": ".countactiveallocations()"
     },
     {
+      "label": ".findActiveAllocations()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "repository_allocationrepository_allocationrepository_findactiveallocations",
+      "community": 103,
+      "norm_label": ".findactiveallocations()"
+    },
+    {
       "label": "EmployeeRepository.java",
       "file_type": "code",
       "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "repository_employeerepository",
-      "community": 133,
+      "community": 3,
       "norm_label": "employeerepository.java"
     },
     {
@@ -1940,7 +2190,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "repository_employeerepository_employeerepository",
-      "community": 133,
+      "community": 3,
       "norm_label": "employeerepository"
     },
     {
@@ -1950,7 +2200,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "repository_employeerepository_employeerepository_existsbyemployeecode",
-      "community": 133,
+      "community": 3,
       "norm_label": ".existsbyemployeecode()"
     },
     {
@@ -1960,7 +2210,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_employeerepository_java_string",
-      "community": 133,
+      "community": 3,
       "norm_label": "string"
     },
     {
@@ -1970,7 +2220,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "repository_employeerepository_employeerepository_existsbyemail",
-      "community": 133,
+      "community": 3,
       "norm_label": ".existsbyemail()"
     },
     {
@@ -1980,7 +2230,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "repository_employeerepository_employeerepository_findbyidforupdate",
-      "community": 133,
+      "community": 3,
       "norm_label": ".findbyidforupdate()"
     },
     {
@@ -1990,7 +2240,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_employeerepository_java_long",
-      "community": 133,
+      "community": 3,
       "norm_label": "long"
     },
     {
@@ -2000,7 +2250,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "optional",
-      "community": 133,
+      "community": 3,
       "norm_label": "optional"
     },
     {
@@ -2010,7 +2260,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_employeerepository_java_employee",
-      "community": 133,
+      "community": 3,
       "norm_label": "employee"
     },
     {
@@ -2020,7 +2270,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_employeerepository_java_lock",
-      "community": 133,
+      "community": 3,
       "norm_label": "lock"
     },
     {
@@ -2030,7 +2280,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_repository_employeerepository_java_query",
-      "community": 133,
+      "community": 3,
       "norm_label": "query"
     },
     {
@@ -2270,7 +2520,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "service_employeeservice",
-      "community": 3,
+      "community": 0,
       "norm_label": "employeeservice.java"
     },
     {
@@ -2280,7 +2530,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "service_employeeservice_employeeservice",
-      "community": 3,
+      "community": 0,
       "norm_label": "employeeservice"
     },
     {
@@ -2290,7 +2540,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "service_employeeservice_employeeservice_createemployee",
-      "community": 3,
+      "community": 0,
       "norm_label": ".createemployee()"
     },
     {
@@ -2300,7 +2550,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_employeeservice_java_employeerequest",
-      "community": 3,
+      "community": 0,
       "norm_label": "employeerequest"
     },
     {
@@ -2310,7 +2560,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_employeeservice_java_employeeresponse",
-      "community": 3,
+      "community": 0,
       "norm_label": "employeeresponse"
     },
     {
@@ -2320,7 +2570,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "service_employeeservice_employeeservice_getemployeebyid",
-      "community": 3,
+      "community": 0,
       "norm_label": ".getemployeebyid()"
     },
     {
@@ -2330,7 +2580,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_employeeservice_java_long",
-      "community": 3,
+      "community": 0,
       "norm_label": "long"
     },
     {
@@ -2340,7 +2590,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "service_employeeservice_employeeservice_getallemployees",
-      "community": 3,
+      "community": 0,
       "norm_label": ".getallemployees()"
     },
     {
@@ -2350,7 +2600,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_employeeservice_java_pageable",
-      "community": 3,
+      "community": 0,
       "norm_label": "pageable"
     },
     {
@@ -2360,7 +2610,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_com_company_pram_service_employeeservice_java_page",
-      "community": 3,
+      "community": 0,
       "norm_label": "page"
     },
     {
@@ -2482,6 +2732,136 @@
       "id": "service_projectservice_projectservice_updateprojectstatus",
       "community": 105,
       "norm_label": ".updateprojectstatus()"
+    },
+    {
+      "label": "ReportService.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "service_reportservice",
+      "community": 133,
+      "norm_label": "reportservice.java"
+    },
+    {
+      "label": "ReportService",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "service_reportservice_reportservice",
+      "community": 133,
+      "norm_label": "reportservice"
+    },
+    {
+      "label": ".getEmployeeUtilization()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "service_reportservice_reportservice_getemployeeutilization",
+      "community": 133,
+      "norm_label": ".getemployeeutilization()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_reportservice_java_list",
+      "community": 133,
+      "norm_label": "list"
+    },
+    {
+      "label": "EmployeeUtilizationResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_reportservice_java_employeeutilizationresponse",
+      "community": 133,
+      "norm_label": "employeeutilizationresponse"
+    },
+    {
+      "label": ".getAvailableResources()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "service_reportservice_reportservice_getavailableresources",
+      "community": 133,
+      "norm_label": ".getavailableresources()"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_reportservice_java_integer",
+      "community": 133,
+      "norm_label": "integer"
+    },
+    {
+      "label": "AvailableResourceResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_reportservice_java_availableresourceresponse",
+      "community": 133,
+      "norm_label": "availableresourceresponse"
+    },
+    {
+      "label": ".getOverloadedEmployees()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "service_reportservice_reportservice_getoverloadedemployees",
+      "community": 133,
+      "norm_label": ".getoverloadedemployees()"
+    },
+    {
+      "label": "OverloadedEmployeeResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_reportservice_java_overloadedemployeeresponse",
+      "community": 133,
+      "norm_label": "overloadedemployeeresponse"
+    },
+    {
+      "label": ".getEmployeeWorkload()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "service_reportservice_reportservice_getemployeeworkload",
+      "community": 133,
+      "norm_label": ".getemployeeworkload()"
+    },
+    {
+      "label": "Long",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_reportservice_java_long",
+      "community": 133,
+      "norm_label": "long"
+    },
+    {
+      "label": "EmployeeWorkloadResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_reportservice_java_employeeworkloadresponse",
+      "community": 133,
+      "norm_label": "employeeworkloadresponse"
     },
     {
       "label": "AllocationServiceImpl.java",
@@ -2922,6 +3302,156 @@
       "id": "impl_projectserviceimpl_projectserviceimpl_updateprojectstatus",
       "community": 8,
       "norm_label": ".updateprojectstatus()"
+    },
+    {
+      "label": "ReportServiceImpl.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "impl_reportserviceimpl",
+      "community": 133,
+      "norm_label": "reportserviceimpl.java"
+    },
+    {
+      "label": "ReportServiceImpl",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "impl_reportserviceimpl_reportserviceimpl",
+      "community": 133,
+      "norm_label": "reportserviceimpl"
+    },
+    {
+      "label": ".getEmployeeUtilization()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "impl_reportserviceimpl_reportserviceimpl_getemployeeutilization",
+      "community": 133,
+      "norm_label": ".getemployeeutilization()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_list",
+      "community": 133,
+      "norm_label": "list"
+    },
+    {
+      "label": "EmployeeUtilizationResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_employeeutilizationresponse",
+      "community": 133,
+      "norm_label": "employeeutilizationresponse"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_override",
+      "community": 133,
+      "norm_label": "override"
+    },
+    {
+      "label": "Transactional",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_transactional",
+      "community": 133,
+      "norm_label": "transactional"
+    },
+    {
+      "label": ".getAvailableResources()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "community": 133,
+      "norm_label": ".getavailableresources()"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_integer",
+      "community": 133,
+      "norm_label": "integer"
+    },
+    {
+      "label": "AvailableResourceResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_availableresourceresponse",
+      "community": 133,
+      "norm_label": "availableresourceresponse"
+    },
+    {
+      "label": ".getOverloadedEmployees()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "impl_reportserviceimpl_reportserviceimpl_getoverloadedemployees",
+      "community": 133,
+      "norm_label": ".getoverloadedemployees()"
+    },
+    {
+      "label": "OverloadedEmployeeResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_overloadedemployeeresponse",
+      "community": 133,
+      "norm_label": "overloadedemployeeresponse"
+    },
+    {
+      "label": ".getEmployeeWorkload()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "impl_reportserviceimpl_reportserviceimpl_getemployeeworkload",
+      "community": 133,
+      "norm_label": ".getemployeeworkload()"
+    },
+    {
+      "label": "Long",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_long",
+      "community": 133,
+      "norm_label": "long"
+    },
+    {
+      "label": "EmployeeWorkloadResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_employeeworkloadresponse",
+      "community": 133,
+      "norm_label": "employeeworkloadresponse"
     },
     {
       "label": "PramApplicationTests.java",
@@ -6365,6 +6895,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "controller_employeecontroller",
+      "target": "service_reportservice_reportservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6381,6 +6922,17 @@
       "confidence_score": 1.0,
       "source": "controller_employeecontroller",
       "target": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeresponse"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "controller_employeecontroller",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeworkloadresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -6433,6 +6985,16 @@
       "confidence_score": 1.0,
       "source": "controller_employeecontroller_employeecontroller",
       "target": "controller_employeecontroller_employeecontroller_getemployeebyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "controller_employeecontroller_employeecontroller",
+      "target": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -6504,6 +7066,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
       "source_location": "L34",
       "weight": 1.0,
       "context": "generic_arg",
@@ -6548,6 +7121,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_long",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
       "source_location": "L34",
       "weight": 1.0,
       "context": "attribute",
@@ -6559,12 +7143,34 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
       "source_location": "L34",
       "weight": 1.0,
       "context": "generic_arg",
       "confidence_score": 1.0,
       "source": "controller_employeecontroller_employeecontroller_getallemployees",
       "target": "src_main_java_com_company_pram_controller_employeecontroller_java_page"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/EmployeeController.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_employeecontroller_employeecontroller_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_controller_employeecontroller_java_employeeworkloadresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6967,6 +7573,266 @@
       "target": "src_main_java_com_company_pram_controller_projectcontroller_java_putmapping"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "controller_reportcontroller_reportcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "service_reportservice_reportservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_availableresourceresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_employeeutilizationresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_overloadedemployeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "controller_reportcontroller",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "controller_reportcontroller_reportcontroller",
+      "target": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "controller_reportcontroller_reportcontroller",
+      "target": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "controller_reportcontroller_reportcontroller",
+      "target": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_employeeutilizationresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_reportcontroller_reportcontroller_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_getmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_availableresourceresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_reportcontroller_reportcontroller_getavailableresources",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/controller/ReportController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_reportcontroller_reportcontroller_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_controller_reportcontroller_java_overloadedemployeeresponse",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -7116,6 +7982,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/AvailableResourceResponse.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "response_availableresourceresponse",
+      "target": "response_availableresourceresponse_availableresourceresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/dto/response/DashboardResponse.java",
       "source_location": "L8",
       "weight": 1.0,
@@ -7132,6 +8008,26 @@
       "confidence_score": 1.0,
       "source": "response_employeeresponse",
       "target": "response_employeeresponse_employeeresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeUtilizationResponse.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "response_employeeutilizationresponse",
+      "target": "response_employeeutilizationresponse_employeeutilizationresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/EmployeeWorkloadResponse.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "response_employeeworkloadresponse",
+      "target": "response_employeeworkloadresponse_employeeworkloadresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7165,6 +8061,16 @@
       "target": "src_main_java_com_company_pram_dto_response_errorresponse_java_string"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/OverloadedEmployeeResponse.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "response_overloadedemployeeresponse",
+      "target": "response_overloadedemployeeresponse_overloadedemployeeresponse",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -7184,6 +8090,16 @@
       "confidence_score": 1.0,
       "source": "response_projectresponse",
       "target": "response_projectresponse_projectresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/dto/response/WorkloadAllocationDto.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "response_workloadallocationdto",
+      "target": "response_workloadallocationdto_workloadallocationdto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7856,6 +8772,17 @@
       "target": "employeenotfoundexception"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl",
+      "target": "employeenotfoundexception",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/exception/GlobalExceptionHandler.java",
@@ -8192,9 +9119,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "allocationexceededexception",
-      "confidence_score": 1.0
+      "target": "allocationexceededexception"
     },
     {
       "relation": "imports",
@@ -8816,9 +9743,9 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_lock",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_lock"
     },
     {
       "relation": "imports",
@@ -8827,9 +9754,9 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query"
     },
     {
       "relation": "method",
@@ -8840,6 +9767,16 @@
       "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository",
       "target": "repository_allocationrepository_allocationrepository_countactiveallocations"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "repository_allocationrepository_allocationrepository",
+      "target": "repository_allocationrepository_allocationrepository_findactiveallocations",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -8857,9 +9794,9 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository",
-      "target": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate",
-      "confidence_score": 1.0
+      "target": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate"
     },
     {
       "relation": "method",
@@ -8880,6 +9817,17 @@
       "source_location": "L85",
       "weight": 1.0,
       "source": "impl_allocationserviceimpl_allocationserviceimpl_getallocationsbyemployee",
+      "target": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeworkload",
       "target": "repository_allocationrepository_allocationrepository_findbyemployeeemployeeidanddeletedatisnull"
     },
     {
@@ -8933,9 +9881,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_long"
     },
     {
       "relation": "references",
@@ -8952,10 +9900,10 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
-      "source_location": "L17",
+      "source_location": "L38",
       "weight": 1.0,
       "context": "return_type",
-      "source": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate",
+      "source": "repository_allocationrepository_allocationrepository_findactiveallocations",
       "target": "src_main_java_com_company_pram_repository_allocationrepository_java_list",
       "confidence_score": 1.0
     },
@@ -8965,10 +9913,32 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L17",
       "weight": 1.0,
-      "context": "generic_arg",
+      "context": "return_type",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate",
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "repository_allocationrepository_allocationrepository_findactiveallocations",
       "target": "src_main_java_com_company_pram_repository_allocationrepository_java_allocation",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate",
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_allocation"
     },
     {
       "relation": "calls",
@@ -8999,9 +9969,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_lock",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_lock"
     },
     {
       "relation": "references",
@@ -9010,9 +9980,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_findbyemployeeforupdate",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query"
     },
     {
       "relation": "references",
@@ -9021,7 +9991,18 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_countactiveallocations",
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "repository_allocationrepository_allocationrepository_findactiveallocations",
       "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query",
       "confidence_score": 1.0
     },
@@ -9032,9 +10013,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
-      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_query"
     },
     {
       "relation": "calls",
@@ -9064,21 +10045,21 @@
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
       "source_location": "L15",
       "weight": 1.0,
-      "context": "return_type",
+      "context": "parameter_type",
       "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
-      "target": "integer"
+      "target": "localdate"
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
-      "source_location": "L15",
+      "source_location": "L21",
       "weight": 1.0,
-      "context": "parameter_type",
-      "confidence_score": 1.0,
+      "context": "return_type",
       "source": "repository_allocationrepository_allocationrepository_sumoverlappingallocations",
-      "target": "localdate"
+      "target": "src_main_java_com_company_pram_repository_allocationrepository_java_integer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -9087,9 +10068,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "localdate",
-      "confidence_score": 1.0
+      "target": "localdate"
     },
     {
       "relation": "imports",
@@ -9114,6 +10095,17 @@
       "target": "localdate"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl",
+      "target": "localdate",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
@@ -9123,6 +10115,17 @@
       "confidence_score": 1.0,
       "source": "repository_allocationrepository_allocationrepository_countactiveallocations",
       "target": "localdate"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/repository/AllocationRepository.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "repository_allocationrepository_allocationrepository_findactiveallocations",
+      "target": "localdate",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -9136,15 +10139,48 @@
       "target": "repository_allocationrepository_allocationrepository_countactiveallocations"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "target": "repository_allocationrepository_allocationrepository_findactiveallocations"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeutilization",
+      "target": "repository_allocationrepository_allocationrepository_findactiveallocations"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl_getoverloadedemployees",
+      "target": "repository_allocationrepository_allocationrepository_findactiveallocations"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_employeerepository",
-      "target": "optional",
-      "confidence_score": 1.0
+      "target": "optional"
     },
     {
       "relation": "contains",
@@ -9163,9 +10199,9 @@
       "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_employeerepository",
-      "target": "src_main_java_com_company_pram_repository_employeerepository_java_employee",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_employeerepository_java_employee"
     },
     {
       "relation": "imports",
@@ -9174,9 +10210,9 @@
       "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_employeerepository",
-      "target": "src_main_java_com_company_pram_repository_employeerepository_java_lock",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_employeerepository_java_lock"
     },
     {
       "relation": "imports",
@@ -9185,9 +10221,9 @@
       "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_employeerepository",
-      "target": "src_main_java_com_company_pram_repository_employeerepository_java_query",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_employeerepository_java_query"
     },
     {
       "relation": "method",
@@ -9215,9 +10251,9 @@
       "source_file": "src/main/java/com/company/pram/repository/EmployeeRepository.java",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "repository_employeerepository_employeerepository",
-      "target": "repository_employeerepository_employeerepository_findbyidforupdate",
-      "confidence_score": 1.0
+      "target": "repository_employeerepository_employeerepository_findbyidforupdate"
     },
     {
       "relation": "calls",
@@ -9292,9 +10328,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "repository_employeerepository_employeerepository_findbyidforupdate",
-      "target": "optional",
-      "confidence_score": 1.0
+      "target": "optional"
     },
     {
       "relation": "references",
@@ -9303,9 +10339,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "repository_employeerepository_employeerepository_findbyidforupdate",
-      "target": "src_main_java_com_company_pram_repository_employeerepository_java_employee",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_employeerepository_java_employee"
     },
     {
       "relation": "references",
@@ -9314,9 +10350,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "repository_employeerepository_employeerepository_findbyidforupdate",
-      "target": "src_main_java_com_company_pram_repository_employeerepository_java_lock",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_employeerepository_java_lock"
     },
     {
       "relation": "references",
@@ -9325,9 +10361,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "repository_employeerepository_employeerepository_findbyidforupdate",
-      "target": "src_main_java_com_company_pram_repository_employeerepository_java_long",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_employeerepository_java_long"
     },
     {
       "relation": "references",
@@ -9336,9 +10372,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "repository_employeerepository_employeerepository_findbyidforupdate",
-      "target": "src_main_java_com_company_pram_repository_employeerepository_java_query",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_company_pram_repository_employeerepository_java_query"
     },
     {
       "relation": "contains",
@@ -9541,9 +10577,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "service_allocationservice_allocationservice",
-      "confidence_score": 1.0
+      "target": "service_allocationservice_allocationservice"
     },
     {
       "relation": "imports",
@@ -10196,6 +11232,231 @@
       "confidence_score": 1.0,
       "source": "service_projectservice_projectservice_updateprojectstatus",
       "target": "src_main_java_com_company_pram_service_projectservice_java_projectstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "service_reportservice",
+      "target": "service_reportservice_reportservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "service_reportservice",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_availableresourceresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "service_reportservice",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_employeeutilizationresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "service_reportservice",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_employeeworkloadresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "service_reportservice",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "service_reportservice",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_overloadedemployeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl",
+      "target": "service_reportservice_reportservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl",
+      "target": "service_reportservice_reportservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "service_reportservice_reportservice",
+      "target": "service_reportservice_reportservice_getavailableresources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "service_reportservice_reportservice",
+      "target": "service_reportservice_reportservice_getemployeeutilization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "service_reportservice_reportservice",
+      "target": "service_reportservice_reportservice_getemployeeworkload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "service_reportservice_reportservice",
+      "target": "service_reportservice_reportservice_getoverloadedemployees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_reportservice_reportservice_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_employeeutilizationresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_reportservice_reportservice_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_reportservice_reportservice_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_reportservice_reportservice_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_reportservice_reportservice_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_availableresourceresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_reportservice_reportservice_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_reportservice_reportservice_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_overloadedemployeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_reportservice_reportservice_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_employeeworkloadresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/ReportService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_reportservice_reportservice_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_service_reportservice_java_long",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11119,6 +12380,265 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl",
+      "target": "impl_reportserviceimpl_reportserviceimpl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl",
+      "target": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl",
+      "target": "impl_reportserviceimpl_reportserviceimpl_getemployeeutilization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl",
+      "target": "impl_reportserviceimpl_reportserviceimpl_getemployeeworkload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "impl_reportserviceimpl_reportserviceimpl",
+      "target": "impl_reportserviceimpl_reportserviceimpl_getoverloadedemployees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_employeeutilizationresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeutilization",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_availableresourceresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getavailableresources",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getoverloadedemployees",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_overloadedemployeeresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_employeeworkloadresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/company/pram/service/impl/ReportServiceImpl.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "impl_reportserviceimpl_reportserviceimpl_getemployeeworkload",
+      "target": "src_main_java_com_company_pram_service_impl_reportserviceimpl_java_long",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
       "source_location": "L6",
       "weight": 1.0,
@@ -11133,9 +12653,9 @@
       "source_file": "src/test/java/com/company/pram/PramApplicationTests.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pram_pramapplicationtests",
-      "target": "src_test_java_com_company_pram_pramapplicationtests_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_pramapplicationtests_java_test"
     },
     {
       "relation": "method",
@@ -11154,9 +12674,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "pram_pramapplicationtests_pramapplicationtests_contextloads",
-      "target": "src_test_java_com_company_pram_pramapplicationtests_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_pramapplicationtests_java_test"
     },
     {
       "relation": "imports",
@@ -11165,9 +12685,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "aftereach",
-      "confidence_score": 1.0
+      "target": "aftereach"
     },
     {
       "relation": "imports",
@@ -11176,9 +12696,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "beforeeach",
-      "confidence_score": 1.0
+      "target": "beforeeach"
     },
     {
       "relation": "contains",
@@ -11186,9 +12706,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest"
     },
     {
       "relation": "imports",
@@ -11197,9 +12717,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest",
-      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_test"
     },
     {
       "relation": "method",
@@ -11207,9 +12727,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest",
-      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_cleanuptestdata",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_cleanuptestdata"
     },
     {
       "relation": "method",
@@ -11217,9 +12737,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest",
-      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_setup",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_setup"
     },
     {
       "relation": "method",
@@ -11227,9 +12747,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest",
-      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_teardown",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_teardown"
     },
     {
       "relation": "method",
@@ -11237,9 +12757,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest",
-      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_testconcurrentallocationspreventoverallocation",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_testconcurrentallocationspreventoverallocation"
     },
     {
       "relation": "references",
@@ -11248,9 +12768,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_setup",
-      "target": "beforeeach",
-      "confidence_score": 1.0
+      "target": "beforeeach"
     },
     {
       "relation": "calls",
@@ -11259,9 +12779,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_setup",
-      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_cleanuptestdata",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_cleanuptestdata"
     },
     {
       "relation": "references",
@@ -11270,9 +12790,9 @@
       "source_location": "L71",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_teardown",
-      "target": "aftereach",
-      "confidence_score": 1.0
+      "target": "aftereach"
     },
     {
       "relation": "calls",
@@ -11281,9 +12801,9 @@
       "source_file": "src/test/java/com/company/pram/service/impl/AllocationServiceConcurrencyTest.java",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_teardown",
-      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_cleanuptestdata",
-      "confidence_score": 1.0
+      "target": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_cleanuptestdata"
     },
     {
       "relation": "references",
@@ -11292,9 +12812,9 @@
       "source_location": "L82",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "impl_allocationserviceconcurrencytest_allocationserviceconcurrencytest_testconcurrentallocationspreventoverallocation",
-      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_com_company_pram_service_impl_allocationserviceconcurrencytest_java_test"
     },
     {
       "relation": "contains",
@@ -12798,5 +14318,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "84a265275970a75ecae78363d484ee24ca6d16d4"
+  "built_at_commit": "8799fe2df8cb981dfd7737d0f3711ccee955cf2c"
 }
