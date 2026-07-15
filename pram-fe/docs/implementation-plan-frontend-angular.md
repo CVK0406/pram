@@ -254,9 +254,9 @@ Tắt mạng thử (dev tools → offline) → app hiện thông báo lỗi thâ
 
 ### Task chi tiết
 
-- [ ] 1 ô input tự nhiên ngữ + nút "Hỏi AI" trên dashboard
-- [ ] Gọi `POST /ai/recommend-resource` hoặc `/ai/risk-detection` tùy theo nội dung câu hỏi (có thể thêm 2 nút riêng biệt thay vì đoán intent, đơn giản hơn cho phạm vi bonus)
-- [ ] Hiển thị kết quả dạng list/card thay vì JSON thô
+- [x] 1 ô input tự nhiên ngữ + nút "Hỏi AI" trên dashboard
+- [x] Gọi `POST /ai/recommend-resource` hoặc `/ai/risk-detection` tùy theo nội dung câu hỏi (có thể thêm 2 nút riêng biệt thay vì đoán intent, đơn giản hơn cho phạm vi bonus)
+- [x] Hiển thị kết quả dạng list/card thay vì JSON thô
 
 ### Deliverable
 Ô hỏi AI hoạt động, demo được 2 luồng ở SRS mục 8.

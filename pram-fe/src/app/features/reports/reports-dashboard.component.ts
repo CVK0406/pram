@@ -9,14 +9,18 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { ReportService } from '../../core/services/report.service';
 import { DashboardService } from '../../core/services/dashboard.service';
+import { AiService } from '../../core/services/ai.service';
 import {
   EmployeeUtilization,
   AvailableResource,
   OverloadedEmployee,
 } from '../../core/models/report.model';
 import { Dashboard } from '../../core/models/dashboard.model';
+import { RecommendedResource } from '../../core/models/ai.model';
 
 @Component({
   selector: 'app-reports-dashboard',
@@ -31,6 +35,8 @@ import { Dashboard } from '../../core/models/dashboard.model';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
+    MatProgressSpinnerModule,
+    MatSnackBarModule,
     FormsModule,
   ],
   templateUrl: './reports-dashboard.component.html',
@@ -39,6 +45,7 @@ import { Dashboard } from '../../core/models/dashboard.model';
 export class ReportsDashboardComponent implements OnInit {
   private reportService = inject(ReportService);
   private dashboardService = inject(DashboardService);
+  private aiService = inject(AiService);
 
   dashboard: Dashboard | null = null;
   utilization: EmployeeUtilization[] = [];
@@ -57,6 +64,13 @@ export class ReportsDashboardComponent implements OnInit {
   errorUtil: string | null = null;
   errorAvail: string | null = null;
   errorOver: string | null = null;
+
+  // AI
+  aiQuery = '';
+  aiLoading = false;
+  aiRecs: RecommendedResource[] | null = null;
+  aiRisks: string[] | null = null;
+  aiError: string | null = null;
 
   ngOnInit(): void {
     this.loadStats();
@@ -127,5 +141,37 @@ export class ReportsDashboardComponent implements OnInit {
     if (pct > 90) return 'overloaded';
     if (pct >= 70) return 'warning';
     return 'normal';
+  }
+
+  recommendResource(): void {
+    this.aiLoading = true;
+    this.aiError = null;
+    this.aiRisks = null;
+    this.aiService.recommendResource(this.aiQuery).subscribe({
+      next: (res) => {
+        this.aiRecs = res.recommendedResources;
+        this.aiLoading = false;
+      },
+      error: () => {
+        this.aiError = 'Failed to get recommendations';
+        this.aiLoading = false;
+      },
+    });
+  }
+
+  detectRisk(): void {
+    this.aiLoading = true;
+    this.aiError = null;
+    this.aiRecs = null;
+    this.aiService.detectRisk(this.aiQuery).subscribe({
+      next: (res) => {
+        this.aiRisks = res.risks;
+        this.aiLoading = false;
+      },
+      error: () => {
+        this.aiError = 'Failed to detect risks';
+        this.aiLoading = false;
+      },
+    });
   }
 }

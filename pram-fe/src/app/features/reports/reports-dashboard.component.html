@@ -146,3 +146,50 @@
     </div>
   </mat-tab>
 </mat-tab-group>
+
+<!-- AI Query Box -->
+<mat-card class="ai-card">
+  <mat-card-header>
+    <mat-card-title>AI Assistant</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field appearance="outline" class="ai-input">
+      <mat-label>Ask about resources or risks</mat-label>
+      <input matInput [(ngModel)]="aiQuery" placeholder="e.g. Find Java developer with 50% available" />
+    </mat-form-field>
+    <div class="ai-actions">
+      <button mat-raised-button color="primary" [disabled]="!aiQuery || aiLoading" (click)="recommendResource()">
+        Recommend Resource
+      </button>
+      <button mat-raised-button color="accent" [disabled]="!aiQuery || aiLoading" (click)="detectRisk()">
+        Detect Risk
+      </button>
+      <mat-spinner *ngIf="aiLoading" diameter="24" class="ai-spinner"></mat-spinner>
+    </div>
+
+    <div class="ai-error" *ngIf="aiError">{{ aiError }}</div>
+
+    <!-- Recommendation Results -->
+    <div class="ai-results" *ngIf="aiRecs && aiRecs.length > 0">
+      <h3>Recommended Resources</h3>
+      <div class="ai-chip-list">
+        <mat-card class="ai-result-card" *ngFor="let r of aiRecs">
+          <mat-card-content>
+            <strong>{{ r.employee }}</strong> — {{ r.available }}% available
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <!-- Risk Results -->
+    <div class="ai-results" *ngIf="aiRisks && aiRisks.length > 0">
+      <h3>Risk Detection Results</h3>
+      <mat-card class="ai-result-card" *ngFor="let risk of aiRisks">
+        <mat-card-content>
+          <mat-icon color="warn">warning</mat-icon>
+          {{ risk }}
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </mat-card-content>
+</mat-card>
